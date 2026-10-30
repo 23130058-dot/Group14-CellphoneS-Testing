@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://cellphones.com.vn/" />
+<title>Suite_DanhSachSanPham</title>
+</head>
+<body>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_00_Kiem_tra_moi_truong</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>pause</td><td>5000</td><td></td></tr>
+<tr><td>echo</td><td>Buoc 1: nhom lenh Selenium</td><td></td></tr>
+<tr><td>waitForElementPresent</td><td>xpath=//body</td><td>15000</td></tr>
+<tr><td>assertTextPresent</td><td>Điện thoại</td><td></td></tr>
+<tr><td>echo</td><td>Buoc 2: storeEval doc DOM</td><td></td></tr>
+<tr><td>storeEval</td><td>window.document.querySelectorAll('.product-info-container, .product-info, .product-item').length</td><td>nCard</td></tr>
+<tr><td>echo</td><td>So the san pham=${nCard}</td><td></td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_00b_Kham_pha_bo_loc</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>pause</td><td>6000</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(){var L=['Hãng sản xuất', 'Xem theo giá', 'Xem kết quả', 'Sẵn hàng', 'Dung lượng RAM', 'Bộ nhớ trong', 'Kích thước màn hình', 'Giá Thấp - Cao', 'Giá Cao - Thấp', 'Phổ biến', 'Khuyến mãi HOT'],out=[];L.forEach(function(t){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));var n=0, total=0;els.forEach(function(e){var txt=(e.innerText||e.textContent||'').trim();if(txt===t||txt.includes(t)){total++;if(e.offsetWidth||e.offsetHeight||e.getClientRects().length)n++}});out.push(t+': '+total+' tong, '+n+' hien thi')});return out.join(' ; ')})()</td><td>lab</td></tr>
+<tr><td>echo</td><td>NHAN BO LOC: ${lab}</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var txt=(e.innerText||e.textContent||'').trim();if(txt==='Hãng sản xuất'&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){var p=e.parentNode||e;return (p.innerText||p.textContent||'').replace(/\s+/g,' ').slice(0,500)}}return 'khong thay'})()</td><td>bar</td></tr>
+<tr><td>echo</td><td>THANH BO LOC: ${bar}</td><td></td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_01_Hien_thi_the_san_pham</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-info, .product-item</td><td>cssCard</td></tr>
+<tr><td>store</td><td>.product__price--show, .product-price, .price</td><td>cssPrice</td></tr>
+<tr><td>store</td><td>samsung</td><td>brand</td></tr>
+<tr><td>store</td><td>4000</td><td>pMinK</td></tr>
+<tr><td>store</td><td>7000</td><td>pMaxK</td></tr>
+<tr><td>store</td><td>4000000</td><td>pMin</td></tr>
+<tr><td>store</td><td>7000000</td><td>pMax</td></tr>
+<tr><td>pause</td><td>6000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n0</td></tr>
+<tr><td>echo</td><td>So the san pham hien thi ban dau n0=${n0}</td><td></td></tr>
+<tr><td>storeEval</td><td>(Number(storedVars['n0'] || '${n0}') &gt; 0) ? 'PASS' : 'FAIL: Trang hien thi the san pham'</td><td>kq1</td></tr>
+<tr><td>echo</td><td>KIEM TRA Trang hien thi the san pham: ${kq1}</td><td></td></tr>
+<tr><td>storeEval</td><td>window.document.querySelectorAll('${cssCard} h3, ${cssCard} .product__name').length</td><td>nName</td></tr>
+<tr><td>storeEval</td><td>window.document.querySelectorAll('${cssCard} img').length</td><td>nImg</td></tr>
+<tr><td>storeEval</td><td>window.document.querySelectorAll('${cssPrice}').length</td><td>nPrice</td></tr>
+<tr><td>storeEval</td><td>(Number(storedVars['nName'] || '${nName}') &gt; 0) ? 'PASS' : 'FAIL: The co ten'</td><td>kq2</td></tr>
+<tr><td>echo</td><td>KIEM TRA The co ten: ${kq2}</td><td></td></tr>
+<tr><td>storeEval</td><td>(Number(storedVars['nImg'] || '${nImg}') &gt; 0) ? 'PASS' : 'FAIL: The co anh'</td><td>kq3</td></tr>
+<tr><td>echo</td><td>KIEM TRA The co anh: ${kq3}</td><td></td></tr>
+<tr><td>storeEval</td><td>(Number(storedVars['nPrice'] || '${nPrice}') &gt; 0) ? 'PASS' : 'FAIL: The co gia'</td><td>kq4</td></tr>
+<tr><td>echo</td><td>KIEM TRA The co gia: ${kq4}</td><td></td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_02_GUI_bo_cuc_the_san_pham</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-info, .product-item</td><td>cssCard</td></tr>
+<tr><td>store</td><td>.product__price--show, .product-price, .price</td><td>cssPrice</td></tr>
+<tr><td>store</td><td>samsung</td><td>brand</td></tr>
+<tr><td>store</td><td>4000</td><td>pMinK</td></tr>
+<tr><td>store</td><td>7000</td><td>pMaxK</td></tr>
+<tr><td>store</td><td>4000000</td><td>pMin</td></tr>
+<tr><td>store</td><td>7000000</td><td>pMax</td></tr>
+<tr><td>pause</td><td>6000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n0</td></tr>
+<tr><td>echo</td><td>So the san pham hien thi ban dau n0=${n0}</td><td></td></tr>
+<tr><td>storeEval</td><td>window.document.querySelectorAll('${cssCard} h3, ${cssCard} .product__name').length</td><td>nName</td></tr>
+<tr><td>storeEval</td><td>window.document.querySelectorAll('${cssCard} img').length</td><td>nImg</td></tr>
+<tr><td>storeEval</td><td>window.document.querySelectorAll('${cssPrice}').length</td><td>nPrice</td></tr>
+<tr><td>storeEval</td><td>(Number(storedVars['nName'] || '${nName}') &gt; 0) ? 'PASS' : 'FAIL: Co ten san pham'</td><td>kq5</td></tr>
+<tr><td>echo</td><td>KIEM TRA Co ten san pham: ${kq5}</td><td></td></tr>
+<tr><td>storeEval</td><td>(Number(storedVars['nImg'] || '${nImg}') &gt; 0) ? 'PASS' : 'FAIL: Co anh san pham'</td><td>kq6</td></tr>
+<tr><td>echo</td><td>KIEM TRA Co anh san pham: ${kq6}</td><td></td></tr>
+<tr><td>storeEval</td><td>(Number(storedVars['nPrice'] || '${nPrice}') &gt; 0) ? 'PASS' : 'FAIL: Co gia'</td><td>kq7</td></tr>
+<tr><td>echo</td><td>KIEM TRA Co gia: ${kq7}</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(){var e=Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(el){return !!(el.offsetWidth||el.offsetHeight||el.getClientRects().length)});if(!e||e.length===0) return 'FAIL: Khong co the san pham';var w=e[0].offsetWidth,ok=true;e.forEach(function(el){if(Math.abs(el.offsetWidth-w)&gt;5)ok=false});return ok?'PASS':'FAIL: Cac the khong cung kich thuoc'})()</td><td>kq8</td></tr>
+<tr><td>echo</td><td>KIEM TRA Cac the cung kich thuoc: ${kq8}</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(){var imgs=Array.from(window.document.querySelectorAll('${cssCard} img')).slice(0,4);if(!imgs||imgs.length===0) return 'FAIL: Khong tim thay anh';var ok=true;imgs.forEach(function(el){if(!el.src||(el.complete &amp;&amp; el.naturalWidth===0))ok=false});return ok?'PASS':'FAIL: 4 anh dau tai khong thanh cong'})()</td><td>kq9</td></tr>
+<tr><td>echo</td><td>KIEM TRA 4 anh dau tai thanh cong: ${kq9}</td><td></td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_03_Xem_them_tai_them_san_pham</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-info, .product-item</td><td>cssCard</td></tr>
+<tr><td>pause</td><td>6000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n0</td></tr>
+<tr><td>echo</td><td>So the san pham hien thi ban dau n0=${n0}</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(){var els=Array.from(window.document.querySelectorAll('button, a, div, span'));for(var i=0;i&lt;els.length;i++){var e=els[i];var txt=(e.innerText||e.textContent||'').trim();if((txt==='Xem thêm'||txt.includes('Xem thêm')||e.className.includes('btn-show-more'))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})()</td><td>r</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n1</td></tr>
+<tr><td>echo</td><td>Sau thao tac n1=${n1}</td><td></td></tr>
+<tr><td>storeEval</td><td>(Number(storedVars['n1'] || '${n1}') &gt; Number(storedVars['n0'] || '${n0}')) ? 'PASS' : 'FAIL: Bam Xem them tai them san pham'</td><td>kq10</td></tr>
+<tr><td>echo</td><td>KIEM TRA Bam Xem them tai them san pham: ${kq10}</td><td></td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_04_Loc_don_theo_hang</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-info, .product-item</td><td>cssCard</td></tr>
+<tr><td>store</td><td>samsung</td><td>brand</td></tr>
+<tr><td>pause</td><td>6000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n0</td></tr>
+<tr><td>echo</td><td>So the san pham hien thi ban dau n0=${n0}</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Hãng sản xuất')</td><td>r</td></tr>
+<tr><td>pause</td><td>1500</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Samsung')</td><td>r</td></tr>
+<tr><td>pause</td><td>1500</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Xem kết quả')</td><td>r</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n1</td></tr>
+<tr><td>echo</td><td>Sau thao tac n1=${n1}</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)&amp;&amp;(e.querySelector('h3, .product__name')||e).textContent.toLowerCase().indexOf('${brand}')!==-1}).length</td><td>nBrand</td></tr>
+<tr><td>echo</td><td>Tong the=${n1}, the dung hang=${nBrand}</td><td></td></tr>
+<tr><td>storeEval</td><td>(Number(storedVars['n1'] || '${n1}') &gt; 0) ? 'PASS' : 'FAIL: Co ket qua'</td><td>kq11</td></tr>
+<tr><td>echo</td><td>KIEM TRA Co ket qua: ${kq11}</td><td></td></tr>
+<tr><td>storeEval</td><td>(Number(storedVars['nBrand'] || '${nBrand}') === Number(storedVars['n1'] || '${n1}')) ? 'PASS' : 'FAIL: Chi hien thi san pham cua hang'</td><td>kq12</td></tr>
+<tr><td>echo</td><td>KIEM TRA Chi hien thi san pham cua hang: ${kq12}</td><td></td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_05_Loc_don_theo_khoang_gia</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-info, .product-item</td><td>cssCard</td></tr>
+<tr><td>store</td><td>.product__price--show, .product-price, .price</td><td>cssPrice</td></tr>
+<tr><td>store</td><td>4000</td><td>pMinK</td></tr>
+<tr><td>store</td><td>7000</td><td>pMaxK</td></tr>
+<tr><td>store</td><td>4000000</td><td>pMin</td></tr>
+<tr><td>store</td><td>7000000</td><td>pMax</td></tr>
+<tr><td>pause</td><td>6000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n0</td></tr>
+<tr><td>echo</td><td>So the san pham hien thi ban dau n0=${n0}</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Xem theo giá')</td><td>r</td></tr>
+<tr><td>pause</td><td>1500</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(){var inputs=Array.from(window.document.querySelectorAll('input')).filter(function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)});if(inputs.length===0) return 'no_input';var set=Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype,'value').set;var vals=['${pMinK}','${pMaxK}'];inputs.forEach(function(el,idx){if(idx&lt;2){el.focus();set.call(el,vals[idx]);el.dispatchEvent(new Event('input',{bubbles:true}));el.dispatchEvent(new Event('change',{bubbles:true}))}});return 'typed '+inputs.length+' inputs'})()</td><td>r</td></tr>
+<tr><td>echo</td><td>O nhap gia: ${r}</td><td></td></tr>
+<tr><td>pause</td><td>800</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Xem kết quả')</td><td>r</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n1</td></tr>
+<tr><td>echo</td><td>Sau thao tac n1=${n1}</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(){var prices=Array.from(window.document.querySelectorAll('${cssPrice}')).filter(function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)});var pMin=parseInt(storedVars['pMin']||'${pMin}')||4000000;var pMax=parseInt(storedVars['pMax']||'${pMax}')||7000000;var bad=0;prices.forEach(function(e){var v=parseInt((e.textContent||'').replace(/\D/g,''));if(v &amp;&amp; (v &lt; pMin || v &gt; pMax)) bad++});return bad})()</td><td>badPrice</td></tr>
+<tr><td>echo</td><td>So gia ngoai khoang=${badPrice}</td><td></td></tr>
+<tr><td>storeEval</td><td>(Number(storedVars['n1'] || '${n1}') &gt; 0) ? 'PASS' : 'FAIL: Co ket qua'</td><td>kq13</td></tr>
+<tr><td>echo</td><td>KIEM TRA Co ket qua: ${kq13}</td><td></td></tr>
+<tr><td>storeEval</td><td>(Number(storedVars['badPrice'] || '${badPrice}') === 0) ? 'PASS' : 'FAIL: Tat ca gia nam trong khoang 4-7 trieu'</td><td>kq14</td></tr>
+<tr><td>echo</td><td>KIEM TRA Tat ca gia nam trong khoang 4-7 trieu: ${kq14}</td><td></td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_06_Loc_don_theo_RAM</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-info, .product-item</td><td>cssCard</td></tr>
+<tr><td>pause</td><td>6000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n0</td></tr>
+<tr><td>echo</td><td>So the san pham hien thi ban dau n0=${n0}</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Dung lượng RAM')</td><td>r</td></tr>
+<tr><td>pause</td><td>1500</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('8 GB')</td><td>r</td></tr>
+<tr><td>pause</td><td>1500</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Xem kết quả')</td><td>r</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n1</td></tr>
+<tr><td>echo</td><td>Sau thao tac n1=${n1}</td><td></td></tr>
+<tr><td>storeEval</td><td>(Number(storedVars['n1'] || '${n1}') &gt; 0) ? 'PASS' : 'FAIL: Co ket qua sau khi loc RAM'</td><td>kq15</td></tr>
+<tr><td>echo</td><td>KIEM TRA Co ket qua sau khi loc RAM: ${kq15}</td><td></td></tr>
+<tr><td>storeEval</td><td>(storedVars['n1'] !== storedVars['n0']) ? 'PASS' : 'FAIL: So san pham thay doi sau khi loc RAM'</td><td>kq16</td></tr>
+<tr><td>echo</td><td>KIEM TRA So san pham thay doi sau khi loc RAM: ${kq16}</td><td></td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_07_Loc_don_theo_bo_nho</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-info, .product-item</td><td>cssCard</td></tr>
+<tr><td>pause</td><td>6000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n0</td></tr>
+<tr><td>echo</td><td>So the san pham hien thi ban dau n0=${n0}</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Bộ nhớ trong')</td><td>r</td></tr>
+<tr><td>pause</td><td>1500</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('256 GB')</td><td>r</td></tr>
+<tr><td>pause</td><td>1500</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Xem kết quả')</td><td>r</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n1</td></tr>
+<tr><td>echo</td><td>Sau thao tac n1=${n1}</td><td></td></tr>
+<tr><td>storeEval</td><td>(Number(storedVars['n1'] || '${n1}') &gt; 0) ? 'PASS' : 'FAIL: Co ket qua sau khi loc bo nho'</td><td>kq17</td></tr>
+<tr><td>echo</td><td>KIEM TRA Co ket qua sau khi loc bo nho: ${kq17}</td><td></td></tr>
+<tr><td>storeEval</td><td>(storedVars['n1'] !== storedVars['n0']) ? 'PASS' : 'FAIL: So san pham thay doi sau khi loc bo nho'</td><td>kq18</td></tr>
+<tr><td>echo</td><td>KIEM TRA So san pham thay doi sau khi loc bo nho: ${kq18}</td><td></td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_08_Loc_don_theo_man_hinh</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-info, .product-item</td><td>cssCard</td></tr>
+<tr><td>pause</td><td>6000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n0</td></tr>
+<tr><td>echo</td><td>So the san pham hien thi ban dau n0=${n0}</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Kích thước màn hình')</td><td>r</td></tr>
+<tr><td>pause</td><td>1500</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('inch')</td><td>r</td></tr>
+<tr><td>pause</td><td>1500</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Xem kết quả')</td><td>r</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n1</td></tr>
+<tr><td>echo</td><td>Sau thao tac n1=${n1}</td><td></td></tr>
+<tr><td>storeEval</td><td>(Number(storedVars['n1'] || '${n1}') &gt; 0) ? 'PASS' : 'FAIL: Co ket qua sau khi loc man hinh'</td><td>kq19</td></tr>
+<tr><td>echo</td><td>KIEM TRA Co ket qua sau khi loc man hinh: ${kq19}</td><td></td></tr>
+<tr><td>storeEval</td><td>(storedVars['n1'] !== storedVars['n0']) ? 'PASS' : 'FAIL: So san pham thay doi sau khi loc man hinh'</td><td>kq20</td></tr>
+<tr><td>echo</td><td>KIEM TRA So san pham thay doi sau khi loc man hinh: ${kq20}</td><td></td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_09_Loc_don_theo_trang_thai_con_hang</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-info, .product-item</td><td>cssCard</td></tr>
+<tr><td>pause</td><td>6000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n0</td></tr>
+<tr><td>echo</td><td>So the san pham hien thi ban dau n0=${n0}</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Sẵn hàng')</td><td>r</td></tr>
+<tr><td>pause</td><td>1500</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'skipped'})('Xem kết quả')</td><td>r</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n1</td></tr>
+<tr><td>echo</td><td>Sau thao tac n1=${n1}</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)&amp;&amp;/Sắp về hàng|Hết hàng/.test(e.textContent)}).length</td><td>nOut</td></tr>
+<tr><td>echo</td><td>The het/sap ve hang=${nOut}</td><td></td></tr>
+<tr><td>storeEval</td><td>(Number(storedVars['n1'] || '${n1}') &gt; 0) ? 'PASS' : 'FAIL: Co ket qua'</td><td>kq21</td></tr>
+<tr><td>echo</td><td>KIEM TRA Co ket qua: ${kq21}</td><td></td></tr>
+<tr><td>storeEval</td><td>(Number(storedVars['nOut'] || '${nOut}') === 0) ? 'PASS' : 'FAIL: Khong con the het hang'</td><td>kq22</td></tr>
+<tr><td>echo</td><td>KIEM TRA Khong con the het hang: ${kq22}</td><td></td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_10_Loc_ket_hop_hang_gia</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-info, .product-item</td><td>cssCard</td></tr>
+<tr><td>store</td><td>.product__price--show, .product-price, .price</td><td>cssPrice</td></tr>
+<tr><td>store</td><td>samsung</td><td>brand</td></tr>
+<tr><td>store</td><td>4000</td><td>pMinK</td></tr>
+<tr><td>store</td><td>7000</td><td>pMaxK</td></tr>
+<tr><td>store</td><td>4000000</td><td>pMin</td></tr>
+<tr><td>store</td><td>7000000</td><td>pMax</td></tr>
+<tr><td>pause</td><td>6000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n0</td></tr>
+<tr><td>echo</td><td>So the san pham hien thi ban dau n0=${n0}</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Hãng sản xuất')</td><td>r</td></tr>
+<tr><td>pause</td><td>1500</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Samsung')</td><td>r</td></tr>
+<tr><td>pause</td><td>1500</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Xem kết quả')</td><td>r</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n1</td></tr>
+<tr><td>echo</td><td>Sau thao tac n1=${n1}</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Xem theo giá')</td><td>r</td></tr>
+<tr><td>pause</td><td>1500</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(){var inputs=Array.from(window.document.querySelectorAll('input')).filter(function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)});if(inputs.length===0) return 'no_input';var set=Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype,'value').set;var vals=['${pMinK}','${pMaxK}'];inputs.forEach(function(el,idx){if(idx&lt;2){el.focus();set.call(el,vals[idx]);el.dispatchEvent(new Event('input',{bubbles:true}));el.dispatchEvent(new Event('change',{bubbles:true}))}});return 'typed '+inputs.length+' inputs'})()</td><td>r</td></tr>
+<tr><td>echo</td><td>O nhap gia: ${r}</td><td></td></tr>
+<tr><td>pause</td><td>800</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Xem kết quả')</td><td>r</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n2</td></tr>
+<tr><td>echo</td><td>Sau thao tac n2=${n2}</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)&amp;&amp;(e.querySelector('h3, .product__name')||e).textContent.toLowerCase().indexOf('${brand}')!==-1}).length</td><td>nBrand</td></tr>
+<tr><td>storeEval</td><td>(function(){var prices=Array.from(window.document.querySelectorAll('${cssPrice}')).filter(function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)});var pMin=parseInt(storedVars['pMin']||'${pMin}')||4000000;var pMax=parseInt(storedVars['pMax']||'${pMax}')||7000000;var bad=0;prices.forEach(function(e){var v=parseInt((e.textContent||'').replace(/\D/g,''));if(v &amp;&amp; (v &lt; pMin || v &gt; pMax)) bad++});return bad})()</td><td>badPrice</td></tr>
+<tr><td>echo</td><td>n2=${n2} dung hang=${nBrand} gia sai=${badPrice}</td><td></td></tr>
+<tr><td>storeEval</td><td>(Number(storedVars['n2'] || '${n2}') &gt; 0) ? 'PASS' : 'FAIL: Co ket qua'</td><td>kq23</td></tr>
+<tr><td>echo</td><td>KIEM TRA Co ket qua: ${kq23}</td><td></td></tr>
+<tr><td>storeEval</td><td>(Number(storedVars['nBrand'] || '${nBrand}') === Number(storedVars['n2'] || '${n2}')) ? 'PASS' : 'FAIL: Tat ca thuoc hang'</td><td>kq24</td></tr>
+<tr><td>echo</td><td>KIEM TRA Tat ca thuoc hang: ${kq24}</td><td></td></tr>
+<tr><td>storeEval</td><td>(Number(storedVars['badPrice'] || '${badPrice}') === 0) ? 'PASS' : 'FAIL: Tat ca gia trong khoang'</td><td>kq25</td></tr>
+<tr><td>echo</td><td>KIEM TRA Tat ca gia trong khoang: ${kq25}</td><td></td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_11_Bo_chon_bo_loc_ve_ban_dau</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-info, .product-item</td><td>cssCard</td></tr>
+<tr><td>pause</td><td>6000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n0</td></tr>
+<tr><td>echo</td><td>So the san pham hien thi ban dau n0=${n0}</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Hãng sản xuất')</td><td>r</td></tr>
+<tr><td>pause</td><td>1500</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Samsung')</td><td>r</td></tr>
+<tr><td>pause</td><td>1500</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Xem kết quả')</td><td>r</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n1</td></tr>
+<tr><td>echo</td><td>Sau thao tac n1=${n1}</td><td></td></tr>
+<tr><td>echo</td><td>Bo chon: bam lai hang de tat</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Hãng sản xuất')</td><td>r</td></tr>
+<tr><td>pause</td><td>1500</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Samsung')</td><td>r</td></tr>
+<tr><td>pause</td><td>1500</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Xem kết quả')</td><td>r</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n2</td></tr>
+<tr><td>echo</td><td>Sau thao tac n2=${n2}</td><td></td></tr>
+<tr><td>storeEval</td><td>(Number(storedVars['n2'] || '${n2}') === Number(storedVars['n0'] || '${n0}')) ? 'PASS' : 'FAIL: Danh sach tro lai ban dau'</td><td>kq26</td></tr>
+<tr><td>echo</td><td>KIEM TRA Danh sach tro lai ban dau: ${kq26}</td><td></td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_12_Loc_khong_co_ket_qua</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-info, .product-item</td><td>cssCard</td></tr>
+<tr><td>store</td><td>apple</td><td>brand</td></tr>
+<tr><td>pause</td><td>6000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n0</td></tr>
+<tr><td>echo</td><td>So the san pham hien thi ban dau n0=${n0}</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Hãng sản xuất')</td><td>r</td></tr>
+<tr><td>pause</td><td>1500</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Apple')</td><td>r</td></tr>
+<tr><td>pause</td><td>1500</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Xem kết quả')</td><td>r</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n1</td></tr>
+<tr><td>echo</td><td>Sau thao tac n1=${n1}</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Xem theo giá')</td><td>r</td></tr>
+<tr><td>pause</td><td>1500</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(){var inputs=Array.from(window.document.querySelectorAll('input')).filter(function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)});if(inputs.length===0) return 'no_input';var set=Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype,'value').set;var vals=['1000','2000'];inputs.forEach(function(el,idx){if(idx&lt;2){el.focus();set.call(el,vals[idx]);el.dispatchEvent(new Event('input',{bubbles:true}));el.dispatchEvent(new Event('change',{bubbles:true}))}});return 'typed '+inputs.length+' inputs'})()</td><td>r</td></tr>
+<tr><td>echo</td><td>O nhap gia: ${r}</td><td></td></tr>
+<tr><td>pause</td><td>800</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Xem kết quả')</td><td>r</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n2</td></tr>
+<tr><td>echo</td><td>Sau thao tac n2=${n2}</td><td></td></tr>
+<tr><td>storeEval</td><td>(Number(storedVars['n2'] || '${n2}') === 0) ? 'PASS' : 'FAIL: Khong co the san pham'</td><td>kq27</td></tr>
+<tr><td>echo</td><td>KIEM TRA Khong co the san pham: ${kq27}</td><td></td></tr>
+<tr><td>storeEval</td><td>(/không tìm thấy|không có sản phẩm|chưa có sản phẩm|không có kết quả/i.test(window.document.body.innerText)) ? 'PASS' : 'FAIL: Hien thong bao khong co ket qua'</td><td>kq28</td></tr>
+<tr><td>echo</td><td>KIEM TRA Hien thong bao khong co ket qua: ${kq28}</td><td></td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_13_Sap_xep_gia_thap_den_cao</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-info, .product-item</td><td>cssCard</td></tr>
+<tr><td>store</td><td>.product__price--show, .product-price, .price</td><td>cssPrice</td></tr>
+<tr><td>pause</td><td>6000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n0</td></tr>
+<tr><td>echo</td><td>So the san pham hien thi ban dau n0=${n0}</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Giá Thấp - Cao')</td><td>r</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n1</td></tr>
+<tr><td>echo</td><td>Sau thao tac n1=${n1}</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(){var prices=[];Array.prototype.forEach.call(window.document.querySelectorAll('${cssPrice}'),function(e){if(e.offsetWidth||e.offsetHeight||e.getClientRects().length){var v=parseInt((e.textContent||'').replace(/\D/g,''));if(v)prices.push(v)}});if(prices.length&lt;2) return 'PASS';for(var i=1;i&lt;prices.length;i++){if(prices[i]&lt;prices[i-1]) return 'FAIL: Gia khong tang dan'}return 'PASS'})()</td><td>kq29</td></tr>
+<tr><td>echo</td><td>KIEM TRA Gia tang dan: ${kq29}</td><td></td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_14_Sap_xep_gia_cao_den_thap</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-info, .product-item</td><td>cssCard</td></tr>
+<tr><td>store</td><td>.product__price--show, .product-price, .price</td><td>cssPrice</td></tr>
+<tr><td>pause</td><td>6000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n0</td></tr>
+<tr><td>echo</td><td>So the san pham hien thi ban dau n0=${n0}</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Giá Cao - Thấp')</td><td>r</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n1</td></tr>
+<tr><td>echo</td><td>Sau thao tac n1=${n1}</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(){var prices=[];Array.prototype.forEach.call(window.document.querySelectorAll('${cssPrice}'),function(e){if(e.offsetWidth||e.offsetHeight||e.getClientRects().length){var v=parseInt((e.textContent||'').replace(/\D/g,''));if(v)prices.push(v)}});if(prices.length&lt;2) return 'PASS';for(var i=1;i&lt;prices.length;i++){if(prices[i]&gt;prices[i-1]) return 'FAIL: Gia khong giam dan'}return 'PASS'})()</td><td>kq30</td></tr>
+<tr><td>echo</td><td>KIEM TRA Gia giam dan: ${kq30}</td><td></td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_15_Sap_xep_pho_bien_ban_chay</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-info, .product-item</td><td>cssCard</td></tr>
+<tr><td>store</td><td>.product__price--show, .product-price, .price</td><td>cssPrice</td></tr>
+<tr><td>pause</td><td>6000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n0</td></tr>
+<tr><td>echo</td><td>So the san pham hien thi ban dau n0=${n0}</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Giá Thấp - Cao')</td><td>r</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Phổ biến')</td><td>r</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n1</td></tr>
+<tr><td>echo</td><td>Sau thao tac n1=${n1}</td><td></td></tr>
+<tr><td>storeEval</td><td>(Number(storedVars['n1'] || '${n1}') &gt; 0) ? 'PASS' : 'FAIL: Co ket qua'</td><td>kq31</td></tr>
+<tr><td>echo</td><td>KIEM TRA Co ket qua: ${kq31}</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(){var prices=[];Array.prototype.forEach.call(window.document.querySelectorAll('${cssPrice}'),function(e){if(e.offsetWidth||e.offsetHeight||e.getClientRects().length){var v=parseInt((e.textContent||'').replace(/\D/g,''));if(v)prices.push(v)}});if(prices.length&lt;2) return 'PASS';var isAscending=true;for(var i=1;i&lt;prices.length;i++){if(prices[i]&lt;prices[i-1]) isAscending=false}return (!isAscending)?'PASS':'FAIL: Thu tu khong con tang dan theo gia'})()</td><td>kq32</td></tr>
+<tr><td>echo</td><td>KIEM TRA Thu tu khong con tang dan theo gia: ${kq32}</td><td></td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_16_Sap_xep_khuyen_mai_HOT</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-info, .product-item</td><td>cssCard</td></tr>
+<tr><td>pause</td><td>6000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n0</td></tr>
+<tr><td>echo</td><td>So the san pham hien thi ban dau n0=${n0}</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Khuyến mãi HOT')</td><td>r</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n1</td></tr>
+<tr><td>echo</td><td>Sau thao tac n1=${n1}</td><td></td></tr>
+<tr><td>storeEval</td><td>(Number(storedVars['n1'] || '${n1}') &gt; 0) ? 'PASS' : 'FAIL: Co ket qua'</td><td>kq33</td></tr>
+<tr><td>echo</td><td>KIEM TRA Co ket qua: ${kq33}</td><td></td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_17_Giu_bo_loc_khi_doi_cach_sap_xep</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-info, .product-item</td><td>cssCard</td></tr>
+<tr><td>store</td><td>.product__price--show, .product-price, .price</td><td>cssPrice</td></tr>
+<tr><td>store</td><td>samsung</td><td>brand</td></tr>
+<tr><td>pause</td><td>6000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n0</td></tr>
+<tr><td>echo</td><td>So the san pham hien thi ban dau n0=${n0}</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Hãng sản xuất')</td><td>r</td></tr>
+<tr><td>pause</td><td>1500</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Samsung')</td><td>r</td></tr>
+<tr><td>pause</td><td>1500</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Xem kết quả')</td><td>r</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n1</td></tr>
+<tr><td>echo</td><td>Sau thao tac n1=${n1}</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(txt){var els=Array.from(window.document.querySelectorAll('button, div, span, a, label, p'));for(var i=0;i&lt;els.length;i++){var e=els[i];var t=(e.innerText||e.textContent||'').trim();if((t===txt||t.includes(txt))&amp;&amp;(e.offsetWidth||e.offsetHeight||e.getClientRects().length)){e.click();e.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));return 'clicked'}}return 'not_found'})('Giá Thấp - Cao')</td><td>r</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}).length</td><td>n2</td></tr>
+<tr><td>echo</td><td>Sau thao tac n2=${n2}</td><td></td></tr>
+<tr><td>storeEval</td><td>Array.prototype.filter.call(window.document.querySelectorAll('${cssCard}'),function(e){return !!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)&amp;&amp;(e.querySelector('h3, .product__name')||e).textContent.toLowerCase().indexOf('${brand}')!==-1}).length</td><td>nBrand</td></tr>
+<tr><td>storeEval</td><td>(Number(storedVars['n2'] || '${n2}') &gt; 0) ? 'PASS' : 'FAIL: Co ket qua'</td><td>kq34</td></tr>
+<tr><td>echo</td><td>KIEM TRA Co ket qua: ${kq34}</td><td></td></tr>
+<tr><td>storeEval</td><td>(Number(storedVars['nBrand'] || '${nBrand}') === Number(storedVars['n2'] || '${n2}')) ? 'PASS' : 'FAIL: Van chi hien thi hang da loc'</td><td>kq35</td></tr>
+<tr><td>echo</td><td>KIEM TRA Van chi hien thi hang da loc: ${kq35}</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(){var prices=[];Array.prototype.forEach.call(window.document.querySelectorAll('${cssPrice}'),function(e){if(e.offsetWidth||e.offsetHeight||e.getClientRects().length){var v=parseInt((e.textContent||'').replace(/\D/g,''));if(v)prices.push(v)}});if(prices.length&lt;2) return 'PASS';for(var i=1;i&lt;prices.length;i++){if(prices[i]&lt;prices[i-1]) return 'FAIL: Gia khong tang dan'}return 'PASS'})()</td><td>kq36</td></tr>
+<tr><td>echo</td><td>KIEM TRA Gia tang dan: ${kq36}</td><td></td></tr>
+</tbody></table>
+
+</body>
+</html>

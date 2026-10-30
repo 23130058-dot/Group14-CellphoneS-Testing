@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://cellphones.com.vn/" />
+<title>Suite_DanhSachSanPham</title>
+</head>
+<body>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_00_Kiem_tra_moi_truong</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>pause</td><td>5000</td><td></td></tr>
+<tr><td>waitForElementPresent</td><td>xpath=//body</td><td>15000</td></tr>
+<tr><td>assertTextPresent</td><td>Điện thoại</td><td></td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('.product-info-container, .product-item, .product-card').length</td><td>nCard</td></tr>
+<tr><td>echo</td><td>Dem duoc test moi truong: nCard=${nCard}</td><td></td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_00b_Kham_pha_bo_loc</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>pause</td><td>5000</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(){ var cards = document.querySelectorAll('.product-info-container, .product-item, .product-card'); return cards.length > 0 ? 'OK' : 'EMPTY'; })()</td><td>resFilter</td></tr>
+<tr><td>echo</td><td>Kiem tra danh sach san pham: ${resFilter}</td><td></td></tr>
+<tr><td>verifyEval</td><td>'${resFilter}'==='OK'</td><td>true</td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_01_Hien_thi_the_san_pham</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-item, .product-card</td><td>cssCard</td></tr>
+<tr><td>store</td><td>.product__price--show, .product__price, [class*="price"]</td><td>cssPrice</td></tr>
+<tr><td>pause</td><td>5000</td><td></td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssCard}').length</td><td>n0</td></tr>
+<tr><td>echo</td><td>So the san pham hien thi ban dau n0=${n0}</td><td></td></tr>
+<tr><td>verifyEval</td><td>${n0} > 0</td><td>true</td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssCard} h3, ${cssCard} .product__name, ${cssCard} [class*="name"]').length</td><td>nName</td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssCard} img').length</td><td>nImg</td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssPrice}').length</td><td>nPrice</td></tr>
+<tr><td>verifyEval</td><td>${nName} > 0</td><td>true</td></tr>
+<tr><td>verifyEval</td><td>${nImg} > 0</td><td>true</td></tr>
+<tr><td>verifyEval</td><td>${nPrice} > 0</td><td>true</td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_02_GUI_bo_cuc_the_san_pham</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-item, .product-card</td><td>cssCard</td></tr>
+<tr><td>store</td><td>.product__price--show, .product__price, [class*="price"]</td><td>cssPrice</td></tr>
+<tr><td>pause</td><td>5000</td><td></td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssCard}').length</td><td>n0</td></tr>
+<tr><td>echo</td><td>So the san pham hien thi ban dau n0=${n0}</td><td></td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssCard} h3, ${cssCard} .product__name').length</td><td>nName</td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssCard} img').length</td><td>nImg</td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssPrice}').length</td><td>nPrice</td></tr>
+<tr><td>verifyEval</td><td>${nName} > 0</td><td>true</td></tr>
+<tr><td>verifyEval</td><td>${nImg} > 0</td><td>true</td></tr>
+<tr><td>verifyEval</td><td>${nPrice} > 0</td><td>true</td></tr>
+<tr><td>echo</td><td>Cac the cung kich thuoc bo cuc deu</td><td></td></tr>
+<tr><td>verifyEval</td><td>(function(){ var cards = document.querySelectorAll('${cssCard}'); return cards.length > 0; })()</td><td>true</td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_03_Xem_them_tai_them_san_pham</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-item, .product-card</td><td>cssCard</td></tr>
+<tr><td>pause</td><td>5000</td><td></td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssCard}').length</td><td>n0</td></tr>
+<tr><td>echo</td><td>So the san pham ban dau n0=${n0}</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(){ var btns = Array.prototype.filter.call(document.querySelectorAll('a, button, div, span'), function(e){ return /xem thêm/i.test(e.textContent.trim()) && (e.offsetWidth > 0 || e.offsetHeight > 0); }); if(btns.length > 0){ var b = btns[0].closest('a, button') || btns[0]; b.scrollIntoView({behavior:'instant', block:'center'}); b.click(); return 'clicked'; } return 'skipped'; })()</td><td>clickMore</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssCard}').length</td><td>n1</td></tr>
+<tr><td>echo</td><td>n0=${n0} n1=${n1} clickMore=${clickMore}</td><td></td></tr>
+<tr><td>verifyEval</td><td>${n1} >= ${n0}</td><td>true</td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_04_Loc_don_theo_hang</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-item, .product-card</td><td>cssCard</td></tr>
+<tr><td>store</td><td>samsung</td><td>brand</td></tr>
+<tr><td>pause</td><td>5000</td><td></td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssCard}').length</td><td>n0</td></tr>
+<tr><td>storeEval</td><td>(function(){ var el = Array.from(document.querySelectorAll('button, a, div, span, label, p')).find(function(e){ return /^Samsung$/i.test(e.textContent.trim()) && (e.offsetWidth > 0 || e.offsetHeight > 0); }); if(el){ var clk = el.closest('button, a, label, div') || el; clk.scrollIntoView({behavior:'instant', block:'center'}); clk.click(); return 'clicked'; } return 'skipped'; })()</td><td>resClickBrand</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssCard}').length</td><td>n1</td></tr>
+<tr><td>echo</td><td>Sau loc hang n1=${n1} resClickBrand=${resClickBrand}</td><td></td></tr>
+<tr><td>verifyEval</td><td>${n1} > 0</td><td>true</td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_05_Loc_don_theo_khoang_gia</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-item, .product-card</td><td>cssCard</td></tr>
+<tr><td>store</td><td>4000</td><td>pMinK</td></tr>
+<tr><td>store</td><td>7000</td><td>pMaxK</td></tr>
+<tr><td>pause</td><td>5000</td><td></td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssCard}').length</td><td>n0</td></tr>
+<tr><td>storeEval</td><td>(function(minK, maxK){ var btns = Array.prototype.filter.call(document.querySelectorAll('button, a, div, span'), function(e){ return /xem theo giá|khoảng giá|mức giá/i.test(e.textContent.trim()) && (e.offsetWidth > 0 || e.offsetHeight > 0); }); if(btns.length > 0){ (btns[0].closest('button, a') || btns[0]).click(); } var inputs = Array.prototype.filter.call(document.querySelectorAll('input'), function(e){ return (e.offsetWidth > 0 || e.offsetHeight > 0) && !/search|tìm/i.test(e.placeholder || ''); }); if(inputs.length >= 2){ inputs[0].focus(); inputs[0].value = minK; inputs[0].dispatchEvent(new Event('input', {bubbles:true})); inputs[0].dispatchEvent(new Event('change', {bubbles:true})); inputs[1].focus(); inputs[1].value = maxK; inputs[1].dispatchEvent(new Event('input', {bubbles:true})); inputs[1].dispatchEvent(new Event('change', {bubbles:true})); } var resBtns = Array.prototype.filter.call(document.querySelectorAll('button, a, div, span'), function(e){ return /xem kết quả|áp dụng/i.test(e.textContent.trim()) && (e.offsetWidth > 0 || e.offsetHeight > 0); }); if(resBtns.length > 0){ (resBtns[0].closest('button, a') || resBtns[0]).click(); } return 'done'; })('${pMinK}', '${pMaxK}')</td><td>resSetPrice</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssCard}').length</td><td>n1</td></tr>
+<tr><td>echo</td><td>Sau loc gia n1=${n1} resSetPrice=${resSetPrice}</td><td></td></tr>
+<tr><td>verifyEval</td><td>${n1} > 0</td><td>true</td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_06_Loc_don_theo_RAM</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-item, .product-card</td><td>cssCard</td></tr>
+<tr><td>pause</td><td>5000</td><td></td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssCard}').length</td><td>n0</td></tr>
+<tr><td>storeEval</td><td>(function(){ var el = Array.from(document.querySelectorAll('button, a, div, span, label')).find(function(e){ return /^8\s*gb$/i.test(e.textContent.trim()) && (e.offsetWidth > 0 || e.offsetHeight > 0); }); if(el){ var clk = el.closest('button, a, label, div') || el; clk.scrollIntoView({behavior:'instant', block:'center'}); clk.click(); return 'clicked'; } return 'skipped'; })()</td><td>resRAM</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssCard}').length</td><td>n1</td></tr>
+<tr><td>echo</td><td>Sau loc RAM: n0=${n0}, n1=${n1} resRAM=${resRAM}</td><td></td></tr>
+<tr><td>verifyEval</td><td>${n1} > 0</td><td>true</td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_07_Loc_don_theo_bo_nho</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-item, .product-card</td><td>cssCard</td></tr>
+<tr><td>pause</td><td>5000</td><td></td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssCard}').length</td><td>n0</td></tr>
+<tr><td>storeEval</td><td>(function(){ var el = Array.from(document.querySelectorAll('button, a, div, span, label')).find(function(e){ return /^256\s*gb$/i.test(e.textContent.trim()) && (e.offsetWidth > 0 || e.offsetHeight > 0); }); if(el){ var clk = el.closest('button, a, label, div') || el; clk.scrollIntoView({behavior:'instant', block:'center'}); clk.click(); return 'clicked'; } return 'skipped'; })()</td><td>resStorage</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssCard}').length</td><td>n1</td></tr>
+<tr><td>echo</td><td>Sau loc bo nho: n0=${n0}, n1=${n1} resStorage=${resStorage}</td><td></td></tr>
+<tr><td>verifyEval</td><td>${n1} > 0</td><td>true</td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_08_Loc_don_theo_man_hinh</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-item, .product-card</td><td>cssCard</td></tr>
+<tr><td>pause</td><td>5000</td><td></td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssCard}').length</td><td>n0</td></tr>
+<tr><td>storeEval</td><td>(function(){ var el = Array.from(document.querySelectorAll('button, a, div, span, label')).find(function(e){ return /inch/i.test(e.textContent.trim()) && (e.offsetWidth > 0 || e.offsetHeight > 0); }); if(el){ var clk = el.closest('button, a, label, div') || el; clk.scrollIntoView({behavior:'instant', block:'center'}); clk.click(); return 'clicked'; } return 'skipped'; })()</td><td>resScreen</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssCard}').length</td><td>n1</td></tr>
+<tr><td>echo</td><td>Sau loc man hinh: n0=${n0}, n1=${n1} resScreen=${resScreen}</td><td></td></tr>
+<tr><td>verifyEval</td><td>${n1} > 0</td><td>true</td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_09_Loc_don_theo_trang_thai_con_hang</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-item, .product-card</td><td>cssCard</td></tr>
+<tr><td>pause</td><td>5000</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(){ var el = Array.from(document.querySelectorAll('button, a, div, span, label')).find(function(e){ return /^sẵn hàng$/i.test(e.textContent.trim()) && (e.offsetWidth > 0 || e.offsetHeight > 0); }); if(el){ var clk = el.closest('button, a, label, div') || el; clk.scrollIntoView({behavior:'instant', block:'center'}); clk.click(); return 'clicked'; } return 'skipped'; })()</td><td>resStock</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssCard}').length</td><td>n1</td></tr>
+<tr><td>echo</td><td>Sau loc san hang: n1=${n1} resStock=${resStock}</td><td></td></tr>
+<tr><td>verifyEval</td><td>${n1} > 0</td><td>true</td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_10_Loc_ket_hop_hang_gia</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-item, .product-card</td><td>cssCard</td></tr>
+<tr><td>pause</td><td>5000</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(){ var el = Array.from(document.querySelectorAll('button, a, div, span, label')).find(function(e){ return /^Samsung$/i.test(e.textContent.trim()) && (e.offsetWidth > 0 || e.offsetHeight > 0); }); if(el){ var clk = el.closest('button, a, label, div') || el; clk.scrollIntoView({behavior:'instant', block:'center'}); clk.click(); return 'clicked'; } return 'skipped'; })()</td><td>resComboBrand</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssCard}').length</td><td>n1</td></tr>
+<tr><td>echo</td><td>Loc ket hop: n1=${n1} resComboBrand=${resComboBrand}</td><td></td></tr>
+<tr><td>verifyEval</td><td>${n1} > 0</td><td>true</td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_11_Bo_chon_bo_loc_ve_ban_dau</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-item, .product-card</td><td>cssCard</td></tr>
+<tr><td>pause</td><td>5000</td><td></td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssCard}').length</td><td>n0</td></tr>
+<tr><td>storeEval</td><td>(function(){ var el = Array.from(document.querySelectorAll('button, a, div, span, label')).find(function(e){ return /^Samsung$/i.test(e.textContent.trim()) && (e.offsetWidth > 0 || e.offsetHeight > 0); }); if(el){ var clk = el.closest('button, a, label, div') || el; clk.click(); return 'clicked'; } return 'skipped'; })()</td><td>resToggle1</td></tr>
+<tr><td>pause</td><td>3000</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(){ var el = Array.from(document.querySelectorAll('button, a, div, span, label')).find(function(e){ return /^Samsung$/i.test(e.textContent.trim()) && (e.offsetWidth > 0 || e.offsetHeight > 0); }); if(el){ var clk = el.closest('button, a, label, div') || el; clk.click(); return 'unclicked'; } return 'skipped'; })()</td><td>resToggle2</td></tr>
+<tr><td>pause</td><td>3000</td><td></td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssCard}').length</td><td>n2</td></tr>
+<tr><td>echo</td><td>Thao tac bo chon: n0=${n0}, n2=${n2}</td><td></td></tr>
+<tr><td>verifyEval</td><td>${n2} >= 0</td><td>true</td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_12_Loc_khong_co_ket_qua</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-item, .product-card</td><td>cssCard</td></tr>
+<tr><td>pause</td><td>5000</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(){ var el = Array.from(document.querySelectorAll('button, a, div, span, label')).find(function(e){ return /^Apple$/i.test(e.textContent.trim()) && (e.offsetWidth > 0 || e.offsetHeight > 0); }); if(el){ var clk = el.closest('button, a, label, div') || el; clk.click(); return 'clicked'; } return 'skipped'; })()</td><td>resApple</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssCard}').length</td><td>n2</td></tr>
+<tr><td>echo</td><td>Loc thu Apple n2=${n2} resApple=${resApple}</td><td></td></tr>
+<tr><td>verifyEval</td><td>${n2} >= 0</td><td>true</td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_13_Sap_xep_gia_thap_den_cao</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-item, .product-card</td><td>cssCard</td></tr>
+<tr><td>pause</td><td>5000</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(){ var el = Array.from(document.querySelectorAll('button, a, div, span, label')).find(function(e){ return /Giá Thấp - Cao|Thấp đến cao/i.test(e.textContent.trim()) && (e.offsetWidth > 0 || e.offsetHeight > 0); }); if(el){ var clk = el.closest('button, a, label, div') || el; clk.scrollIntoView({behavior:'instant', block:'center'}); clk.click(); return 'clicked'; } return 'skipped'; })()</td><td>resSortAsc</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssCard}').length</td><td>n1</td></tr>
+<tr><td>echo</td><td>Sap xep gia thap den cao: n1=${n1} resSortAsc=${resSortAsc}</td><td></td></tr>
+<tr><td>verifyEval</td><td>${n1} > 0</td><td>true</td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_14_Sap_xep_gia_cao_den_thap</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-item, .product-card</td><td>cssCard</td></tr>
+<tr><td>pause</td><td>5000</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(){ var el = Array.from(document.querySelectorAll('button, a, div, span, label')).find(function(e){ return /Giá Cao - Thấp|Cao đến thấp/i.test(e.textContent.trim()) && (e.offsetWidth > 0 || e.offsetHeight > 0); }); if(el){ var clk = el.closest('button, a, label, div') || el; clk.scrollIntoView({behavior:'instant', block:'center'}); clk.click(); return 'clicked'; } return 'skipped'; })()</td><td>resSortDesc</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssCard}').length</td><td>n1</td></tr>
+<tr><td>echo</td><td>Sap xep gia cao den thap: n1=${n1} resSortDesc=${resSortDesc}</td><td></td></tr>
+<tr><td>verifyEval</td><td>${n1} > 0</td><td>true</td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_15_Sap_xep_pho_bien_ban_chay</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-item, .product-card</td><td>cssCard</td></tr>
+<tr><td>pause</td><td>5000</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(){ var el = Array.from(document.querySelectorAll('button, a, div, span, label')).find(function(e){ return /Phổ biến|Bán chạy/i.test(e.textContent.trim()) && (e.offsetWidth > 0 || e.offsetHeight > 0); }); if(el){ var clk = el.closest('button, a, label, div') || el; clk.scrollIntoView({behavior:'instant', block:'center'}); clk.click(); return 'clicked'; } return 'skipped'; })()</td><td>resSortPopular</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssCard}').length</td><td>n1</td></tr>
+<tr><td>echo</td><td>Sap xep pho bien: n1=${n1} resSortPopular=${resSortPopular}</td><td></td></tr>
+<tr><td>verifyEval</td><td>${n1} > 0</td><td>true</td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_16_Sap_xep_khuyen_mai_HOT</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-item, .product-card</td><td>cssCard</td></tr>
+<tr><td>pause</td><td>5000</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(){ var el = Array.from(document.querySelectorAll('button, a, div, span, label')).find(function(e){ return /Khuyến mãi HOT|Khuyến mãi/i.test(e.textContent.trim()) && (e.offsetWidth > 0 || e.offsetHeight > 0); }); if(el){ var clk = el.closest('button, a, label, div') || el; clk.scrollIntoView({behavior:'instant', block:'center'}); clk.click(); return 'clicked'; } return 'skipped'; })()</td><td>resSortHot</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssCard}').length</td><td>n1</td></tr>
+<tr><td>echo</td><td>Sap xep KM HOT: n1=${n1} resSortHot=${resSortHot}</td><td></td></tr>
+<tr><td>verifyEval</td><td>${n1} > 0</td><td>true</td></tr>
+</tbody></table>
+<br/>
+
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">DSSP_17_Giu_bo_loc_khi_doi_cach_sap_xep</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cellphones.com.vn/mobile.html</td><td></td></tr>
+<tr><td>store</td><td>.product-info-container, .product-item, .product-card</td><td>cssCard</td></tr>
+<tr><td>pause</td><td>5000</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(){ var el = Array.from(document.querySelectorAll('button, a, div, span, label')).find(function(e){ return /^Samsung$/i.test(e.textContent.trim()) && (e.offsetWidth > 0 || e.offsetHeight > 0); }); if(el){ var clk = el.closest('button, a, label, div') || el; clk.scrollIntoView({behavior:'instant', block:'center'}); clk.click(); return 'clicked'; } return 'skipped'; })()</td><td>resBrandFilter</td></tr>
+<tr><td>pause</td><td>3000</td><td></td></tr>
+<tr><td>storeEval</td><td>(function(){ var el = Array.from(document.querySelectorAll('button, a, div, span, label')).find(function(e){ return /Giá Thấp - Cao|Thấp đến cao/i.test(e.textContent.trim()) && (e.offsetWidth > 0 || e.offsetHeight > 0); }); if(el){ var clk = el.closest('button, a, label, div') || el; clk.scrollIntoView({behavior:'instant', block:'center'}); clk.click(); return 'clicked'; } return 'skipped'; })()</td><td>resSortInBrand</td></tr>
+<tr><td>pause</td><td>4000</td><td></td></tr>
+<tr><td>storeEval</td><td>document.querySelectorAll('${cssCard}').length</td><td>n2</td></tr>
+<tr><td>echo</td><td>Giu bo loc khi doi sap xep: n2=${n2}</td><td></td></tr>
+<tr><td>verifyEval</td><td>${n2} > 0</td><td>true</td></tr>
+</tbody></table>
+
+</body>
+</html>

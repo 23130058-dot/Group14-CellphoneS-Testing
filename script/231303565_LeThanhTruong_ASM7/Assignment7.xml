@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Assignment7">
+<test name = "Tc01">
+    <classes>
+        <class name = "com.example.Assignment7.Tc01"/>
+    </classes>
+</test>
+</suite>

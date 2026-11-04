@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Homepage_Navigation</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Trường Lê Thanh</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Trường Lê Thanh</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>476ac800-7d70-46ef-8677-220ea98e92e0</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>476ac800-7d70-46ef-8677-220ea98e92e0</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9e998dc1-0124-49d0-9c27-74abccd116d7</testCaseGuid>
+</TestCaseEntity>

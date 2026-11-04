@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCase>
+<selenese>
+	<command>loadVars</command>
+	<target><![CDATA[TestData_Login_Smember.csv]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>echo</command>
+	<target><![CDATA[Đang test: ${Data_ID} - ${Test_Description}]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://smember.com.vn/login]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>pause</command>
+	<target><![CDATA[2000]]></target>
+	<value><![CDATA[5000]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=//input[@placeholder='Nhập số điện thoại của bạn']]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[xpath=//input[@placeholder='Nhập số điện thoại của bạn']]]></target>
+	<value><![CDATA[${Phone_Number}]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=//input[@placeholder='Nhập mật khẩu của bạn']]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[xpath=//input[@placeholder='Nhập mật khẩu của bạn']]]></target>
+	<value><![CDATA[${Password}]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=//button[@type='submit']]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>pause</command>
+	<target><![CDATA[2000]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>endLoadVars</command>
+	<target><![CDATA[]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+</TestCase>

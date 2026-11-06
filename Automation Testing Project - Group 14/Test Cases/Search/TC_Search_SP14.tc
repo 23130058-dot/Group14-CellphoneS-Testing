@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SP14: Tìm kiếm khi để trống ô tìm kiếm</description>
+   <name>TC_Search_SP14</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2eb6b2c3-9955-5342-a9ce-272796cb4a03</testCaseGuid>
+</TestCaseEntity>

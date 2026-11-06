@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SP05: Tìm kiếm không phân biệt chữ hoa, chữ thường</description>
+   <name>TC_Search_SP05</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9ece09f5-f82f-5947-8675-7ac259daa884</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SP27: Quay lại trang trước bằng nút Back của trình duyệt</description>
+   <name>TC_Search_SP27</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ae6cc130-a713-5b18-9878-081e8232f09d</testCaseGuid>
+</TestCaseEntity>

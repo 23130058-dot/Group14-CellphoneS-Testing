@@ -1,0 +1,136 @@
+{
+  "keywordFileContentHash": "449CF8EBA696199B579575619B44727F",
+  "keywordClasses": [
+    {
+      "name": "com.cellphones.SearchKeywords",
+      "keywordMethods": [
+        {
+          "name": "pageText",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "countProducts",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "isErrorPage",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "closePopups",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "waitResults",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "openHome",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "search",
+          "parameters": [
+            {
+              "name": "keyword",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "useButton",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "boolean",
+                "unresolvedClassName": "boolean",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "clickSearchButton",
+          "parameters": [],
+          "javadoc": "/** Click nút/biểu tượng kính lúp nằm cạnh ô tìm kiếm (không phụ thuộc class cụ thể của nút). */"
+        },
+        {
+          "name": "clickFirstProduct",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "clickLoadMore",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "searchBoxValue",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "verifyResults",
+          "parameters": [
+            {
+              "name": "token",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "verifyNoAlert",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "search",
+          "parameters": [
+            {
+              "name": "keyword",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

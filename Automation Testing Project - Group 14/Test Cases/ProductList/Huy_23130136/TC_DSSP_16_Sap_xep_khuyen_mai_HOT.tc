@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DSSP_16_Sap_xep_khuyen_mai_HOT (Nguyễn Hữu Huy)</description>
+   <name>TC_DSSP_16_Sap_xep_khuyen_mai_HOT</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>939aa078-17fa-592a-8db1-41a6f3e9000a</testCaseGuid>
+</TestCaseEntity>

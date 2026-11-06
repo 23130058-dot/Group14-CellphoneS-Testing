@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DSSP_17_Giu_bo_loc_khi_doi_cach_sap_xep (Nguyễn Trần Xuân Đào)</description>
+   <name>TC_DSSP_17_Giu_bo_loc_khi_doi_cach_sap_xep</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4487d338-ba2b-5577-aabd-2123d0f683ba</testCaseGuid>
+</TestCaseEntity>

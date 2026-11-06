@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DSSP_02_GUI_bo_cuc_the_san_pham (Nguyễn Trần Xuân Đào)</description>
+   <name>TC_DSSP_02_GUI_bo_cuc_the_san_pham</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0c353f4d-b2e4-52b8-95bb-1cf5d59f28e3</testCaseGuid>
+</TestCaseEntity>

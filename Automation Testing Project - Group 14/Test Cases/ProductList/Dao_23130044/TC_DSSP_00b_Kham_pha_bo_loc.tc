@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DSSP_00b_Kham_pha_bo_loc (Nguyễn Trần Xuân Đào)</description>
+   <name>TC_DSSP_00b_Kham_pha_bo_loc</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8188cde0-58c8-508a-b1a5-2b2fdbb251d6</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SP15: Tìm kiếm khi chỉ nhập khoảng trắng</description>
+   <name>TC_Search_SP15</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d32d40d5-77e8-50f9-9303-3d8d0613eae2</testCaseGuid>
+</TestCaseEntity>

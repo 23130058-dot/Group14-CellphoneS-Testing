@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Dang nhap Smember (Le Thanh Truong)</description>
+   <name>TC_Login_Smember</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f53395a2-68af-530e-bd51-2aedb9a8ab44</testCaseGuid>
+</TestCaseEntity>

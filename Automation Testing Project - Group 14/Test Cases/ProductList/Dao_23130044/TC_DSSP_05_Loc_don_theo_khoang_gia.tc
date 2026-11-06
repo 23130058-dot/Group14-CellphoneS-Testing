@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DSSP_05_Loc_don_theo_khoang_gia (Nguyễn Trần Xuân Đào)</description>
+   <name>TC_DSSP_05_Loc_don_theo_khoang_gia</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b0ea5680-75fe-562d-be4a-fee4b1409127</testCaseGuid>
+</TestCaseEntity>

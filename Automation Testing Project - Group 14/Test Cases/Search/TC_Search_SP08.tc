@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SP08: Tìm kiếm với nhiều khoảng trắng giữa các từ</description>
+   <name>TC_Search_SP08</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d813c5bb-514c-53f1-81b5-e1f16875e538</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SP28: Tìm kiếm liên tiếp nhiều từ khóa khác nhau</description>
+   <name>TC_Search_SP28</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8881955c-3f18-5a55-ad7a-e6fc804b131b</testCaseGuid>
+</TestCaseEntity>

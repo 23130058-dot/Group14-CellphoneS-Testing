@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DSSP_10_Loc_ket_hop_hang_gia (Nguyễn Hữu Huy)</description>
+   <name>TC_DSSP_10_Loc_ket_hop_hang_gia</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>069e3bbc-6018-50be-aedc-f1b84e607e1c</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DSSP_00_Kiem_tra_moi_truong (Nguyễn Trần Xuân Đào)</description>
+   <name>TC_DSSP_00_Kiem_tra_moi_truong</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a0379fd9-920b-5827-a18c-4d79bcd39f72</testCaseGuid>
+</TestCaseEntity>

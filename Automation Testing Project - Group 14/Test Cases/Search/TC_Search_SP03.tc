@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SP03: Tìm kiếm theo tên hãng</description>
+   <name>TC_Search_SP03</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1635cad1-ddfa-5055-9f7c-06eb3608f662</testCaseGuid>
+</TestCaseEntity>

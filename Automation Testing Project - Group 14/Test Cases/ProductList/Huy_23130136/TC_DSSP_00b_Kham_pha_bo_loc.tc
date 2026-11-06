@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DSSP_00b_Kham_pha_bo_loc (Nguyễn Hữu Huy)</description>
+   <name>TC_DSSP_00b_Kham_pha_bo_loc</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1dabaaea-d266-51f8-b104-f0907b8351f5</testCaseGuid>
+</TestCaseEntity>

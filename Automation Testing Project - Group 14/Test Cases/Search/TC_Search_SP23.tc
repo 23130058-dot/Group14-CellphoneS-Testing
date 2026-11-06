@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SP23: Xem thêm kết quả (nút [Xem thêm] hoặc phân trang)</description>
+   <name>TC_Search_SP23</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>67de179c-70ea-5e2f-bc25-d24a34dfc4e1</testCaseGuid>
+</TestCaseEntity>

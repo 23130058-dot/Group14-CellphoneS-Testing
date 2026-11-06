@@ -153104,4 +153104,7 @@ TC_Search.run(TC_Search:69)
   <escapedJava>false</escapedJava>
 </record>
 
+</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
 </log>

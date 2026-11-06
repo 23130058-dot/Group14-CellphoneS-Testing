@@ -1,0 +1,178 @@
+2026-11-06 22:37:59.774 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Admin\.katalon\packages\KS-11.7.0\configuration\org.eclipse.osgi\166\0\.cp\resources\logback\logback-execution.xml
+2026-11-06 22:37:59.776 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: D:\Dam bao chat luong va kiem thu phan mem\Final_Project\Group14-CellphoneS-Testing\Automation Testing Project - Group 14\Include\config\log.properties
+2026-11-06 22:38:00.163 WARN  c.k.execution.application.ExecutionMain  - No AI service configuration provided, skipping AI service initialization
+2026-11-06 22:38:00.184 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_Cart
+2026-11-06 22:38:00.243 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Tú Nguyễn Thanh
+2026-11-06 22:38:00.244 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Automation Testing Project - Group 14
+2026-11-06 22:38:00.245 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Admin - Admin-PC
+2026-11-06 22:38:00.245 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-11-06 22:38:00.246 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 26.210.82.130
+2026-11-06 22:38:00.246 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.7.0
+2026-11-06 22:38:00.330 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-11-06 22:38:00.330 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Cart/Cart-01
+2026-11-06 22:38:00.553 DEBUG testcase.Cart-01                         - 1: CartKeywords.startBrowser()
+2026-11-06 22:38:00.742 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-06 22:38:00.754 WARN  c.k.k.core.webui.driver.DriverFactory    - The "Wait for network requests to finish" option is deprecated and can slow down execution. Smart Wait already waits for the target element to be ready.
+2026-11-06 22:38:00.772 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-06 22:38:01.680 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0327cbc8e28078665e5d3f0f993f20e1
+2026-11-06 22:38:01.681 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.80
+2026-11-06 22:38:01.682 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-11-06 22:38:01.682 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-06 22:38:01.686 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-06 22:38:04.597 DEBUG testcase.Cart-01                         - 2: try
+2026-11-06 22:38:04.602 DEBUG testcase.Cart-01                         - 1: CartKeywords.openProduct(PRODUCT_A_URL)
+2026-11-06 22:38:06.944 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ PASS: Trang chi tiết sản phẩm hiển thị nút [Thêm vào giỏ]
+2026-11-06 22:38:06.945 DEBUG testcase.Cart-01                         - 2: CartKeywords.checkEq(CartKeywords.getCartBadge(), 0, "Bước 2: Icon giỏ hàng hiển thị số 0")
+2026-11-06 22:38:09.345 DEBUG testcase.Cart-01                         - 3: Finally
+2026-11-06 22:38:09.346 DEBUG testcase.Cart-01                         - 1: CartKeywords.stopBrowser()
+2026-11-06 22:38:09.498 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Cart/Cart-01 FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: "2026300300180020970131312813128533710011301215154128322461253211704603121612241222324052092021131313131313121315290000159900001529000901530001282561349000013490000134900001529000015290000134900001500233012100410535003012137000300000021551105560045526110115689551028710833551341028710001322021112900001790000199000029900005389000054900005050000558931800016000025000020260005200008900001260005200005900002353750001490000169000012901500000419900024902650000241212115000011668100001112121150000131281361121215513156461131213113128202613131285053375324413302010495101495101495101543215768911222213128152900001221248284761572244673313128313128152900001012479233131281529000011131281499000011311312814990000613556131281529000015990000901529000180020977302200180020638002130102422181817171688851717124031617237235035202871089666"
+	at com.cellphones.cart.CartKeywords.getCartBadge(CartKeywords.groovy:264)
+	at Cart-01.run(Cart-01:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_1.run(S1106_1.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-11-06 22:38:09.502 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Cart/Cart-01 FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: "2026300300180020970131312813128533710011301215154128322461253211704603121612241222324052092021131313131313121315290000159900001529000901530001282561349000013490000134900001529000015290000134900001500233012100410535003012137000300000021551105560045526110115689551028710833551341028710001322021112900001790000199000029900005389000054900005050000558931800016000025000020260005200008900001260005200005900002353750001490000169000012901500000419900024902650000241212115000011668100001112121150000131281361121215513156461131213113128202613131285053375324413302010495101495101495101543215768911222213128152900001221248284761572244673313128313128152900001012479233131281529000011131281499000011311312814990000613556131281529000015990000901529000180020977302200180020638002130102422181817171688851717124031617237235035202871089666"
+	at com.cellphones.cart.CartKeywords.getCartBadge(CartKeywords.groovy:264)
+	at Cart-01.run(Cart-01:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_1.run(S1106_1.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-11-06 22:38:09.504 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Cart/Cart-01
+2026-11-06 22:38:09.508 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-11-06 22:38:09.508 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Cart/Cart-02
+2026-11-06 22:38:09.545 DEBUG testcase.Cart-02                         - 1: CartKeywords.startBrowser()
+2026-11-06 22:38:09.547 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-06 22:38:09.548 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-06 22:38:10.000 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9c7726ea67c264a32153e22e50cfec83
+2026-11-06 22:38:10.001 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.80
+2026-11-06 22:38:10.002 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-11-06 22:38:10.002 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-06 22:38:10.003 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-06 22:38:12.675 DEBUG testcase.Cart-02                         - 2: try
+2026-11-06 22:38:12.677 DEBUG testcase.Cart-02                         - 1: CartKeywords.openProduct(PRODUCT_A_URL)
+2026-11-06 22:38:15.394 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ PASS: Trang chi tiết sản phẩm hiển thị nút [Thêm vào giỏ]
+2026-11-06 22:38:15.395 DEBUG testcase.Cart-02                         - 2: CartKeywords.clickAddToCart()
+2026-11-06 22:38:18.991 DEBUG testcase.Cart-02                         - 3: CartKeywords.verifyLoginPopupDisplayed()
+2026-11-06 22:38:19.280 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ PASS: Popup yêu cầu đăng nhập hiển thị thông báo "Vui lòng đăng nhập tài khoản Smember..."
+2026-11-06 22:38:19.552 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ PASS: Popup hiển thị tiêu đề Smember
+2026-11-06 22:38:19.821 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ PASS: Popup hiển thị nút [Đăng ký]
+2026-11-06 22:38:20.080 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ PASS: Popup hiển thị nút [Đăng nhập]
+2026-11-06 22:38:20.080 DEBUG testcase.Cart-02                         - 4: CartKeywords.clickLoginOnRequiredPopup()
+2026-11-06 22:38:24.030 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ PASS: Form nhập SĐT/Mật khẩu xuất hiện sau khi bấm [Đăng nhập]
+2026-11-06 22:38:24.030 DEBUG testcase.Cart-02                         - 5: CartKeywords.submitLogin(PHONE, PASSWORD)
+2026-11-06 22:38:27.090 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ PASS: SĐT được điền vào ô input
+2026-11-06 22:38:27.656 DEBUG testcase.Cart-02                         - 6: CartKeywords.check(CartKeywords.isLoggedIn(), "Đăng nhập thành công")
+2026-11-06 22:38:34.040 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ PASS: Đăng nhập thành công
+2026-11-06 22:38:34.040 DEBUG testcase.Cart-02                         - 7: CartKeywords.verifyCurrentUrlIs(PRODUCT_A_URL)
+2026-11-06 22:38:34.080 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ PASS: Đang ở đúng trang | actual=https://cellphones.com.vn/iphone-13.html expected=https://cellphones.com.vn/iphone-13.html
+2026-11-06 22:38:34.080 DEBUG testcase.Cart-02                         - 3: Finally
+2026-11-06 22:38:34.090 DEBUG testcase.Cart-02                         - 1: CartKeywords.stopBrowser()
+2026-11-06 22:38:34.260 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Cart/Cart-02
+2026-11-06 22:38:34.260 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-11-06 22:38:34.260 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Cart/Cart-03
+2026-11-06 22:38:34.300 DEBUG testcase.Cart-03                         - 1: CartKeywords.startBrowser()
+2026-11-06 22:38:34.300 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-06 22:38:34.300 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-06 22:38:34.774 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = bb5cffb723309e3367efd4a8a0edbb39
+2026-11-06 22:38:34.775 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.80
+2026-11-06 22:38:34.775 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-11-06 22:38:34.775 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-06 22:38:34.776 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-06 22:38:37.410 DEBUG testcase.Cart-03                         - 2: try
+2026-11-06 22:38:37.410 DEBUG testcase.Cart-03                         - 1: CartKeywords.clickHeaderCart()
+2026-11-06 22:38:40.392 DEBUG testcase.Cart-03                         - 2: CartKeywords.verifyLoginPopupDisplayed()
+2026-11-06 22:38:57.530 ERROR com.kms.katalon.core.util.KeywordUtil    - ❌ FAIL: Popup yêu cầu đăng nhập hiển thị thông báo "Vui lòng đăng nhập tài khoản Smember..."
+2026-11-06 22:38:57.530 DEBUG testcase.Cart-03                         - 3: Finally
+2026-11-06 22:38:57.540 DEBUG testcase.Cart-03                         - 1: CartKeywords.stopBrowser()
+2026-11-06 22:38:57.708 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Cart/Cart-03 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: FAIL: Popup yêu cầu đăng nhập hiển thị thông báo "Vui lòng đăng nhập tài khoản Smember..."
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:31)
+	at com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:78)
+	at com.cellphones.cart.CartKeywords.verifyLoginPopupDisplayed(CartKeywords.groovy:175)
+	at Cart-03.run(Cart-03:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_1.run(S1106_1.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-11-06 22:38:57.710 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Cart/Cart-03
+2026-11-06 22:38:57.712 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-11-06 22:38:57.712 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Cart/Cart-04
+2026-11-06 22:38:57.756 DEBUG testcase.Cart-04                         - 1: CartKeywords.startBrowser()
+2026-11-06 22:38:57.757 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-06 22:38:57.758 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-06 22:38:58.220 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = e37963dd8a82bb6dde7b76c93d87e86d
+2026-11-06 22:38:58.220 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.80
+2026-11-06 22:38:58.221 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-11-06 22:38:58.221 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-06 22:38:58.221 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-06 22:39:00.899 DEBUG testcase.Cart-04                         - 2: try
+2026-11-06 22:39:00.899 DEBUG testcase.Cart-04                         - 1: CartKeywords.loginViaHeader()
+2026-11-06 22:39:09.052 INFO  com.kms.katalon.core.util.KeywordUtil    - Sau khi bấm Đăng nhập -> URL: https://smember.com.vn/login?action=login&client_id=cps&redirect_uri=https%3A%2F%2Fcellphones.com.vn%2F&response_type=authorization_code&state=CplA3Rd3uqpr9aP2qvSbP6sjaBOtZo3M7IksKStm | số tab: 1
+2026-11-06 22:39:10.139 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ PASS: Form nhập SĐT/Mật khẩu xuất hiện
+2026-11-06 22:39:13.289 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ PASS: SĐT được điền vào ô input
+2026-11-06 22:39:33.129 ERROR com.kms.katalon.core.util.KeywordUtil    - ❌ FAIL: Popup đăng nhập tự động đóng sau khi đăng nhập thành công
+2026-11-06 22:39:33.129 DEBUG testcase.Cart-04                         - 3: Finally
+2026-11-06 22:39:33.129 DEBUG testcase.Cart-04                         - 1: CartKeywords.stopBrowser()
+2026-11-06 22:39:33.293 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Cart/Cart-04 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: FAIL: Popup đăng nhập tự động đóng sau khi đăng nhập thành công
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:31)
+	at com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:78)
+	at com.cellphones.cart.CartKeywords.waitLoginPopupClosed(CartKeywords.groovy:201)
+	at com.cellphones.cart.CartKeywords.loginViaHeader(CartKeywords.groovy:210)
+	at Cart-04.run(Cart-04:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_1.run(S1106_1.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-11-06 22:39:33.294 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Cart/Cart-04
+2026-11-06 22:39:33.311 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-11-06 22:39:33.311 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS_Cart
+2026-11-06 22:39:33.311 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

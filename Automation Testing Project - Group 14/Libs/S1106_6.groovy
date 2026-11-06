@@ -18,9 +18,9 @@ Map<String, String> suiteProperties = new HashMap<String, String>();
 
 suiteProperties.put('rerunTestFailImmediately', 'false')
 suiteProperties.put('retryCount', '0')
-suiteProperties.put('name', 'TS_Search')
-suiteProperties.put('description', 'Tim kiem san pham - Van Vo Chi Dat')
-suiteProperties.put('id', 'Test Suites/TS_Search')
+suiteProperties.put('name', 'TS_Cart')
+suiteProperties.put('description', '')
+suiteProperties.put('id', 'Test Suites/TS_Cart')
  
 
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.webui.contribution.WebUiDriverCleaner())
@@ -32,10 +32,10 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.t
 
 
 
-RunConfiguration.setExecutionSettingFile("D:\\New folder (2)\\Automation Testing Project - Group 14\\Reports\\20261106_191610\\TS_Search\\20261106_191612\\execution.properties")
+RunConfiguration.setExecutionSettingFile("D:\\Dam bao chat luong va kiem thu phan mem\\Final_Project\\Group14-CellphoneS-Testing\\Automation Testing Project - Group 14\\Reports\\20261106_231409\\TS_Cart\\20261106_231409\\execution.properties")
 
 TestCaseMain.beforeStart()
 
 new ExecutionMain().init();
 
-TestCaseMain.startTestSuite('Test Suites/TS_Search', suiteProperties, new File("D:\\New folder (2)\\Automation Testing Project - Group 14\\Reports\\20261106_191610\\TS_Search\\20261106_191612\\testCaseBinding"))
+TestCaseMain.startTestSuite('Test Suites/TS_Cart', suiteProperties, new File("D:\\Dam bao chat luong va kiem thu phan mem\\Final_Project\\Group14-CellphoneS-Testing\\Automation Testing Project - Group 14\\Reports\\20261106_231409\\TS_Cart\\20261106_231409\\testCaseBinding"))

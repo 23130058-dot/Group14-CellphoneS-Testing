@@ -4,8 +4,10 @@
    <name>Automation Testing Project - Group 14</name>
    <tag></tag>
    <UUID>a2cd737b-a8b5-5a64-8452-b6646e3cf47d</UUID>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedVersion>11.7.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <sourceContent>
       <sourceFolderList>

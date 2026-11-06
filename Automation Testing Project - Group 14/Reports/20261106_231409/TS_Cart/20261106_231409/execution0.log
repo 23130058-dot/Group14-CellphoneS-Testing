@@ -1,0 +1,4325 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-11-06T16:14:12.556097100Z</date>
+  <millis>1793981652556</millis>
+  <nanos>97100</nanos>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/TS_Cart</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">false</property>
+  <property name="retryCount">0</property>
+  <property name="name">TS_Cart</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/TS_Cart</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:12.573738100Z</date>
+  <millis>1793981652573</millis>
+  <nanos>738100</nanos>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>userFullName = Tú Nguyễn Thanh</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="userFullName">Tú Nguyễn Thanh</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:12.574738600Z</date>
+  <millis>1793981652574</millis>
+  <nanos>738600</nanos>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>projectName = Automation Testing Project - Group 14</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="projectName">Automation Testing Project - Group 14</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:12.575739600Z</date>
+  <millis>1793981652575</millis>
+  <nanos>739600</nanos>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Admin - Admin-PC</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">Admin - Admin-PC</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:12.576737900Z</date>
+  <millis>1793981652576</millis>
+  <nanos>737900</nanos>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 11 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 11 64bit</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:12.577741100Z</date>
+  <millis>1793981652577</millis>
+  <nanos>741100</nanos>
+  <sequence>5</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 26.210.82.130</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">26.210.82.130</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:12.578248500Z</date>
+  <millis>1793981652578</millis>
+  <nanos>248500</nanos>
+  <sequence>6</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 11.7.0</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">11.7.0</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:12.678943500Z</date>
+  <millis>1793981652678</millis>
+  <nanos>943500</nanos>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Cart/Cart-01</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/Cart/Cart-01</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Cart/Cart-01</property>
+  <property name="source">D:\Dam bao chat luong va kiem thu phan mem\Final_Project\Group14-CellphoneS-Testing\Automation Testing Project - Group 14\Test Cases\Cart\Cart-01.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="uuid">35093495-f1d5-4d35-a03e-31523f7b0291</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:12.719044300Z</date>
+  <millis>1793981652719</millis>
+  <nanos>44300</nanos>
+  <sequence>9</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>executionBindingVariables = []</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:12.965660600Z</date>
+  <millis>1793981652965</millis>
+  <nanos>660600</nanos>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : CartKeywords.startBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">14</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:13.230850900Z</date>
+  <millis>1793981653230</millis>
+  <nanos>850900</nanos>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:13.245363800Z</date>
+  <millis>1793981653245</millis>
+  <nanos>363800</nanos>
+  <sequence>14</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>The &amp;quot;Wait for network requests to finish&amp;quot; option is deprecated and can slow down execution. Smart Wait already waits for the target element to be ready.</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:13.267576900Z</date>
+  <millis>1793981653267</millis>
+  <nanos>576900</nanos>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:14.424948400Z</date>
+  <millis>1793981654424</millis>
+  <nanos>948400</nanos>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 329119827917b5e85f197f6c252f7e05</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="sessionId">329119827917b5e85f197f6c252f7e05</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:14.425947200Z</date>
+  <millis>1793981654425</millis>
+  <nanos>947200</nanos>
+  <sequence>18</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 156.0.8078.80</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="browser">Chrome 156.0.8078.80</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:14.425947200Z</date>
+  <millis>1793981654425</millis>
+  <nanos>947200</nanos>
+  <sequence>19</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 11</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="platform">Windows 11</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:14.427457800Z</date>
+  <millis>1793981654427</millis>
+  <nanos>457800</nanos>
+  <sequence>20</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 4.46.0</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="seleniumVersion">4.46.0</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:14.430469300Z</date>
+  <millis>1793981654430</millis>
+  <nanos>469300</nanos>
+  <sequence>21</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&amp;quot;&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:14.458605100Z</date>
+  <millis>1793981654458</millis>
+  <nanos>605100</nanos>
+  <sequence>22</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:14:14.504489800Z</date>
+  <millis>1793981654504</millis>
+  <nanos>489800</nanos>
+  <sequence>25</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:14:15.124470600Z</date>
+  <millis>1793981655124</millis>
+  <nanos>470600</nanos>
+  <sequence>29</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://cellphones.com.vn&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:14:15.325537600Z</date>
+  <millis>1793981655325</millis>
+  <nanos>537600</nanos>
+  <sequence>33</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$_waitForPageLoad_closure1.doCall(WaitForPageLoadKeyword.groovy:94)
+com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$_waitForPageLoad_closure1.doCall(WaitForPageLoadKeyword.groovy)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword.waitForPageLoad(WaitForPageLoadKeyword.groovy:95)
+com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword.execute(WaitForPageLoadKeyword.groovy:68)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForPageLoad(WebUiBuiltInKeywords.groovy:2559)
+com.cellphones.cart.CartKeywords.startBrowser(CartKeywords.groovy:103)
+Cart-01.run(Cart-01:14)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:17.354437Z</date>
+  <millis>1793981657354</millis>
+  <nanos>437000</nanos>
+  <sequence>36</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:14:17.355436200Z</date>
+  <millis>1793981657355</millis>
+  <nanos>436200</nanos>
+  <sequence>37</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : CartKeywords.startBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:17.356435100Z</date>
+  <millis>1793981657356</millis>
+  <nanos>435100</nanos>
+  <sequence>38</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : try</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">15</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:17.357435700Z</date>
+  <millis>1793981657357</millis>
+  <nanos>435700</nanos>
+  <sequence>39</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : CartKeywords.openProduct(PRODUCT_A_URL)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:20.837426300Z</date>
+  <millis>1793981660837</millis>
+  <nanos>426300</nanos>
+  <sequence>43</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://cellphones.com.vn/iphone-13.html&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:14:20.846533600Z</date>
+  <millis>1793981660846</millis>
+  <nanos>533600</nanos>
+  <sequence>47</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$_waitForPageLoad_closure1.doCall(WaitForPageLoadKeyword.groovy:94)
+com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$_waitForPageLoad_closure1.doCall(WaitForPageLoadKeyword.groovy)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword.waitForPageLoad(WaitForPageLoadKeyword.groovy:95)
+com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword.execute(WaitForPageLoadKeyword.groovy:68)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForPageLoad(WebUiBuiltInKeywords.groovy:2559)
+com.cellphones.cart.CartKeywords.openProduct(CartKeywords.groovy:280)
+Cart-01.run(Cart-01:16)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:21.434174Z</date>
+  <millis>1793981661434</millis>
+  <nanos>174000</nanos>
+  <sequence>49</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>PASS: Trang chi tiết sản phẩm hiển thị nút [Thêm vào giỏ]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.util.KeywordUtil.markPassed(KeywordUtil.java:58)
+com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:77)
+com.cellphones.cart.CartKeywords.openProduct(CartKeywords.groovy:281)
+Cart-01.run(Cart-01:16)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:21.436172400Z</date>
+  <millis>1793981661436</millis>
+  <nanos>172400</nanos>
+  <sequence>50</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : CartKeywords.openProduct(PRODUCT_A_URL)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:21.436172400Z</date>
+  <millis>1793981661436</millis>
+  <nanos>172400</nanos>
+  <sequence>51</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : CartKeywords.checkEq(CartKeywords.getCartBadge(), 0, &amp;quot;Bước 2: Icon giỏ hàng hiển thị số 0&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">17</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:23.668378400Z</date>
+  <millis>1793981663668</millis>
+  <nanos>378400</nanos>
+  <sequence>53</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>PASS: Bước 2: Icon giỏ hàng hiển thị số 0 | actual=[0] expected=[0]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.util.KeywordUtil.markPassed(KeywordUtil.java:58)
+com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:77)
+com.cellphones.cart.CartKeywords.checkEq(CartKeywords.groovy:82)
+Cart-01.run(Cart-01:17)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:23.669377Z</date>
+  <millis>1793981663669</millis>
+  <nanos>377000</nanos>
+  <sequence>54</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : CartKeywords.checkEq(CartKeywords.getCartBadge(), 0, &amp;quot;Bước 2: Icon giỏ hàng hiển thị số 0&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:23.670375300Z</date>
+  <millis>1793981663670</millis>
+  <nanos>375300</nanos>
+  <sequence>55</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : CartKeywords.clickAddToCart()</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">18</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:24.073533100Z</date>
+  <millis>1793981664073</millis>
+  <nanos>533100</nanos>
+  <sequence>61</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;dyn&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword$_waitForElementClickable_closure1.doCall(WaitForElementClickableKeyword.groovy:59)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+jdk.proxy2/jdk.proxy2.$Proxy53.execute(Unknown Source)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.doCall(WebUIKeywordMain.groovy:155)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.call(WebUIKeywordMain.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:152)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeywordUntilTimeout$0.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:76)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:42)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:581)
+com.cellphones.cart.CartKeywords.click(CartKeywords.groovy:67)
+com.cellphones.cart.CartKeywords.clickAddToCart(CartKeywords.groovy:292)
+Cart-01.run(Cart-01:18)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:25.096601100Z</date>
+  <millis>1793981665096</millis>
+  <nanos>601100</nanos>
+  <sequence>71</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;dyn&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+jdk.proxy2/jdk.proxy2.$Proxy53.execute(Unknown Source)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:722)
+com.cellphones.cart.CartKeywords.click(CartKeywords.groovy:68)
+com.cellphones.cart.CartKeywords.clickAddToCart(CartKeywords.groovy:292)
+Cart-01.run(Cart-01:18)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:27.107258Z</date>
+  <millis>1793981667107</millis>
+  <nanos>258000</nanos>
+  <sequence>74</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:14:27.108566600Z</date>
+  <millis>1793981667108</millis>
+  <nanos>566600</nanos>
+  <sequence>75</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : CartKeywords.clickAddToCart()</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:27.109563800Z</date>
+  <millis>1793981667109</millis>
+  <nanos>563800</nanos>
+  <sequence>76</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : CartKeywords.verifyLoginPopupDisplayed()</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">19</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:27.488407200Z</date>
+  <millis>1793981667488</millis>
+  <nanos>407200</nanos>
+  <sequence>78</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>PASS: Popup yêu cầu đăng nhập hiển thị thông báo &amp;quot;Vui lòng đăng nhập tài khoản Smember...&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.util.KeywordUtil.markPassed(KeywordUtil.java:58)
+com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:77)
+com.cellphones.cart.CartKeywords.verifyLoginPopupDisplayed(CartKeywords.groovy:175)
+Cart-01.run(Cart-01:19)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:27.779569900Z</date>
+  <millis>1793981667779</millis>
+  <nanos>569900</nanos>
+  <sequence>80</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>PASS: Popup hiển thị tiêu đề Smember</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.util.KeywordUtil.markPassed(KeywordUtil.java:58)
+com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:77)
+com.cellphones.cart.CartKeywords.verifyLoginPopupDisplayed(CartKeywords.groovy:176)
+Cart-01.run(Cart-01:19)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:28.055303500Z</date>
+  <millis>1793981668055</millis>
+  <nanos>303500</nanos>
+  <sequence>82</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>PASS: Popup hiển thị nút [Đăng ký]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.util.KeywordUtil.markPassed(KeywordUtil.java:58)
+com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:77)
+com.cellphones.cart.CartKeywords.verifyLoginPopupDisplayed(CartKeywords.groovy:177)
+Cart-01.run(Cart-01:19)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:28.524795700Z</date>
+  <millis>1793981668524</millis>
+  <nanos>795700</nanos>
+  <sequence>84</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>PASS: Popup hiển thị nút [Đăng nhập]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.util.KeywordUtil.markPassed(KeywordUtil.java:58)
+com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:77)
+com.cellphones.cart.CartKeywords.verifyLoginPopupDisplayed(CartKeywords.groovy:178)
+Cart-01.run(Cart-01:19)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:28.525795100Z</date>
+  <millis>1793981668525</millis>
+  <nanos>795100</nanos>
+  <sequence>85</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : CartKeywords.verifyLoginPopupDisplayed()</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:28.525795100Z</date>
+  <millis>1793981668525</millis>
+  <nanos>795100</nanos>
+  <sequence>86</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : CartKeywords.checkEq(CartKeywords.getCartBadge(), 0, &amp;quot;Bước 3: Số trên icon giỏ hàng vẫn là 0&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:29.505746600Z</date>
+  <millis>1793981669505</millis>
+  <nanos>746600</nanos>
+  <sequence>88</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>PASS: Bước 3: Số trên icon giỏ hàng vẫn là 0 | actual=[0] expected=[0]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.util.KeywordUtil.markPassed(KeywordUtil.java:58)
+com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:77)
+com.cellphones.cart.CartKeywords.checkEq(CartKeywords.groovy:82)
+Cart-01.run(Cart-01:20)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:29.505746600Z</date>
+  <millis>1793981669505</millis>
+  <nanos>746600</nanos>
+  <sequence>89</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : CartKeywords.checkEq(CartKeywords.getCartBadge(), 0, &amp;quot;Bước 3: Số trên icon giỏ hàng vẫn là 0&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:29.507253800Z</date>
+  <millis>1793981669507</millis>
+  <nanos>253800</nanos>
+  <sequence>90</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : try</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:29.507253800Z</date>
+  <millis>1793981669507</millis>
+  <nanos>253800</nanos>
+  <sequence>91</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Finally</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:29.508260500Z</date>
+  <millis>1793981669508</millis>
+  <nanos>260500</nanos>
+  <sequence>92</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : CartKeywords.stopBrowser()</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:29.680665700Z</date>
+  <millis>1793981669680</millis>
+  <nanos>665700</nanos>
+  <sequence>95</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:14:29.681666700Z</date>
+  <millis>1793981669681</millis>
+  <nanos>666700</nanos>
+  <sequence>96</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : CartKeywords.stopBrowser()</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:29.681666700Z</date>
+  <millis>1793981669681</millis>
+  <nanos>666700</nanos>
+  <sequence>97</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Finally</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:29.681666700Z</date>
+  <millis>1793981669681</millis>
+  <nanos>666700</nanos>
+  <sequence>98</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Cart/Cart-01</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:29.682668500Z</date>
+  <millis>1793981669682</millis>
+  <nanos>668500</nanos>
+  <sequence>99</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Cart/Cart-01</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{
+  &quot;WebUI.closeBrowser&quot;: 1,
+  &quot;WebUI.maximizeWindow&quot;: 1,
+  &quot;WebUI.click&quot;: 1,
+  &quot;WebUI.waitForPageLoad&quot;: 2,
+  &quot;WebUI.navigateToUrl&quot;: 2,
+  &quot;WebUI.openBrowser&quot;: 1,
+  &quot;BuiltIn.delay&quot;: 2,
+  &quot;WebUI.waitForElementClickable&quot;: 1
+}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: true,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: true,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:29.687666900Z</date>
+  <millis>1793981669687</millis>
+  <nanos>666900</nanos>
+  <sequence>100</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Cart/Cart-02</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/Cart/Cart-02</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Cart/Cart-02</property>
+  <property name="source">D:\Dam bao chat luong va kiem thu phan mem\Final_Project\Group14-CellphoneS-Testing\Automation Testing Project - Group 14\Test Cases\Cart\Cart-02.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="uuid">77801f28-a0bd-4840-9d02-b4447543a718</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:29.697256200Z</date>
+  <millis>1793981669697</millis>
+  <nanos>256200</nanos>
+  <sequence>102</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>executionBindingVariables = []</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:29.747444700Z</date>
+  <millis>1793981669747</millis>
+  <nanos>444700</nanos>
+  <sequence>103</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : CartKeywords.startBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">14</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:29.749650100Z</date>
+  <millis>1793981669749</millis>
+  <nanos>650100</nanos>
+  <sequence>106</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:29.750648Z</date>
+  <millis>1793981669750</millis>
+  <nanos>648000</nanos>
+  <sequence>107</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:30.306693800Z</date>
+  <millis>1793981670306</millis>
+  <nanos>693800</nanos>
+  <sequence>109</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 07c0aa76e9ab5626137a376cf6104aa3</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="sessionId">07c0aa76e9ab5626137a376cf6104aa3</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:30.307690700Z</date>
+  <millis>1793981670307</millis>
+  <nanos>690700</nanos>
+  <sequence>110</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 156.0.8078.80</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="browser">Chrome 156.0.8078.80</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:30.308200100Z</date>
+  <millis>1793981670308</millis>
+  <nanos>200100</nanos>
+  <sequence>111</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 11</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="platform">Windows 11</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:30.308200100Z</date>
+  <millis>1793981670308</millis>
+  <nanos>200100</nanos>
+  <sequence>112</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 4.46.0</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="seleniumVersion">4.46.0</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:30.309206700Z</date>
+  <millis>1793981670309</millis>
+  <nanos>206700</nanos>
+  <sequence>113</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&amp;quot;&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:30.321726600Z</date>
+  <millis>1793981670321</millis>
+  <nanos>726600</nanos>
+  <sequence>114</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:14:30.350779400Z</date>
+  <millis>1793981670350</millis>
+  <nanos>779400</nanos>
+  <sequence>117</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:14:30.979774Z</date>
+  <millis>1793981670979</millis>
+  <nanos>774000</nanos>
+  <sequence>121</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://cellphones.com.vn&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:14:31.028856900Z</date>
+  <millis>1793981671028</millis>
+  <nanos>856900</nanos>
+  <sequence>125</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$_waitForPageLoad_closure1.doCall(WaitForPageLoadKeyword.groovy:94)
+com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$_waitForPageLoad_closure1.doCall(WaitForPageLoadKeyword.groovy)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword.waitForPageLoad(WaitForPageLoadKeyword.groovy:95)
+com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword.execute(WaitForPageLoadKeyword.groovy:68)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForPageLoad(WebUiBuiltInKeywords.groovy:2559)
+com.cellphones.cart.CartKeywords.startBrowser(CartKeywords.groovy:103)
+Cart-02.run(Cart-02:14)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:33.036547600Z</date>
+  <millis>1793981673036</millis>
+  <nanos>547600</nanos>
+  <sequence>128</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:14:33.037547Z</date>
+  <millis>1793981673037</millis>
+  <nanos>547000</nanos>
+  <sequence>129</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : CartKeywords.startBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:33.037547Z</date>
+  <millis>1793981673037</millis>
+  <nanos>547000</nanos>
+  <sequence>130</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : try</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">15</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:33.039000300Z</date>
+  <millis>1793981673039</millis>
+  <nanos>300</nanos>
+  <sequence>131</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : CartKeywords.openProduct(PRODUCT_A_URL)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:34.771357900Z</date>
+  <millis>1793981674771</millis>
+  <nanos>357900</nanos>
+  <sequence>135</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://cellphones.com.vn/iphone-13.html&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:14:34.792666200Z</date>
+  <millis>1793981674792</millis>
+  <nanos>666200</nanos>
+  <sequence>139</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$_waitForPageLoad_closure1.doCall(WaitForPageLoadKeyword.groovy:94)
+com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$_waitForPageLoad_closure1.doCall(WaitForPageLoadKeyword.groovy)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword.waitForPageLoad(WaitForPageLoadKeyword.groovy:95)
+com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword.execute(WaitForPageLoadKeyword.groovy:68)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForPageLoad(WebUiBuiltInKeywords.groovy:2559)
+com.cellphones.cart.CartKeywords.openProduct(CartKeywords.groovy:280)
+Cart-02.run(Cart-02:16)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:35.570724700Z</date>
+  <millis>1793981675570</millis>
+  <nanos>724700</nanos>
+  <sequence>141</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>PASS: Trang chi tiết sản phẩm hiển thị nút [Thêm vào giỏ]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.util.KeywordUtil.markPassed(KeywordUtil.java:58)
+com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:77)
+com.cellphones.cart.CartKeywords.openProduct(CartKeywords.groovy:281)
+Cart-02.run(Cart-02:16)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:35.572726Z</date>
+  <millis>1793981675572</millis>
+  <nanos>726000</nanos>
+  <sequence>142</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : CartKeywords.openProduct(PRODUCT_A_URL)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:35.572726Z</date>
+  <millis>1793981675572</millis>
+  <nanos>726000</nanos>
+  <sequence>143</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : CartKeywords.clickAddToCart()</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">17</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:35.929372600Z</date>
+  <millis>1793981675929</millis>
+  <nanos>372600</nanos>
+  <sequence>149</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;dyn&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword$_waitForElementClickable_closure1.doCall(WaitForElementClickableKeyword.groovy:59)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+jdk.proxy2/jdk.proxy2.$Proxy53.execute(Unknown Source)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.doCall(WebUIKeywordMain.groovy:155)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.call(WebUIKeywordMain.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:152)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeywordUntilTimeout$0.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:76)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:42)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:581)
+com.cellphones.cart.CartKeywords.click(CartKeywords.groovy:67)
+com.cellphones.cart.CartKeywords.clickAddToCart(CartKeywords.groovy:292)
+Cart-02.run(Cart-02:17)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:37.393381100Z</date>
+  <millis>1793981677393</millis>
+  <nanos>381100</nanos>
+  <sequence>159</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;dyn&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+jdk.proxy2/jdk.proxy2.$Proxy53.execute(Unknown Source)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:722)
+com.cellphones.cart.CartKeywords.click(CartKeywords.groovy:68)
+com.cellphones.cart.CartKeywords.clickAddToCart(CartKeywords.groovy:292)
+Cart-02.run(Cart-02:17)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:39.404663500Z</date>
+  <millis>1793981679404</millis>
+  <nanos>663500</nanos>
+  <sequence>162</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:14:39.406656600Z</date>
+  <millis>1793981679406</millis>
+  <nanos>656600</nanos>
+  <sequence>163</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : CartKeywords.clickAddToCart()</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:39.406656600Z</date>
+  <millis>1793981679406</millis>
+  <nanos>656600</nanos>
+  <sequence>164</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : CartKeywords.verifyLoginPopupDisplayed()</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">18</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:39.675481100Z</date>
+  <millis>1793981679675</millis>
+  <nanos>481100</nanos>
+  <sequence>166</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>PASS: Popup yêu cầu đăng nhập hiển thị thông báo &amp;quot;Vui lòng đăng nhập tài khoản Smember...&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.util.KeywordUtil.markPassed(KeywordUtil.java:58)
+com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:77)
+com.cellphones.cart.CartKeywords.verifyLoginPopupDisplayed(CartKeywords.groovy:175)
+Cart-02.run(Cart-02:18)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:39.948457600Z</date>
+  <millis>1793981679948</millis>
+  <nanos>457600</nanos>
+  <sequence>168</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>PASS: Popup hiển thị tiêu đề Smember</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.util.KeywordUtil.markPassed(KeywordUtil.java:58)
+com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:77)
+com.cellphones.cart.CartKeywords.verifyLoginPopupDisplayed(CartKeywords.groovy:176)
+Cart-02.run(Cart-02:18)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:40.228671100Z</date>
+  <millis>1793981680228</millis>
+  <nanos>671100</nanos>
+  <sequence>170</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>PASS: Popup hiển thị nút [Đăng ký]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.util.KeywordUtil.markPassed(KeywordUtil.java:58)
+com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:77)
+com.cellphones.cart.CartKeywords.verifyLoginPopupDisplayed(CartKeywords.groovy:177)
+Cart-02.run(Cart-02:18)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:40.515459500Z</date>
+  <millis>1793981680515</millis>
+  <nanos>459500</nanos>
+  <sequence>172</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>PASS: Popup hiển thị nút [Đăng nhập]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.util.KeywordUtil.markPassed(KeywordUtil.java:58)
+com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:77)
+com.cellphones.cart.CartKeywords.verifyLoginPopupDisplayed(CartKeywords.groovy:178)
+Cart-02.run(Cart-02:18)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:40.516461100Z</date>
+  <millis>1793981680516</millis>
+  <nanos>461100</nanos>
+  <sequence>173</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : CartKeywords.verifyLoginPopupDisplayed()</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:40.517458700Z</date>
+  <millis>1793981680517</millis>
+  <nanos>458700</nanos>
+  <sequence>174</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : CartKeywords.clickLoginOnRequiredPopup()</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">19</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:40.797706100Z</date>
+  <millis>1793981680797</millis>
+  <nanos>706100</nanos>
+  <sequence>180</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;dyn&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword$_waitForElementClickable_closure1.doCall(WaitForElementClickableKeyword.groovy:59)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+jdk.proxy2/jdk.proxy2.$Proxy53.execute(Unknown Source)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.doCall(WebUIKeywordMain.groovy:155)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.call(WebUIKeywordMain.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:152)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeywordUntilTimeout$0.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:76)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:42)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:581)
+com.cellphones.cart.CartKeywords.click(CartKeywords.groovy:67)
+com.cellphones.cart.CartKeywords.clickLoginOnRequiredPopup(CartKeywords.groovy:183)
+Cart-02.run(Cart-02:19)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:41.486285900Z</date>
+  <millis>1793981681486</millis>
+  <nanos>285900</nanos>
+  <sequence>190</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;dyn&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+jdk.proxy2/jdk.proxy2.$Proxy53.execute(Unknown Source)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:722)
+com.cellphones.cart.CartKeywords.click(CartKeywords.groovy:68)
+com.cellphones.cart.CartKeywords.clickLoginOnRequiredPopup(CartKeywords.groovy:183)
+Cart-02.run(Cart-02:19)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:42.495571Z</date>
+  <millis>1793981682495</millis>
+  <nanos>571000</nanos>
+  <sequence>193</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:14:44.318311Z</date>
+  <millis>1793981684318</millis>
+  <nanos>311000</nanos>
+  <sequence>195</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>PASS: Form nhập SĐT/Mật khẩu xuất hiện sau khi bấm [Đăng nhập]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.util.KeywordUtil.markPassed(KeywordUtil.java:58)
+com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:77)
+com.cellphones.cart.CartKeywords.clickLoginOnRequiredPopup(CartKeywords.groovy:185)
+Cart-02.run(Cart-02:19)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:44.319312Z</date>
+  <millis>1793981684319</millis>
+  <nanos>312000</nanos>
+  <sequence>196</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : CartKeywords.clickLoginOnRequiredPopup()</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:44.319312Z</date>
+  <millis>1793981684319</millis>
+  <nanos>312000</nanos>
+  <sequence>197</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : CartKeywords.submitLogin(PHONE, PASSWORD)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:45.262211300Z</date>
+  <millis>1793981685262</millis>
+  <nanos>211300</nanos>
+  <sequence>210</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;0337426240&amp;apos; is set on object &amp;apos;dyn&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:99)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+jdk.proxy2/jdk.proxy2.$Proxy53.execute(Unknown Source)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1082)
+com.cellphones.cart.CartKeywords.submitLogin(CartKeywords.groovy:189)
+Cart-02.run(Cart-02:20)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:46.372694800Z</date>
+  <millis>1793981686372</millis>
+  <nanos>694800</nanos>
+  <sequence>223</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Taikhoancellphonesmember123@&amp;apos; is set on object &amp;apos;dyn&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:99)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+jdk.proxy2/jdk.proxy2.$Proxy53.execute(Unknown Source)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1082)
+com.cellphones.cart.CartKeywords.submitLogin(CartKeywords.groovy:190)
+Cart-02.run(Cart-02:20)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:46.737422100Z</date>
+  <millis>1793981686737</millis>
+  <nanos>422100</nanos>
+  <sequence>233</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Attribute &amp;apos;value&amp;apos; of object &amp;apos;dyn&amp;apos; is: &amp;apos;0337426240&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.doCall(GetAttributeKeyword.groovy:59)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+jdk.proxy2/jdk.proxy2.$Proxy53.execute(Unknown Source)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.getAttribute(GetAttributeKeyword.groovy:66)
+com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.execute(GetAttributeKeyword.groovy:37)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(WebUiBuiltInKeywords.groovy:1053)
+com.cellphones.cart.CartKeywords.submitLogin(CartKeywords.groovy:191)
+Cart-02.run(Cart-02:20)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:46.739427300Z</date>
+  <millis>1793981686739</millis>
+  <nanos>427300</nanos>
+  <sequence>235</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>PASS: SĐT được điền vào ô input</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.util.KeywordUtil.markPassed(KeywordUtil.java:58)
+com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:77)
+com.cellphones.cart.CartKeywords.submitLogin(CartKeywords.groovy:191)
+Cart-02.run(Cart-02:20)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:46.985769800Z</date>
+  <millis>1793981686985</millis>
+  <nanos>769800</nanos>
+  <sequence>241</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;dyn&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword$_waitForElementClickable_closure1.doCall(WaitForElementClickableKeyword.groovy:59)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+jdk.proxy2/jdk.proxy2.$Proxy53.execute(Unknown Source)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.doCall(WebUIKeywordMain.groovy:155)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.call(WebUIKeywordMain.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:152)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeywordUntilTimeout$0.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:76)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:42)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:581)
+com.cellphones.cart.CartKeywords.click(CartKeywords.groovy:67)
+com.cellphones.cart.CartKeywords.submitLogin(CartKeywords.groovy:192)
+Cart-02.run(Cart-02:20)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:47.297456500Z</date>
+  <millis>1793981687297</millis>
+  <nanos>456500</nanos>
+  <sequence>251</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;dyn&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+jdk.proxy2/jdk.proxy2.$Proxy53.execute(Unknown Source)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:722)
+com.cellphones.cart.CartKeywords.click(CartKeywords.groovy:68)
+com.cellphones.cart.CartKeywords.submitLogin(CartKeywords.groovy:192)
+Cart-02.run(Cart-02:20)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:47.298552500Z</date>
+  <millis>1793981687298</millis>
+  <nanos>552500</nanos>
+  <sequence>252</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : CartKeywords.submitLogin(PHONE, PASSWORD)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:47.299549500Z</date>
+  <millis>1793981687299</millis>
+  <nanos>549500</nanos>
+  <sequence>253</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : CartKeywords.check(CartKeywords.isLoggedIn(), &amp;quot;Đăng nhập thành công&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">21</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:52.175021700Z</date>
+  <millis>1793981692175</millis>
+  <nanos>21700</nanos>
+  <sequence>255</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>PASS: Đăng nhập thành công</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.util.KeywordUtil.markPassed(KeywordUtil.java:58)
+com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:77)
+Cart-02.run(Cart-02:21)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:52.176024400Z</date>
+  <millis>1793981692176</millis>
+  <nanos>24400</nanos>
+  <sequence>256</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : CartKeywords.check(CartKeywords.isLoggedIn(), &amp;quot;Đăng nhập thành công&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:52.176024400Z</date>
+  <millis>1793981692176</millis>
+  <nanos>24400</nanos>
+  <sequence>257</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : CartKeywords.verifyCurrentUrlIs(PRODUCT_A_URL)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">22</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:52.194051900Z</date>
+  <millis>1793981692194</millis>
+  <nanos>51900</nanos>
+  <sequence>259</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>PASS: Đang ở đúng trang | actual=https://cellphones.com.vn/iphone-13.html expected=https://cellphones.com.vn/iphone-13.html</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.util.KeywordUtil.markPassed(KeywordUtil.java:58)
+com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:77)
+com.cellphones.cart.CartKeywords.verifyCurrentUrlIs(CartKeywords.groovy:144)
+Cart-02.run(Cart-02:22)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:52.195051300Z</date>
+  <millis>1793981692195</millis>
+  <nanos>51300</nanos>
+  <sequence>260</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : CartKeywords.verifyCurrentUrlIs(PRODUCT_A_URL)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:52.196050900Z</date>
+  <millis>1793981692196</millis>
+  <nanos>50900</nanos>
+  <sequence>261</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : try</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:52.196050900Z</date>
+  <millis>1793981692196</millis>
+  <nanos>50900</nanos>
+  <sequence>262</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Finally</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">23</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:52.196050900Z</date>
+  <millis>1793981692196</millis>
+  <nanos>50900</nanos>
+  <sequence>263</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : CartKeywords.stopBrowser()</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">24</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:52.403520300Z</date>
+  <millis>1793981692403</millis>
+  <nanos>520300</nanos>
+  <sequence>266</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:14:52.404520800Z</date>
+  <millis>1793981692404</millis>
+  <nanos>520800</nanos>
+  <sequence>267</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : CartKeywords.stopBrowser()</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:52.404520800Z</date>
+  <millis>1793981692404</millis>
+  <nanos>520800</nanos>
+  <sequence>268</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Finally</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:52.404520800Z</date>
+  <millis>1793981692404</millis>
+  <nanos>520800</nanos>
+  <sequence>269</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Cart/Cart-02</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:52.405522200Z</date>
+  <millis>1793981692405</millis>
+  <nanos>522200</nanos>
+  <sequence>270</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Cart/Cart-02</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{
+  &quot;WebUI.closeBrowser&quot;: 1,
+  &quot;WebUI.maximizeWindow&quot;: 1,
+  &quot;WebUI.getAttribute&quot;: 1,
+  &quot;WebUI.click&quot;: 3,
+  &quot;WebUI.waitForPageLoad&quot;: 2,
+  &quot;WebUI.navigateToUrl&quot;: 2,
+  &quot;WebUI.openBrowser&quot;: 1,
+  &quot;BuiltIn.delay&quot;: 3,
+  &quot;WebUI.waitForElementClickable&quot;: 3,
+  &quot;WebUI.setText&quot;: 2
+}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: true,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: true,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:52.411049800Z</date>
+  <millis>1793981692411</millis>
+  <nanos>49800</nanos>
+  <sequence>271</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Cart/Cart-03</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/Cart/Cart-03</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Cart/Cart-03</property>
+  <property name="source">D:\Dam bao chat luong va kiem thu phan mem\Final_Project\Group14-CellphoneS-Testing\Automation Testing Project - Group 14\Test Cases\Cart\Cart-03.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="uuid">b6d4a699-a140-4526-97e1-c2a7ff084445</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:52.436092400Z</date>
+  <millis>1793981692436</millis>
+  <nanos>92400</nanos>
+  <sequence>273</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>executionBindingVariables = []</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:52.468148400Z</date>
+  <millis>1793981692468</millis>
+  <nanos>148400</nanos>
+  <sequence>274</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : CartKeywords.startBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">14</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:52.470163Z</date>
+  <millis>1793981692470</millis>
+  <nanos>163000</nanos>
+  <sequence>277</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:52.471162300Z</date>
+  <millis>1793981692471</millis>
+  <nanos>162300</nanos>
+  <sequence>278</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:52.998862500Z</date>
+  <millis>1793981692998</millis>
+  <nanos>862500</nanos>
+  <sequence>280</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 036c1f0da4381d09c06b79941e5d03a7</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="sessionId">036c1f0da4381d09c06b79941e5d03a7</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:52.999862200Z</date>
+  <millis>1793981692999</millis>
+  <nanos>862200</nanos>
+  <sequence>281</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 156.0.8078.80</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="browser">Chrome 156.0.8078.80</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:52.999862200Z</date>
+  <millis>1793981692999</millis>
+  <nanos>862200</nanos>
+  <sequence>282</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 11</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="platform">Windows 11</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:52.999862200Z</date>
+  <millis>1793981692999</millis>
+  <nanos>862200</nanos>
+  <sequence>283</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 4.46.0</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="seleniumVersion">4.46.0</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:52.999862200Z</date>
+  <millis>1793981692999</millis>
+  <nanos>862200</nanos>
+  <sequence>284</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&amp;quot;&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:53.010382600Z</date>
+  <millis>1793981693010</millis>
+  <nanos>382600</nanos>
+  <sequence>285</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:14:53.045169900Z</date>
+  <millis>1793981693045</millis>
+  <nanos>169900</nanos>
+  <sequence>288</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:14:53.694543Z</date>
+  <millis>1793981693694</millis>
+  <nanos>543000</nanos>
+  <sequence>292</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://cellphones.com.vn&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:14:53.750753100Z</date>
+  <millis>1793981693750</millis>
+  <nanos>753100</nanos>
+  <sequence>296</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$_waitForPageLoad_closure1.doCall(WaitForPageLoadKeyword.groovy:94)
+com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$_waitForPageLoad_closure1.doCall(WaitForPageLoadKeyword.groovy)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword.waitForPageLoad(WaitForPageLoadKeyword.groovy:95)
+com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword.execute(WaitForPageLoadKeyword.groovy:68)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForPageLoad(WebUiBuiltInKeywords.groovy:2559)
+com.cellphones.cart.CartKeywords.startBrowser(CartKeywords.groovy:103)
+Cart-03.run(Cart-03:14)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:55.752381600Z</date>
+  <millis>1793981695752</millis>
+  <nanos>381600</nanos>
+  <sequence>299</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:14:55.753384100Z</date>
+  <millis>1793981695753</millis>
+  <nanos>384100</nanos>
+  <sequence>300</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : CartKeywords.startBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:14:55.754383Z</date>
+  <millis>1793981695754</millis>
+  <nanos>383000</nanos>
+  <sequence>301</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : try</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">15</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:55.754383Z</date>
+  <millis>1793981695754</millis>
+  <nanos>383000</nanos>
+  <sequence>302</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : CartKeywords.clickHeaderCart()</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-11-06T16:14:58.703464200Z</date>
+  <millis>1793981698703</millis>
+  <nanos>464200</nanos>
+  <sequence>305</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:01.206603200Z</date>
+  <millis>1793981701206</millis>
+  <nanos>603200</nanos>
+  <sequence>308</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:03.287529Z</date>
+  <millis>1793981703287</millis>
+  <nanos>529000</nanos>
+  <sequence>311</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:05.148778900Z</date>
+  <millis>1793981705148</millis>
+  <nanos>778900</nanos>
+  <sequence>314</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:06.789178300Z</date>
+  <millis>1793981706789</millis>
+  <nanos>178300</nanos>
+  <sequence>317</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:08.333583300Z</date>
+  <millis>1793981708333</millis>
+  <nanos>583300</nanos>
+  <sequence>320</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:09.977480600Z</date>
+  <millis>1793981709977</millis>
+  <nanos>480600</nanos>
+  <sequence>323</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:11.636370200Z</date>
+  <millis>1793981711636</millis>
+  <nanos>370200</nanos>
+  <sequence>326</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:13.169737800Z</date>
+  <millis>1793981713169</millis>
+  <nanos>737800</nanos>
+  <sequence>329</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:14.804478400Z</date>
+  <millis>1793981714804</millis>
+  <nanos>478400</nanos>
+  <sequence>332</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:16.449845700Z</date>
+  <millis>1793981716449</millis>
+  <nanos>845700</nanos>
+  <sequence>335</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:18.080763900Z</date>
+  <millis>1793981718080</millis>
+  <nanos>763900</nanos>
+  <sequence>338</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:19.619469500Z</date>
+  <millis>1793981719619</millis>
+  <nanos>469500</nanos>
+  <sequence>341</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:21.244631400Z</date>
+  <millis>1793981721244</millis>
+  <nanos>631400</nanos>
+  <sequence>344</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:22.886396200Z</date>
+  <millis>1793981722886</millis>
+  <nanos>396200</nanos>
+  <sequence>347</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:24.532584100Z</date>
+  <millis>1793981724532</millis>
+  <nanos>584100</nanos>
+  <sequence>350</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:26.273494600Z</date>
+  <millis>1793981726273</millis>
+  <nanos>494600</nanos>
+  <sequence>353</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:27.899593800Z</date>
+  <millis>1793981727899</millis>
+  <nanos>593800</nanos>
+  <sequence>356</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:29.718953500Z</date>
+  <millis>1793981729718</millis>
+  <nanos>953500</nanos>
+  <sequence>359</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:31.221391200Z</date>
+  <millis>1793981731221</millis>
+  <nanos>391200</nanos>
+  <sequence>362</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:31.225390400Z</date>
+  <millis>1793981731225</millis>
+  <nanos>390400</nanos>
+  <sequence>364</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Không tìm thấy nút Giỏ hàng trên header -&amp;gt; dùng Spy Web lấy xpath và đưa vào CartLocators.HEADER_CART_CANDIDATES</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.testops.TestOpsLogHelper.handleFailedLogEntry(TestOpsLogHelper.java:120)
+com.kms.katalon.core.logging.KeywordLogger.logFailed(KeywordLogger.java:349)
+com.kms.katalon.core.logging.KeywordLogger.logFailed(KeywordLogger.java:327)
+com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:29)
+com.cellphones.cart.CartKeywords.clickHeaderCart(CartKeywords.groovy:252)
+Cart-03.run(Cart-03:16)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:15:31.226392100Z</date>
+  <millis>1793981731226</millis>
+  <nanos>392100</nanos>
+  <sequence>365</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : CartKeywords.clickHeaderCart()</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:15:31.227392100Z</date>
+  <millis>1793981731227</millis>
+  <nanos>392100</nanos>
+  <sequence>366</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : try</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:15:31.227392100Z</date>
+  <millis>1793981731227</millis>
+  <nanos>392100</nanos>
+  <sequence>367</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Finally</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2026-11-06T16:15:31.227899200Z</date>
+  <millis>1793981731227</millis>
+  <nanos>899200</nanos>
+  <sequence>368</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : CartKeywords.stopBrowser()</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-11-06T16:15:31.377373200Z</date>
+  <millis>1793981731377</millis>
+  <nanos>373200</nanos>
+  <sequence>371</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:31.378556100Z</date>
+  <millis>1793981731378</millis>
+  <nanos>556100</nanos>
+  <sequence>373</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : CartKeywords.stopBrowser()</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:15:31.379556500Z</date>
+  <millis>1793981731379</millis>
+  <nanos>556500</nanos>
+  <sequence>374</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Finally</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:15:31.379556500Z</date>
+  <millis>1793981731379</millis>
+  <nanos>556500</nanos>
+  <sequence>376</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Cart/Cart-03 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Không tìm thấy nút Giỏ hàng trên header -&amp;gt; dùng Spy Web lấy xpath và đưa vào CartLocators.HEADER_CART_CANDIDATES
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:31)
+	at com.cellphones.cart.CartKeywords.clickHeaderCart(CartKeywords.groovy:252)
+	at Cart-03.run(Cart-03:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_6.run(S1106_6.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Không tìm thấy nút Giỏ hàng trên header -&gt; dùng Spy Web lấy xpath và đưa vào CartLocators.HEADER_CART_CANDIDATES</message>
+    <frame>
+      <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+      <method>logMessage</method>
+      <line>565</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.logging.KeywordLogger</class>
+      <method>logMessage</method>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>logError</method>
+      <line>646</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>onExecutionError</method>
+      <line>190</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>513</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>495</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>359</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>71</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>188</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>115</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>241</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.vmplugin.v8.IndyInterface</class>
+      <method>fromCache</method>
+      <line>318</line>
+    </frame>
+    <frame>
+      <class>S1106_6</class>
+      <method>run</method>
+      <line>41</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>runScriptOrMainOrTestOrRunnable</method>
+      <line>254</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>360</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>349</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processOnce</method>
+      <line>652</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>run</method>
+      <line>398</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>access$1400</method>
+      <line>68</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain$GroovyCommand</class>
+      <method>process</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processArgs</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>main</method>
+      <line>115</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.DirectMethodHandleAccessor</class>
+      <method>invoke</method>
+      <line>103</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>580</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>rootLoader</method>
+      <line>117</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>main</method>
+      <line>39</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepFailedException: Không tìm thấy nút Giỏ hàng trên header -&gt; dùng Spy Web lấy xpath và đưa vào CartLocators.HEADER_CART_CANDIDATES
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:31)
+	at com.cellphones.cart.CartKeywords.clickHeaderCart(CartKeywords.groovy:252)
+	at Cart-03.run(Cart-03:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_6.run(S1106_6.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepFailedException</property>
+  <property name="failed.exception.message">Không tìm thấy nút Giỏ hàng trên header -&gt; dùng Spy Web lấy xpath và đưa vào CartLocators.HEADER_CART_CANDIDATES</property>
+</record>
+<record>
+  <date>2026-11-06T16:15:31.383555200Z</date>
+  <millis>1793981731383</millis>
+  <nanos>555200</nanos>
+  <sequence>378</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Cart/Cart-03</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{
+  &quot;WebUI.closeBrowser&quot;: 1,
+  &quot;WebUI.maximizeWindow&quot;: 1,
+  &quot;WebUI.navigateToUrl&quot;: 1,
+  &quot;WebUI.openBrowser&quot;: 1,
+  &quot;BuiltIn.delay&quot;: 21,
+  &quot;WebUI.waitForPageLoad&quot;: 1
+}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: true,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: true,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-11-06T16:15:31.385555200Z</date>
+  <millis>1793981731385</millis>
+  <nanos>555200</nanos>
+  <sequence>379</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Cart/Cart-04</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/Cart/Cart-04</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Cart/Cart-04</property>
+  <property name="source">D:\Dam bao chat luong va kiem thu phan mem\Final_Project\Group14-CellphoneS-Testing\Automation Testing Project - Group 14\Test Cases\Cart\Cart-04.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="uuid">8c3a6c64-11b6-4643-9827-d977ed7a204d</property>
+</record>
+<record>
+  <date>2026-11-06T16:15:31.399591700Z</date>
+  <millis>1793981731399</millis>
+  <nanos>591700</nanos>
+  <sequence>381</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>executionBindingVariables = []</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+</record>
+<record>
+  <date>2026-11-06T16:15:31.442416300Z</date>
+  <millis>1793981731442</millis>
+  <nanos>416300</nanos>
+  <sequence>382</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : CartKeywords.startBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">14</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-11-06T16:15:31.444417100Z</date>
+  <millis>1793981731444</millis>
+  <nanos>417100</nanos>
+  <sequence>385</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:15:31.445417800Z</date>
+  <millis>1793981731445</millis>
+  <nanos>417800</nanos>
+  <sequence>386</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:15:31.995306200Z</date>
+  <millis>1793981731995</millis>
+  <nanos>306200</nanos>
+  <sequence>388</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = ec528a45cdeee0c9bb0c3d7439431f93</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="sessionId">ec528a45cdeee0c9bb0c3d7439431f93</property>
+</record>
+<record>
+  <date>2026-11-06T16:15:31.995306200Z</date>
+  <millis>1793981731995</millis>
+  <nanos>306200</nanos>
+  <sequence>389</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 156.0.8078.80</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="browser">Chrome 156.0.8078.80</property>
+</record>
+<record>
+  <date>2026-11-06T16:15:31.996311Z</date>
+  <millis>1793981731996</millis>
+  <nanos>311000</nanos>
+  <sequence>390</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 11</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="platform">Windows 11</property>
+</record>
+<record>
+  <date>2026-11-06T16:15:31.996311Z</date>
+  <millis>1793981731996</millis>
+  <nanos>311000</nanos>
+  <sequence>391</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 4.46.0</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="seleniumVersion">4.46.0</property>
+</record>
+<record>
+  <date>2026-11-06T16:15:31.997813400Z</date>
+  <millis>1793981731997</millis>
+  <nanos>813400</nanos>
+  <sequence>392</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&amp;quot;&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2026-11-06T16:15:32.005819600Z</date>
+  <millis>1793981732005</millis>
+  <nanos>819600</nanos>
+  <sequence>393</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:32.044567200Z</date>
+  <millis>1793981732044</millis>
+  <nanos>567200</nanos>
+  <sequence>396</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:33.673703800Z</date>
+  <millis>1793981733673</millis>
+  <nanos>703800</nanos>
+  <sequence>400</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://cellphones.com.vn&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:33.726263100Z</date>
+  <millis>1793981733726</millis>
+  <nanos>263100</nanos>
+  <sequence>404</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$_waitForPageLoad_closure1.doCall(WaitForPageLoadKeyword.groovy:94)
+com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$_waitForPageLoad_closure1.doCall(WaitForPageLoadKeyword.groovy)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword.waitForPageLoad(WaitForPageLoadKeyword.groovy:95)
+com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword.execute(WaitForPageLoadKeyword.groovy:68)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForPageLoad(WebUiBuiltInKeywords.groovy:2559)
+com.cellphones.cart.CartKeywords.startBrowser(CartKeywords.groovy:103)
+Cart-04.run(Cart-04:14)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:15:35.728227800Z</date>
+  <millis>1793981735728</millis>
+  <nanos>227800</nanos>
+  <sequence>407</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:35.729228700Z</date>
+  <millis>1793981735729</millis>
+  <nanos>228700</nanos>
+  <sequence>408</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : CartKeywords.startBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:15:35.729228700Z</date>
+  <millis>1793981735729</millis>
+  <nanos>228700</nanos>
+  <sequence>409</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : try</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">15</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2026-11-06T16:15:35.730233200Z</date>
+  <millis>1793981735730</millis>
+  <nanos>233200</nanos>
+  <sequence>410</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : CartKeywords.loginViaHeader()</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-11-06T16:15:37.759599500Z</date>
+  <millis>1793981737759</millis>
+  <nanos>599500</nanos>
+  <sequence>416</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;dyn&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword$_waitForElementClickable_closure1.doCall(WaitForElementClickableKeyword.groovy:59)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+jdk.proxy2/jdk.proxy2.$Proxy53.execute(Unknown Source)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.doCall(WebUIKeywordMain.groovy:155)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.call(WebUIKeywordMain.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:152)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeywordUntilTimeout$0.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:76)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:42)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:581)
+com.cellphones.cart.CartKeywords.click(CartKeywords.groovy:67)
+com.cellphones.cart.CartKeywords.openLoginPopupFromHeader(CartKeywords.groovy:153)
+com.cellphones.cart.CartKeywords.loginViaHeader(CartKeywords.groovy:207)
+Cart-04.run(Cart-04:16)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:15:38.235332700Z</date>
+  <millis>1793981738235</millis>
+  <nanos>332700</nanos>
+  <sequence>426</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;dyn&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+jdk.proxy2/jdk.proxy2.$Proxy53.execute(Unknown Source)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:722)
+com.cellphones.cart.CartKeywords.click(CartKeywords.groovy:68)
+com.cellphones.cart.CartKeywords.openLoginPopupFromHeader(CartKeywords.groovy:153)
+com.cellphones.cart.CartKeywords.loginViaHeader(CartKeywords.groovy:207)
+Cart-04.run(Cart-04:16)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:15:39.243203300Z</date>
+  <millis>1793981739243</millis>
+  <nanos>203300</nanos>
+  <sequence>429</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:40.125942900Z</date>
+  <millis>1793981740125</millis>
+  <nanos>942900</nanos>
+  <sequence>435</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;dyn&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword$_waitForElementClickable_closure1.doCall(WaitForElementClickableKeyword.groovy:59)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+jdk.proxy2/jdk.proxy2.$Proxy53.execute(Unknown Source)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.doCall(WebUIKeywordMain.groovy:155)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.call(WebUIKeywordMain.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:152)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeywordUntilTimeout$0.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:76)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:42)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:581)
+com.cellphones.cart.CartKeywords.click(CartKeywords.groovy:67)
+com.cellphones.cart.CartKeywords.openLoginPopupFromHeader(CartKeywords.groovy:159)
+com.cellphones.cart.CartKeywords.loginViaHeader(CartKeywords.groovy:207)
+Cart-04.run(Cart-04:16)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:15:40.890857400Z</date>
+  <millis>1793981740890</millis>
+  <nanos>857400</nanos>
+  <sequence>445</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;dyn&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+jdk.proxy2/jdk.proxy2.$Proxy53.execute(Unknown Source)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:722)
+com.cellphones.cart.CartKeywords.click(CartKeywords.groovy:68)
+com.cellphones.cart.CartKeywords.openLoginPopupFromHeader(CartKeywords.groovy:159)
+com.cellphones.cart.CartKeywords.loginViaHeader(CartKeywords.groovy:207)
+Cart-04.run(Cart-04:16)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:15:41.898736100Z</date>
+  <millis>1793981741898</millis>
+  <nanos>736100</nanos>
+  <sequence>448</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:42.398452200Z</date>
+  <millis>1793981742398</millis>
+  <nanos>452200</nanos>
+  <sequence>449</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Sau khi bấm Đăng nhập -&amp;gt; URL: https://smember.com.vn/login?action=login&amp;amp;client_id=cps&amp;amp;redirect_uri=https%3A%2F%2Fcellphones.com.vn%2F&amp;amp;response_type=authorization_code&amp;amp;state=U2Gl29scOQ9IIe17NbGxMhOm3KOnnhlE6CAcMdy5 | số tab: 1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:15:43.492734300Z</date>
+  <millis>1793981743492</millis>
+  <nanos>734300</nanos>
+  <sequence>451</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>PASS: Form nhập SĐT/Mật khẩu xuất hiện</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.util.KeywordUtil.markPassed(KeywordUtil.java:58)
+com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:77)
+com.cellphones.cart.CartKeywords.openLoginPopupFromHeader(CartKeywords.groovy:171)
+com.cellphones.cart.CartKeywords.loginViaHeader(CartKeywords.groovy:207)
+Cart-04.run(Cart-04:16)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:15:44.508740300Z</date>
+  <millis>1793981744508</millis>
+  <nanos>740300</nanos>
+  <sequence>454</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:45.391577600Z</date>
+  <millis>1793981745391</millis>
+  <nanos>577600</nanos>
+  <sequence>467</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;0337426240&amp;apos; is set on object &amp;apos;dyn&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:99)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+jdk.proxy2/jdk.proxy2.$Proxy53.execute(Unknown Source)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1082)
+com.cellphones.cart.CartKeywords.submitLogin(CartKeywords.groovy:189)
+com.cellphones.cart.CartKeywords.loginViaHeader(CartKeywords.groovy:209)
+Cart-04.run(Cart-04:16)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:15:46.213724500Z</date>
+  <millis>1793981746213</millis>
+  <nanos>724500</nanos>
+  <sequence>480</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Taikhoancellphonesmember123@&amp;apos; is set on object &amp;apos;dyn&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:99)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+jdk.proxy2/jdk.proxy2.$Proxy53.execute(Unknown Source)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1082)
+com.cellphones.cart.CartKeywords.submitLogin(CartKeywords.groovy:190)
+com.cellphones.cart.CartKeywords.loginViaHeader(CartKeywords.groovy:209)
+Cart-04.run(Cart-04:16)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:15:46.663221Z</date>
+  <millis>1793981746663</millis>
+  <nanos>221000</nanos>
+  <sequence>490</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Attribute &amp;apos;value&amp;apos; of object &amp;apos;dyn&amp;apos; is: &amp;apos;0337426240&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword$_getAttribute_closure1.doCall(GetAttributeKeyword.groovy:59)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+jdk.proxy2/jdk.proxy2.$Proxy53.execute(Unknown Source)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.getAttribute(GetAttributeKeyword.groovy:66)
+com.kms.katalon.core.webui.keyword.builtin.GetAttributeKeyword.execute(GetAttributeKeyword.groovy:37)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(WebUiBuiltInKeywords.groovy:1053)
+com.cellphones.cart.CartKeywords.submitLogin(CartKeywords.groovy:191)
+com.cellphones.cart.CartKeywords.loginViaHeader(CartKeywords.groovy:209)
+Cart-04.run(Cart-04:16)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:15:46.664221Z</date>
+  <millis>1793981746664</millis>
+  <nanos>221000</nanos>
+  <sequence>492</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>PASS: SĐT được điền vào ô input</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.util.KeywordUtil.markPassed(KeywordUtil.java:58)
+com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:77)
+com.cellphones.cart.CartKeywords.submitLogin(CartKeywords.groovy:191)
+com.cellphones.cart.CartKeywords.loginViaHeader(CartKeywords.groovy:209)
+Cart-04.run(Cart-04:16)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:15:47.017174800Z</date>
+  <millis>1793981747017</millis>
+  <nanos>174800</nanos>
+  <sequence>498</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;dyn&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword$_waitForElementClickable_closure1.doCall(WaitForElementClickableKeyword.groovy:59)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+jdk.proxy2/jdk.proxy2.$Proxy53.execute(Unknown Source)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.doCall(WebUIKeywordMain.groovy:155)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.call(WebUIKeywordMain.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:152)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeywordUntilTimeout$0.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:76)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:42)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:581)
+com.cellphones.cart.CartKeywords.click(CartKeywords.groovy:67)
+com.cellphones.cart.CartKeywords.submitLogin(CartKeywords.groovy:192)
+com.cellphones.cart.CartKeywords.loginViaHeader(CartKeywords.groovy:209)
+Cart-04.run(Cart-04:16)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:15:47.329124800Z</date>
+  <millis>1793981747329</millis>
+  <nanos>124800</nanos>
+  <sequence>508</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;dyn&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:386)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:381)
+com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+jdk.proxy2/jdk.proxy2.$Proxy53.execute(Unknown Source)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:722)
+com.cellphones.cart.CartKeywords.click(CartKeywords.groovy:68)
+com.cellphones.cart.CartKeywords.submitLogin(CartKeywords.groovy:192)
+com.cellphones.cart.CartKeywords.loginViaHeader(CartKeywords.groovy:209)
+Cart-04.run(Cart-04:16)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:15:49.441343Z</date>
+  <millis>1793981749441</millis>
+  <nanos>343000</nanos>
+  <sequence>511</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:50.911345400Z</date>
+  <millis>1793981750911</millis>
+  <nanos>345400</nanos>
+  <sequence>514</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:51.892667400Z</date>
+  <millis>1793981751892</millis>
+  <nanos>667400</nanos>
+  <sequence>517</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:52.961880700Z</date>
+  <millis>1793981752961</millis>
+  <nanos>880700</nanos>
+  <sequence>520</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:53.914474200Z</date>
+  <millis>1793981753914</millis>
+  <nanos>474200</nanos>
+  <sequence>523</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:54.983970Z</date>
+  <millis>1793981754983</millis>
+  <nanos>970000</nanos>
+  <sequence>526</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:55.940124400Z</date>
+  <millis>1793981755940</millis>
+  <nanos>124400</nanos>
+  <sequence>529</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:56.902559400Z</date>
+  <millis>1793981756902</millis>
+  <nanos>559400</nanos>
+  <sequence>532</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:57.878800Z</date>
+  <millis>1793981757878</millis>
+  <nanos>800000</nanos>
+  <sequence>535</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:58.750323500Z</date>
+  <millis>1793981758750</millis>
+  <nanos>323500</nanos>
+  <sequence>538</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:15:59.509650600Z</date>
+  <millis>1793981759509</millis>
+  <nanos>650600</nanos>
+  <sequence>541</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:16:00.378855Z</date>
+  <millis>1793981760378</millis>
+  <nanos>855000</nanos>
+  <sequence>544</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:16:01.127504800Z</date>
+  <millis>1793981761127</millis>
+  <nanos>504800</nanos>
+  <sequence>547</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:16:01.981665700Z</date>
+  <millis>1793981761981</millis>
+  <nanos>665700</nanos>
+  <sequence>550</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:16:02.846545700Z</date>
+  <millis>1793981762846</millis>
+  <nanos>545700</nanos>
+  <sequence>553</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:16:03.711818100Z</date>
+  <millis>1793981763711</millis>
+  <nanos>818100</nanos>
+  <sequence>556</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:16:04.468609400Z</date>
+  <millis>1793981764468</millis>
+  <nanos>609400</nanos>
+  <sequence>559</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:16:05.229724Z</date>
+  <millis>1793981765229</millis>
+  <nanos>724000</nanos>
+  <sequence>562</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:16:05.970435800Z</date>
+  <millis>1793981765970</millis>
+  <nanos>435800</nanos>
+  <sequence>565</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:16:06.821421600Z</date>
+  <millis>1793981766821</millis>
+  <nanos>421600</nanos>
+  <sequence>568</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 0,5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:16:06.822422400Z</date>
+  <millis>1793981766822</millis>
+  <nanos>422400</nanos>
+  <sequence>570</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>FAIL: Popup đăng nhập tự động đóng sau khi đăng nhập thành công</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.testops.TestOpsLogHelper.handleFailedLogEntry(TestOpsLogHelper.java:120)
+com.kms.katalon.core.logging.KeywordLogger.logFailed(KeywordLogger.java:349)
+com.kms.katalon.core.logging.KeywordLogger.logFailed(KeywordLogger.java:327)
+com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:29)
+com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:78)
+com.cellphones.cart.CartKeywords.waitLoginPopupClosed(CartKeywords.groovy:201)
+com.cellphones.cart.CartKeywords.loginViaHeader(CartKeywords.groovy:210)
+Cart-04.run(Cart-04:16)
+</property>
+</record>
+<record>
+  <date>2026-11-06T16:16:06.823421100Z</date>
+  <millis>1793981766823</millis>
+  <nanos>421100</nanos>
+  <sequence>571</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : CartKeywords.loginViaHeader()</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:16:06.823421100Z</date>
+  <millis>1793981766823</millis>
+  <nanos>421100</nanos>
+  <sequence>572</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : try</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:16:06.823421100Z</date>
+  <millis>1793981766823</millis>
+  <nanos>421100</nanos>
+  <sequence>573</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Finally</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">23</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2026-11-06T16:16:06.823421100Z</date>
+  <millis>1793981766823</millis>
+  <nanos>421100</nanos>
+  <sequence>574</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : CartKeywords.stopBrowser()</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">24</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-11-06T16:16:06.992721900Z</date>
+  <millis>1793981766992</millis>
+  <nanos>721900</nanos>
+  <sequence>577</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-11-06T16:16:06.993720700Z</date>
+  <millis>1793981766993</millis>
+  <nanos>720700</nanos>
+  <sequence>579</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : CartKeywords.stopBrowser()</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:16:06.993720700Z</date>
+  <millis>1793981766993</millis>
+  <nanos>720700</nanos>
+  <sequence>580</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Finally</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-11-06T16:16:06.994720100Z</date>
+  <millis>1793981766994</millis>
+  <nanos>720100</nanos>
+  <sequence>582</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Cart/Cart-04 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: FAIL: Popup đăng nhập tự động đóng sau khi đăng nhập thành công
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:31)
+	at com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:78)
+	at com.cellphones.cart.CartKeywords.waitLoginPopupClosed(CartKeywords.groovy:201)
+	at com.cellphones.cart.CartKeywords.loginViaHeader(CartKeywords.groovy:210)
+	at Cart-04.run(Cart-04:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_6.run(S1106_6.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: FAIL: Popup đăng nhập tự động đóng sau khi đăng nhập thành công</message>
+    <frame>
+      <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+      <method>logMessage</method>
+      <line>565</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.logging.KeywordLogger</class>
+      <method>logMessage</method>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>logError</method>
+      <line>646</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>onExecutionError</method>
+      <line>190</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>513</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>495</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>359</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>71</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>188</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>115</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>241</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.vmplugin.v8.IndyInterface</class>
+      <method>fromCache</method>
+      <line>318</line>
+    </frame>
+    <frame>
+      <class>S1106_6</class>
+      <method>run</method>
+      <line>41</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>runScriptOrMainOrTestOrRunnable</method>
+      <line>254</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>360</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>349</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processOnce</method>
+      <line>652</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>run</method>
+      <line>398</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>access$1400</method>
+      <line>68</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain$GroovyCommand</class>
+      <method>process</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processArgs</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>main</method>
+      <line>115</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.DirectMethodHandleAccessor</class>
+      <method>invoke</method>
+      <line>103</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>580</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>rootLoader</method>
+      <line>117</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>main</method>
+      <line>39</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepFailedException: FAIL: Popup đăng nhập tự động đóng sau khi đăng nhập thành công
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:31)
+	at com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:78)
+	at com.cellphones.cart.CartKeywords.waitLoginPopupClosed(CartKeywords.groovy:201)
+	at com.cellphones.cart.CartKeywords.loginViaHeader(CartKeywords.groovy:210)
+	at Cart-04.run(Cart-04:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_6.run(S1106_6.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepFailedException</property>
+  <property name="failed.exception.message">FAIL: Popup đăng nhập tự động đóng sau khi đăng nhập thành công</property>
+</record>
+<record>
+  <date>2026-11-06T16:16:06.995720200Z</date>
+  <millis>1793981766995</millis>
+  <nanos>720200</nanos>
+  <sequence>584</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Cart/Cart-04</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{
+  &quot;WebUI.closeBrowser&quot;: 1,
+  &quot;WebUI.maximizeWindow&quot;: 1,
+  &quot;WebUI.getAttribute&quot;: 1,
+  &quot;WebUI.click&quot;: 3,
+  &quot;WebUI.waitForPageLoad&quot;: 1,
+  &quot;WebUI.navigateToUrl&quot;: 1,
+  &quot;WebUI.openBrowser&quot;: 1,
+  &quot;BuiltIn.delay&quot;: 24,
+  &quot;WebUI.waitForElementClickable&quot;: 3,
+  &quot;WebUI.setText&quot;: 2
+}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: true,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: true,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-11-06T16:16:07.017776400Z</date>
+  <millis>1793981767017</millis>
+  <nanos>776400</nanos>
+  <sequence>585</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/TS_Cart</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

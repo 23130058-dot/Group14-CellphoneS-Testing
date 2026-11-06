@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "01A70F39DD4AED3B8BAD023B5573ABFA",
+  "keywordClasses": [
+    {
+      "name": "com.cellphones.cart.CartLocators",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Cart" time="110.845" tests="4" passed="2" failures="2" errors="0" incompleted="0" skipped="0">
+   <testsuite name="TS_Cart" tests="4" passed="2" failures="2" errors="0" incompleted="0" skipped="0" time="110.845" timestamp="2026-11-06T16:11:08.146Z" hostname="Admin - Admin-PC" id="Test Suites/TS_Cart" status="FAILED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\Dam bao chat luong va kiem thu phan mem\\Final_Project\\Group14-CellphoneS-Testing\\Automation Testing Project - Group 14\\Reports\\20261106_231105\\TS_Cart\\20261106_231105"/>
+         <property name="logFiles" value="D:\\Dam bao chat luong va kiem thu phan mem\\Final_Project\\Group14-CellphoneS-Testing\\Automation Testing Project - Group 14\\Reports\\20261106_231105\\TS_Cart\\20261106_231105\\console0.log, D:\\Dam bao chat luong va kiem thu phan mem\\Final_Project\\Group14-CellphoneS-Testing\\Automation Testing Project - Group 14\\Reports\\20261106_231105\\TS_Cart\\20261106_231105\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="Admin - Admin-PC"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.7.0"/>
+         <property name="browser" value="Chrome 156.0.8078.80"/>
+         <property name="userFullName" value="Tú Nguyễn Thanh"/>
+         <property name="hostAddress" value="26.210.82.130"/>
+         <property name="sessionId" value="f679431f01ba150d3c36c384711aab1d"/>
+         <property name="projectName" value="Automation Testing Project - Group 14"/>
+         <property name="seleniumVersion" value="4.46.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Cart/Cart-01" time="14.981" classname="Test Cases/Cart/Cart-01" status="PASSED">
+         <system-out><![CDATA[06-11-2026T23:11:08 - [TEST_CASE][PASSED] - Test Cases/Cart/Cart-01: Test Cases/Cart/Cart-01
+
+06-11-2026T23:11:08 - [TEST_STEP][PASSED] - CartKeywords.startBrowser(): Delayed 2 second(s)
+
+06-11-2026T23:11:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T23:11:08 - [MESSAGE][WARNING] - The "Wait for network requests to finish" option is deprecated and can slow down execution. Smart Wait already waits for the target element to be ready.
+
+06-11-2026T23:11:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T23:11:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T23:11:09 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T23:11:10 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn' successfully
+
+06-11-2026T23:11:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T23:11:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-11-2026T23:11:12 - [TEST_STEP][PASSED] - try: PASS: Bước 3: Số trên icon giỏ hàng vẫn là 0 | actual=[0] expected=[0]
+
+06-11-2026T23:11:12 - [TEST_STEP][PASSED] - CartKeywords.openProduct(PRODUCT_A_URL): PASS: Trang chi tiết sản phẩm hiển thị nút [Thêm vào giỏ]
+
+06-11-2026T23:11:14 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn/iphone-13.html' successfully
+
+06-11-2026T23:11:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T23:11:15 - [MESSAGE][PASSED] - PASS: Trang chi tiết sản phẩm hiển thị nút [Thêm vào giỏ]
+
+06-11-2026T23:11:15 - [TEST_STEP][PASSED] - CartKeywords.checkEq(CartKeywords.getCartBadge(), 0, "Bước 2: Icon giỏ hàng hiển thị số 0"): PASS: Bước 2: Icon giỏ hàng hiển thị số 0 | actual=[0] expected=[0]
+
+06-11-2026T23:11:17 - [MESSAGE][PASSED] - PASS: Bước 2: Icon giỏ hàng hiển thị số 0 | actual=[0] expected=[0]
+
+06-11-2026T23:11:17 - [TEST_STEP][PASSED] - CartKeywords.clickAddToCart(): Delayed 2 second(s)
+
+06-11-2026T23:11:17 - [MESSAGE][PASSED] - Object 'dyn' is clickable
+
+06-11-2026T23:11:18 - [MESSAGE][PASSED] - Object: 'dyn' is clicked on
+
+06-11-2026T23:11:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-11-2026T23:11:20 - [TEST_STEP][PASSED] - CartKeywords.verifyLoginPopupDisplayed(): PASS: Popup hiển thị nút [Đăng nhập]
+
+06-11-2026T23:11:20 - [MESSAGE][PASSED] - PASS: Popup yêu cầu đăng nhập hiển thị thông báo "Vui lòng đăng nhập tài khoản Smember..."
+
+06-11-2026T23:11:21 - [MESSAGE][PASSED] - PASS: Popup hiển thị tiêu đề Smember
+
+06-11-2026T23:11:21 - [MESSAGE][PASSED] - PASS: Popup hiển thị nút [Đăng ký]
+
+06-11-2026T23:11:22 - [MESSAGE][PASSED] - PASS: Popup hiển thị nút [Đăng nhập]
+
+06-11-2026T23:11:22 - [TEST_STEP][PASSED] - CartKeywords.checkEq(CartKeywords.getCartBadge(), 0, "Bước 3: Số trên icon giỏ hàng vẫn là 0"): PASS: Bước 3: Số trên icon giỏ hàng vẫn là 0 | actual=[0] expected=[0]
+
+06-11-2026T23:11:23 - [MESSAGE][PASSED] - PASS: Bước 3: Số trên icon giỏ hàng vẫn là 0 | actual=[0] expected=[0]
+
+06-11-2026T23:11:23 - [TEST_STEP][PASSED] - Finally: Browser is closed
+
+06-11-2026T23:11:23 - [TEST_STEP][PASSED] - CartKeywords.stopBrowser(): Browser is closed
+
+06-11-2026T23:11:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cart/Cart-02" time="22.634" classname="Test Cases/Cart/Cart-02" status="PASSED">
+         <system-out><![CDATA[06-11-2026T23:11:23 - [TEST_CASE][PASSED] - Test Cases/Cart/Cart-02: Test Cases/Cart/Cart-02
+
+06-11-2026T23:11:23 - [TEST_STEP][PASSED] - CartKeywords.startBrowser(): Delayed 2 second(s)
+
+06-11-2026T23:11:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T23:11:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T23:11:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T23:11:23 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T23:11:24 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn' successfully
+
+06-11-2026T23:11:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T23:11:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-11-2026T23:11:26 - [TEST_STEP][PASSED] - try: PASS: Đang ở đúng trang | actual=https://cellphones.com.vn/iphone-13.html expected=https://cellphones.com.vn/iphone-13.html
+
+06-11-2026T23:11:26 - [TEST_STEP][PASSED] - CartKeywords.openProduct(PRODUCT_A_URL): PASS: Trang chi tiết sản phẩm hiển thị nút [Thêm vào giỏ]
+
+06-11-2026T23:11:27 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn/iphone-13.html' successfully
+
+06-11-2026T23:11:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T23:11:28 - [MESSAGE][PASSED] - PASS: Trang chi tiết sản phẩm hiển thị nút [Thêm vào giỏ]
+
+06-11-2026T23:11:28 - [TEST_STEP][PASSED] - CartKeywords.clickAddToCart(): Delayed 2 second(s)
+
+06-11-2026T23:11:29 - [MESSAGE][PASSED] - Object 'dyn' is clickable
+
+06-11-2026T23:11:30 - [MESSAGE][PASSED] - Object: 'dyn' is clicked on
+
+06-11-2026T23:11:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-11-2026T23:11:32 - [TEST_STEP][PASSED] - CartKeywords.verifyLoginPopupDisplayed(): PASS: Popup hiển thị nút [Đăng nhập]
+
+06-11-2026T23:11:32 - [MESSAGE][PASSED] - PASS: Popup yêu cầu đăng nhập hiển thị thông báo "Vui lòng đăng nhập tài khoản Smember..."
+
+06-11-2026T23:11:33 - [MESSAGE][PASSED] - PASS: Popup hiển thị tiêu đề Smember
+
+06-11-2026T23:11:33 - [MESSAGE][PASSED] - PASS: Popup hiển thị nút [Đăng ký]
+
+06-11-2026T23:11:33 - [MESSAGE][PASSED] - PASS: Popup hiển thị nút [Đăng nhập]
+
+06-11-2026T23:11:33 - [TEST_STEP][PASSED] - CartKeywords.clickLoginOnRequiredPopup(): PASS: Form nhập SĐT/Mật khẩu xuất hiện sau khi bấm [Đăng nhập]
+
+06-11-2026T23:11:34 - [MESSAGE][PASSED] - Object 'dyn' is clickable
+
+06-11-2026T23:11:34 - [MESSAGE][PASSED] - Object: 'dyn' is clicked on
+
+06-11-2026T23:11:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T23:11:37 - [MESSAGE][PASSED] - PASS: Form nhập SĐT/Mật khẩu xuất hiện sau khi bấm [Đăng nhập]
+
+06-11-2026T23:11:37 - [TEST_STEP][PASSED] - CartKeywords.submitLogin(PHONE, PASSWORD): Object: 'dyn' is clicked on
+
+06-11-2026T23:11:38 - [MESSAGE][PASSED] - Text '0337426240' is set on object 'dyn'
+
+06-11-2026T23:11:39 - [MESSAGE][PASSED] - Text 'Taikhoancellphonesmember123@' is set on object 'dyn'
+
+06-11-2026T23:11:40 - [MESSAGE][PASSED] - Attribute 'value' of object 'dyn' is: '0337426240'
+
+06-11-2026T23:11:40 - [MESSAGE][PASSED] - PASS: SĐT được điền vào ô input
+
+06-11-2026T23:11:40 - [MESSAGE][PASSED] - Object 'dyn' is clickable
+
+06-11-2026T23:11:40 - [MESSAGE][PASSED] - Object: 'dyn' is clicked on
+
+06-11-2026T23:11:40 - [TEST_STEP][PASSED] - CartKeywords.check(CartKeywords.isLoggedIn(), "Đăng nhập thành công"): PASS: Đăng nhập thành công
+
+06-11-2026T23:11:45 - [MESSAGE][PASSED] - PASS: Đăng nhập thành công
+
+06-11-2026T23:11:45 - [TEST_STEP][PASSED] - CartKeywords.verifyCurrentUrlIs(PRODUCT_A_URL): PASS: Đang ở đúng trang | actual=https://cellphones.com.vn/iphone-13.html expected=https://cellphones.com.vn/iphone-13.html
+
+06-11-2026T23:11:45 - [MESSAGE][PASSED] - PASS: Đang ở đúng trang | actual=https://cellphones.com.vn/iphone-13.html expected=https://cellphones.com.vn/iphone-13.html
+
+06-11-2026T23:11:45 - [TEST_STEP][PASSED] - Finally: Browser is closed
+
+06-11-2026T23:11:45 - [TEST_STEP][PASSED] - CartKeywords.stopBrowser(): Browser is closed
+
+06-11-2026T23:11:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cart/Cart-03" time="37.877" classname="Test Cases/Cart/Cart-03" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Cart/Cart-03 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Không tìm thấy nút Giỏ hàng trên header -> dùng Spy Web lấy xpath và đưa vào CartLocators.HEADER_CART_CANDIDATES&#xa;	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:31)&#xa;	at com.cellphones.cart.CartKeywords.clickHeaderCart(CartKeywords.groovy:252)&#xa;	at Cart-03.run(Cart-03:16)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)&#xa;	at S1106_5.run(S1106_5.groovy:41)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;"/>
+         <system-out><![CDATA[06-11-2026T23:11:45 - [TEST_CASE][FAILED] - Test Cases/Cart/Cart-03: Test Cases/Cart/Cart-03 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Không tìm thấy nút Giỏ hàng trên header -> dùng Spy Web lấy xpath và đưa vào CartLocators.HEADER_CART_CANDIDATES
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:31)
+	at com.cellphones.cart.CartKeywords.clickHeaderCart(CartKeywords.groovy:252)
+	at Cart-03.run(Cart-03:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_5.run(S1106_5.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+
+06-11-2026T23:11:45 - [TEST_STEP][PASSED] - CartKeywords.startBrowser(): Delayed 2 second(s)
+
+06-11-2026T23:11:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T23:11:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T23:11:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T23:11:46 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T23:11:47 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn' successfully
+
+06-11-2026T23:11:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T23:11:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-11-2026T23:11:49 - [TEST_STEP][FAILED] - try: Không tìm thấy nút Giỏ hàng trên header -> dùng Spy Web lấy xpath và đưa vào CartLocators.HEADER_CART_CANDIDATES
+
+06-11-2026T23:11:49 - [TEST_STEP][FAILED] - CartKeywords.clickHeaderCart(): Không tìm thấy nút Giỏ hàng trên header -> dùng Spy Web lấy xpath và đưa vào CartLocators.HEADER_CART_CANDIDATES
+
+06-11-2026T23:11:51 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:11:54 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:11:55 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:11:57 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:11:59 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:00 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:02 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:04 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:05 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:07 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:09 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:10 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:12 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:13 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:15 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:16 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:18 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:20 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:21 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:23 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:23 - [MESSAGE][FAILED] - Không tìm thấy nút Giỏ hàng trên header -> dùng Spy Web lấy xpath và đưa vào CartLocators.HEADER_CART_CANDIDATES
+
+06-11-2026T23:12:23 - [TEST_STEP][PASSED] - Finally: Browser is closed
+
+06-11-2026T23:12:23 - [TEST_STEP][PASSED] - CartKeywords.stopBrowser(): Browser is closed
+
+06-11-2026T23:12:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[06-11-2026T23:11:45 - [TEST_CASE][FAILED] - Test Cases/Cart/Cart-03: Test Cases/Cart/Cart-03 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Không tìm thấy nút Giỏ hàng trên header -> dùng Spy Web lấy xpath và đưa vào CartLocators.HEADER_CART_CANDIDATES
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:31)
+	at com.cellphones.cart.CartKeywords.clickHeaderCart(CartKeywords.groovy:252)
+	at Cart-03.run(Cart-03:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_5.run(S1106_5.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cart/Cart-04" time="35.233" classname="Test Cases/Cart/Cart-04" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Cart/Cart-04 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: FAIL: Popup đăng nhập tự động đóng sau khi đăng nhập thành công&#xa;	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:31)&#xa;	at com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:78)&#xa;	at com.cellphones.cart.CartKeywords.waitLoginPopupClosed(CartKeywords.groovy:201)&#xa;	at com.cellphones.cart.CartKeywords.loginViaHeader(CartKeywords.groovy:210)&#xa;	at Cart-04.run(Cart-04:16)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)&#xa;	at S1106_5.run(S1106_5.groovy:41)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;"/>
+         <system-out><![CDATA[06-11-2026T23:12:23 - [TEST_CASE][FAILED] - Test Cases/Cart/Cart-04: Test Cases/Cart/Cart-04 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: FAIL: Popup đăng nhập tự động đóng sau khi đăng nhập thành công
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:31)
+	at com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:78)
+	at com.cellphones.cart.CartKeywords.waitLoginPopupClosed(CartKeywords.groovy:201)
+	at com.cellphones.cart.CartKeywords.loginViaHeader(CartKeywords.groovy:210)
+	at Cart-04.run(Cart-04:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_5.run(S1106_5.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+
+06-11-2026T23:12:23 - [TEST_STEP][PASSED] - CartKeywords.startBrowser(): Delayed 2 second(s)
+
+06-11-2026T23:12:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T23:12:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T23:12:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T23:12:24 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T23:12:24 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn' successfully
+
+06-11-2026T23:12:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T23:12:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-11-2026T23:12:27 - [TEST_STEP][FAILED] - try: FAIL: Popup đăng nhập tự động đóng sau khi đăng nhập thành công
+
+06-11-2026T23:12:27 - [TEST_STEP][FAILED] - CartKeywords.loginViaHeader(): FAIL: Popup đăng nhập tự động đóng sau khi đăng nhập thành công
+
+06-11-2026T23:12:28 - [MESSAGE][PASSED] - Object 'dyn' is clickable
+
+06-11-2026T23:12:29 - [MESSAGE][PASSED] - Object: 'dyn' is clicked on
+
+06-11-2026T23:12:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T23:12:31 - [MESSAGE][PASSED] - Object 'dyn' is clickable
+
+06-11-2026T23:12:31 - [MESSAGE][PASSED] - Object: 'dyn' is clicked on
+
+06-11-2026T23:12:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T23:12:33 - [MESSAGE][INFO] - Sau khi bấm Đăng nhập -> URL: https://smember.com.vn/login?action=login&client_id=cps&redirect_uri=https%3A%2F%2Fcellphones.com.vn%2F&response_type=authorization_code&state=Vso5BL25nCJY6rTayb9cCaMvFxSN2MPder803JcD | số tab: 1
+
+06-11-2026T23:12:34 - [MESSAGE][PASSED] - PASS: Form nhập SĐT/Mật khẩu xuất hiện
+
+06-11-2026T23:12:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T23:12:36 - [MESSAGE][PASSED] - Text '0337426240' is set on object 'dyn'
+
+06-11-2026T23:12:37 - [MESSAGE][PASSED] - Text 'Taikhoancellphonesmember123@' is set on object 'dyn'
+
+06-11-2026T23:12:37 - [MESSAGE][PASSED] - Attribute 'value' of object 'dyn' is: '0337426240'
+
+06-11-2026T23:12:37 - [MESSAGE][PASSED] - PASS: SĐT được điền vào ô input
+
+06-11-2026T23:12:38 - [MESSAGE][PASSED] - Object 'dyn' is clickable
+
+06-11-2026T23:12:38 - [MESSAGE][PASSED] - Object: 'dyn' is clicked on
+
+06-11-2026T23:12:40 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:43 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:44 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:45 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:46 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:47 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:48 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:49 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:49 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:50 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:51 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:52 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:53 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:53 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:54 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:55 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:56 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:57 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:58 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:58 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T23:12:58 - [MESSAGE][FAILED] - FAIL: Popup đăng nhập tự động đóng sau khi đăng nhập thành công
+
+06-11-2026T23:12:58 - [TEST_STEP][PASSED] - Finally: Browser is closed
+
+06-11-2026T23:12:58 - [TEST_STEP][PASSED] - CartKeywords.stopBrowser(): Browser is closed
+
+06-11-2026T23:12:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[06-11-2026T23:12:23 - [TEST_CASE][FAILED] - Test Cases/Cart/Cart-04: Test Cases/Cart/Cart-04 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: FAIL: Popup đăng nhập tự động đóng sau khi đăng nhập thành công
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:31)
+	at com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:78)
+	at com.cellphones.cart.CartKeywords.waitLoginPopupClosed(CartKeywords.groovy:201)
+	at com.cellphones.cart.CartKeywords.loginViaHeader(CartKeywords.groovy:210)
+	at Cart-04.run(Cart-04:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_5.run(S1106_5.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-11-2026T23:11:08 - [TEST_SUITE][FAILED] - TS_Cart: null]]></system-out>
+      <system-err><![CDATA[06-11-2026T23:11:08 - [TEST_SUITE][FAILED] - TS_Cart: null]]></system-err>
+   </testsuite>
+</testsuites>

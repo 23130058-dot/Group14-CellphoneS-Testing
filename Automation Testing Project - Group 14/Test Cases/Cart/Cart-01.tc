@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cart-01</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Tú Nguyễn Thanh</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Tú Nguyễn Thanh</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>6a3e33c0-d678-4ee0-b1ba-085d3b8da22d</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>6a3e33c0-d678-4ee0-b1ba-085d3b8da22d</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>32b1b4bb-d434-456a-baf5-12f381a3ed24</testCaseGuid>
+</TestCaseEntity>

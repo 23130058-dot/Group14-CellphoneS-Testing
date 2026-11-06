@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Cart" time="93.066" tests="4" passed="1" failures="2" errors="1" incompleted="0" skipped="0">
+   <testsuite name="TS_Cart" tests="4" passed="1" failures="2" errors="1" incompleted="0" skipped="0" time="93.066" timestamp="2026-11-06T15:38:00.228Z" hostname="Admin - Admin-PC" id="Test Suites/TS_Cart" status="ERROR">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\Dam bao chat luong va kiem thu phan mem\\Final_Project\\Group14-CellphoneS-Testing\\Automation Testing Project - Group 14\\Reports\\20261106_223757\\TS_Cart\\20261106_223757"/>
+         <property name="logFiles" value="D:\\Dam bao chat luong va kiem thu phan mem\\Final_Project\\Group14-CellphoneS-Testing\\Automation Testing Project - Group 14\\Reports\\20261106_223757\\TS_Cart\\20261106_223757\\console0.log, D:\\Dam bao chat luong va kiem thu phan mem\\Final_Project\\Group14-CellphoneS-Testing\\Automation Testing Project - Group 14\\Reports\\20261106_223757\\TS_Cart\\20261106_223757\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="Admin - Admin-PC"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.7.0"/>
+         <property name="browser" value="Chrome 156.0.8078.80"/>
+         <property name="userFullName" value="Tú Nguyễn Thanh"/>
+         <property name="hostAddress" value="26.210.82.130"/>
+         <property name="sessionId" value="e37963dd8a82bb6dde7b76c93d87e86d"/>
+         <property name="projectName" value="Automation Testing Project - Group 14"/>
+         <property name="seleniumVersion" value="4.46.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Cart/Cart-01" time="9.174" classname="Test Cases/Cart/Cart-01" status="ERROR">
+         <error type="ERROR" message="Test Cases/Cart/Cart-01 FAILED.&#xa;Reason:&#xa;java.lang.NumberFormatException: For input string: &quot;2026300300180020970131312813128533710011301215154128322461253211704603121612241222324052092021131313131313121315290000159900001529000901530001282561349000013490000134900001529000015290000134900001500233012100410535003012137000300000021551105560045526110115689551028710833551341028710001322021112900001790000199000029900005389000054900005050000558931800016000025000020260005200008900001260005200005900002353750001490000169000012901500000419900024902650000241212115000011668100001112121150000131281361121215513156461131213113128202613131285053375324413302010495101495101495101543215768911222213128152900001221248284761572244673313128313128152900001012479233131281529000011131281499000011311312814990000613556131281529000015990000901529000180020977302200180020638002130102422181817171688851717124031617237235035202871089666&quot;&#xa;	at com.cellphones.cart.CartKeywords.getCartBadge(CartKeywords.groovy:264)&#xa;	at Cart-01.run(Cart-01:17)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)&#xa;	at S1106_1.run(S1106_1.groovy:41)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;"/>
+         <system-out><![CDATA[06-11-2026T22:38:00 - [TEST_CASE][ERROR] - Test Cases/Cart/Cart-01: Test Cases/Cart/Cart-01 FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: "2026300300180020970131312813128533710011301215154128322461253211704603121612241222324052092021131313131313121315290000159900001529000901530001282561349000013490000134900001529000015290000134900001500233012100410535003012137000300000021551105560045526110115689551028710833551341028710001322021112900001790000199000029900005389000054900005050000558931800016000025000020260005200008900001260005200005900002353750001490000169000012901500000419900024902650000241212115000011668100001112121150000131281361121215513156461131213113128202613131285053375324413302010495101495101495101543215768911222213128152900001221248284761572244673313128313128152900001012479233131281529000011131281499000011311312814990000613556131281529000015990000901529000180020977302200180020638002130102422181817171688851717124031617237235035202871089666"
+	at com.cellphones.cart.CartKeywords.getCartBadge(CartKeywords.groovy:264)
+	at Cart-01.run(Cart-01:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_1.run(S1106_1.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+
+06-11-2026T22:38:00 - [TEST_STEP][PASSED] - CartKeywords.startBrowser(): Delayed 2 second(s)
+
+06-11-2026T22:38:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T22:38:00 - [MESSAGE][WARNING] - The "Wait for network requests to finish" option is deprecated and can slow down execution. Smart Wait already waits for the target element to be ready.
+
+06-11-2026T22:38:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T22:38:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T22:38:01 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T22:38:02 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn' successfully
+
+06-11-2026T22:38:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T22:38:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-11-2026T22:38:04 - [TEST_STEP][PASSED] - try: null
+
+06-11-2026T22:38:04 - [TEST_STEP][PASSED] - CartKeywords.openProduct(PRODUCT_A_URL): PASS: Trang chi tiết sản phẩm hiển thị nút [Thêm vào giỏ]
+
+06-11-2026T22:38:06 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn/iphone-13.html' successfully
+
+06-11-2026T22:38:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T22:38:06 - [MESSAGE][PASSED] - PASS: Trang chi tiết sản phẩm hiển thị nút [Thêm vào giỏ]
+
+06-11-2026T22:38:06 - [TEST_STEP][PASSED] - CartKeywords.checkEq(CartKeywords.getCartBadge(), 0, "Bước 2: Icon giỏ hàng hiển thị số 0"): null
+
+06-11-2026T22:38:09 - [TEST_STEP][ERROR] - Finally: Test Cases/Cart/Cart-01 FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: "2026300300180020970131312813128533710011301215154128322461253211704603121612241222324052092021131313131313121315290000159900001529000901530001282561349000013490000134900001529000015290000134900001500233012100410535003012137000300000021551105560045526110115689551028710833551341028710001322021112900001790000199000029900005389000054900005050000558931800016000025000020260005200008900001260005200005900002353750001490000169000012901500000419900024902650000241212115000011668100001112121150000131281361121215513156461131213113128202613131285053375324413302010495101495101495101543215768911222213128152900001221248284761572244673313128313128152900001012479233131281529000011131281499000011311312814990000613556131281529000015990000901529000180020977302200180020638002130102422181817171688851717124031617237235035202871089666"
+	at com.cellphones.cart.CartKeywords.getCartBadge(CartKeywords.groovy:264)
+	at Cart-01.run(Cart-01:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_1.run(S1106_1.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+
+06-11-2026T22:38:09 - [TEST_STEP][ERROR] - CartKeywords.stopBrowser(): Test Cases/Cart/Cart-01 FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: "2026300300180020970131312813128533710011301215154128322461253211704603121612241222324052092021131313131313121315290000159900001529000901530001282561349000013490000134900001529000015290000134900001500233012100410535003012137000300000021551105560045526110115689551028710833551341028710001322021112900001790000199000029900005389000054900005050000558931800016000025000020260005200008900001260005200005900002353750001490000169000012901500000419900024902650000241212115000011668100001112121150000131281361121215513156461131213113128202613131285053375324413302010495101495101495101543215768911222213128152900001221248284761572244673313128313128152900001012479233131281529000011131281499000011311312814990000613556131281529000015990000901529000180020977302200180020638002130102422181817171688851717124031617237235035202871089666"
+	at com.cellphones.cart.CartKeywords.getCartBadge(CartKeywords.groovy:264)
+	at Cart-01.run(Cart-01:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_1.run(S1106_1.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+
+06-11-2026T22:38:09 - [MESSAGE][PASSED] - Browser is closed
+
+06-11-2026T22:38:09 - [MESSAGE][ERROR] - Test Cases/Cart/Cart-01 FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: "2026300300180020970131312813128533710011301215154128322461253211704603121612241222324052092021131313131313121315290000159900001529000901530001282561349000013490000134900001529000015290000134900001500233012100410535003012137000300000021551105560045526110115689551028710833551341028710001322021112900001790000199000029900005389000054900005050000558931800016000025000020260005200008900001260005200005900002353750001490000169000012901500000419900024902650000241212115000011668100001112121150000131281361121215513156461131213113128202613131285053375324413302010495101495101495101543215768911222213128152900001221248284761572244673313128313128152900001012479233131281529000011131281499000011311312814990000613556131281529000015990000901529000180020977302200180020638002130102422181817171688851717124031617237235035202871089666"
+	at com.cellphones.cart.CartKeywords.getCartBadge(CartKeywords.groovy:264)
+	at Cart-01.run(Cart-01:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_1.run(S1106_1.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)]]></system-out>
+         <system-err><![CDATA[06-11-2026T22:38:00 - [TEST_CASE][ERROR] - Test Cases/Cart/Cart-01: Test Cases/Cart/Cart-01 FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: "2026300300180020970131312813128533710011301215154128322461253211704603121612241222324052092021131313131313121315290000159900001529000901530001282561349000013490000134900001529000015290000134900001500233012100410535003012137000300000021551105560045526110115689551028710833551341028710001322021112900001790000199000029900005389000054900005050000558931800016000025000020260005200008900001260005200005900002353750001490000169000012901500000419900024902650000241212115000011668100001112121150000131281361121215513156461131213113128202613131285053375324413302010495101495101495101543215768911222213128152900001221248284761572244673313128313128152900001012479233131281529000011131281499000011311312814990000613556131281529000015990000901529000180020977302200180020638002130102422181817171688851717124031617237235035202871089666"
+	at com.cellphones.cart.CartKeywords.getCartBadge(CartKeywords.groovy:264)
+	at Cart-01.run(Cart-01:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_1.run(S1106_1.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cart/Cart-02" time="24.752" classname="Test Cases/Cart/Cart-02" status="PASSED">
+         <system-out><![CDATA[06-11-2026T22:38:09 - [TEST_CASE][PASSED] - Test Cases/Cart/Cart-02: Test Cases/Cart/Cart-02
+
+06-11-2026T22:38:09 - [TEST_STEP][PASSED] - CartKeywords.startBrowser(): Delayed 2 second(s)
+
+06-11-2026T22:38:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T22:38:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T22:38:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T22:38:10 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T22:38:10 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn' successfully
+
+06-11-2026T22:38:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T22:38:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-11-2026T22:38:12 - [TEST_STEP][PASSED] - try: PASS: Đang ở đúng trang | actual=https://cellphones.com.vn/iphone-13.html expected=https://cellphones.com.vn/iphone-13.html
+
+06-11-2026T22:38:12 - [TEST_STEP][PASSED] - CartKeywords.openProduct(PRODUCT_A_URL): PASS: Trang chi tiết sản phẩm hiển thị nút [Thêm vào giỏ]
+
+06-11-2026T22:38:14 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn/iphone-13.html' successfully
+
+06-11-2026T22:38:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T22:38:15 - [MESSAGE][PASSED] - PASS: Trang chi tiết sản phẩm hiển thị nút [Thêm vào giỏ]
+
+06-11-2026T22:38:15 - [TEST_STEP][PASSED] - CartKeywords.clickAddToCart(): Delayed 2 second(s)
+
+06-11-2026T22:38:16 - [MESSAGE][PASSED] - Object 'dyn' is clickable
+
+06-11-2026T22:38:16 - [MESSAGE][PASSED] - Object: 'dyn' is clicked on
+
+06-11-2026T22:38:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-11-2026T22:38:18 - [TEST_STEP][PASSED] - CartKeywords.verifyLoginPopupDisplayed(): PASS: Popup hiển thị nút [Đăng nhập]
+
+06-11-2026T22:38:19 - [MESSAGE][PASSED] - PASS: Popup yêu cầu đăng nhập hiển thị thông báo "Vui lòng đăng nhập tài khoản Smember..."
+
+06-11-2026T22:38:19 - [MESSAGE][PASSED] - PASS: Popup hiển thị tiêu đề Smember
+
+06-11-2026T22:38:19 - [MESSAGE][PASSED] - PASS: Popup hiển thị nút [Đăng ký]
+
+06-11-2026T22:38:20 - [MESSAGE][PASSED] - PASS: Popup hiển thị nút [Đăng nhập]
+
+06-11-2026T22:38:20 - [TEST_STEP][PASSED] - CartKeywords.clickLoginOnRequiredPopup(): PASS: Form nhập SĐT/Mật khẩu xuất hiện sau khi bấm [Đăng nhập]
+
+06-11-2026T22:38:20 - [MESSAGE][PASSED] - Object 'dyn' is clickable
+
+06-11-2026T22:38:21 - [MESSAGE][PASSED] - Object: 'dyn' is clicked on
+
+06-11-2026T22:38:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T22:38:24 - [MESSAGE][PASSED] - PASS: Form nhập SĐT/Mật khẩu xuất hiện sau khi bấm [Đăng nhập]
+
+06-11-2026T22:38:24 - [TEST_STEP][PASSED] - CartKeywords.submitLogin(PHONE, PASSWORD): Object: 'dyn' is clicked on
+
+06-11-2026T22:38:25 - [MESSAGE][PASSED] - Text '0337426240' is set on object 'dyn'
+
+06-11-2026T22:38:26 - [MESSAGE][PASSED] - Text 'Taikhoancellphonesmember123@' is set on object 'dyn'
+
+06-11-2026T22:38:27 - [MESSAGE][PASSED] - Attribute 'value' of object 'dyn' is: '0337426240'
+
+06-11-2026T22:38:27 - [MESSAGE][PASSED] - PASS: SĐT được điền vào ô input
+
+06-11-2026T22:38:27 - [MESSAGE][PASSED] - Object 'dyn' is clickable
+
+06-11-2026T22:38:27 - [MESSAGE][PASSED] - Object: 'dyn' is clicked on
+
+06-11-2026T22:38:27 - [TEST_STEP][PASSED] - CartKeywords.check(CartKeywords.isLoggedIn(), "Đăng nhập thành công"): PASS: Đăng nhập thành công
+
+06-11-2026T22:38:34 - [MESSAGE][PASSED] - PASS: Đăng nhập thành công
+
+06-11-2026T22:38:34 - [TEST_STEP][PASSED] - CartKeywords.verifyCurrentUrlIs(PRODUCT_A_URL): PASS: Đang ở đúng trang | actual=https://cellphones.com.vn/iphone-13.html expected=https://cellphones.com.vn/iphone-13.html
+
+06-11-2026T22:38:34 - [MESSAGE][PASSED] - PASS: Đang ở đúng trang | actual=https://cellphones.com.vn/iphone-13.html expected=https://cellphones.com.vn/iphone-13.html
+
+06-11-2026T22:38:34 - [TEST_STEP][PASSED] - Finally: Browser is closed
+
+06-11-2026T22:38:34 - [TEST_STEP][PASSED] - CartKeywords.stopBrowser(): Browser is closed
+
+06-11-2026T22:38:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cart/Cart-03" time="23.45" classname="Test Cases/Cart/Cart-03" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Cart/Cart-03 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: FAIL: Popup yêu cầu đăng nhập hiển thị thông báo &quot;Vui lòng đăng nhập tài khoản Smember...&quot;&#xa;	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:31)&#xa;	at com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:78)&#xa;	at com.cellphones.cart.CartKeywords.verifyLoginPopupDisplayed(CartKeywords.groovy:175)&#xa;	at Cart-03.run(Cart-03:17)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)&#xa;	at S1106_1.run(S1106_1.groovy:41)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;"/>
+         <system-out><![CDATA[06-11-2026T22:38:34 - [TEST_CASE][FAILED] - Test Cases/Cart/Cart-03: Test Cases/Cart/Cart-03 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: FAIL: Popup yêu cầu đăng nhập hiển thị thông báo "Vui lòng đăng nhập tài khoản Smember..."
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:31)
+	at com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:78)
+	at com.cellphones.cart.CartKeywords.verifyLoginPopupDisplayed(CartKeywords.groovy:175)
+	at Cart-03.run(Cart-03:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_1.run(S1106_1.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+
+06-11-2026T22:38:34 - [TEST_STEP][PASSED] - CartKeywords.startBrowser(): Delayed 2 second(s)
+
+06-11-2026T22:38:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T22:38:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T22:38:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T22:38:34 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T22:38:35 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn' successfully
+
+06-11-2026T22:38:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T22:38:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-11-2026T22:38:37 - [TEST_STEP][FAILED] - try: FAIL: Popup yêu cầu đăng nhập hiển thị thông báo "Vui lòng đăng nhập tài khoản Smember..."
+
+06-11-2026T22:38:37 - [TEST_STEP][PASSED] - CartKeywords.clickHeaderCart(): Delayed 1 second(s)
+
+06-11-2026T22:38:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T22:38:40 - [TEST_STEP][FAILED] - CartKeywords.verifyLoginPopupDisplayed(): FAIL: Popup yêu cầu đăng nhập hiển thị thông báo "Vui lòng đăng nhập tài khoản Smember..."
+
+06-11-2026T22:38:42 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:38:43 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:38:44 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:38:44 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:38:45 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:38:46 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:38:47 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:38:48 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:38:48 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:38:49 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:38:50 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:38:51 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:38:51 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:38:52 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:38:53 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:38:54 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:38:55 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:38:55 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:38:56 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:38:57 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:38:57 - [MESSAGE][FAILED] - FAIL: Popup yêu cầu đăng nhập hiển thị thông báo "Vui lòng đăng nhập tài khoản Smember..."
+
+06-11-2026T22:38:57 - [TEST_STEP][PASSED] - Finally: Browser is closed
+
+06-11-2026T22:38:57 - [TEST_STEP][PASSED] - CartKeywords.stopBrowser(): Browser is closed
+
+06-11-2026T22:38:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[06-11-2026T22:38:34 - [TEST_CASE][FAILED] - Test Cases/Cart/Cart-03: Test Cases/Cart/Cart-03 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: FAIL: Popup yêu cầu đăng nhập hiển thị thông báo "Vui lòng đăng nhập tài khoản Smember..."
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:31)
+	at com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:78)
+	at com.cellphones.cart.CartKeywords.verifyLoginPopupDisplayed(CartKeywords.groovy:175)
+	at Cart-03.run(Cart-03:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_1.run(S1106_1.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cart/Cart-04" time="35.582" classname="Test Cases/Cart/Cart-04" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Cart/Cart-04 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: FAIL: Popup đăng nhập tự động đóng sau khi đăng nhập thành công&#xa;	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:31)&#xa;	at com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:78)&#xa;	at com.cellphones.cart.CartKeywords.waitLoginPopupClosed(CartKeywords.groovy:201)&#xa;	at com.cellphones.cart.CartKeywords.loginViaHeader(CartKeywords.groovy:210)&#xa;	at Cart-04.run(Cart-04:16)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)&#xa;	at S1106_1.run(S1106_1.groovy:41)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;"/>
+         <system-out><![CDATA[06-11-2026T22:38:57 - [TEST_CASE][FAILED] - Test Cases/Cart/Cart-04: Test Cases/Cart/Cart-04 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: FAIL: Popup đăng nhập tự động đóng sau khi đăng nhập thành công
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:31)
+	at com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:78)
+	at com.cellphones.cart.CartKeywords.waitLoginPopupClosed(CartKeywords.groovy:201)
+	at com.cellphones.cart.CartKeywords.loginViaHeader(CartKeywords.groovy:210)
+	at Cart-04.run(Cart-04:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_1.run(S1106_1.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+
+06-11-2026T22:38:57 - [TEST_STEP][PASSED] - CartKeywords.startBrowser(): Delayed 2 second(s)
+
+06-11-2026T22:38:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T22:38:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T22:38:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T22:38:58 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T22:38:58 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn' successfully
+
+06-11-2026T22:38:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T22:39:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-11-2026T22:39:00 - [TEST_STEP][FAILED] - try: FAIL: Popup đăng nhập tự động đóng sau khi đăng nhập thành công
+
+06-11-2026T22:39:00 - [TEST_STEP][FAILED] - CartKeywords.loginViaHeader(): FAIL: Popup đăng nhập tự động đóng sau khi đăng nhập thành công
+
+06-11-2026T22:39:03 - [MESSAGE][PASSED] - Object 'dyn' is clickable
+
+06-11-2026T22:39:04 - [MESSAGE][PASSED] - Object: 'dyn' is clicked on
+
+06-11-2026T22:39:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T22:39:07 - [MESSAGE][PASSED] - Object 'dyn' is clickable
+
+06-11-2026T22:39:07 - [MESSAGE][PASSED] - Object: 'dyn' is clicked on
+
+06-11-2026T22:39:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T22:39:09 - [MESSAGE][INFO] - Sau khi bấm Đăng nhập -> URL: https://smember.com.vn/login?action=login&client_id=cps&redirect_uri=https%3A%2F%2Fcellphones.com.vn%2F&response_type=authorization_code&state=CplA3Rd3uqpr9aP2qvSbP6sjaBOtZo3M7IksKStm | số tab: 1
+
+06-11-2026T22:39:10 - [MESSAGE][PASSED] - PASS: Form nhập SĐT/Mật khẩu xuất hiện
+
+06-11-2026T22:39:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T22:39:12 - [MESSAGE][PASSED] - Text '0337426240' is set on object 'dyn'
+
+06-11-2026T22:39:12 - [MESSAGE][PASSED] - Text 'Taikhoancellphonesmember123@' is set on object 'dyn'
+
+06-11-2026T22:39:13 - [MESSAGE][PASSED] - Attribute 'value' of object 'dyn' is: '0337426240'
+
+06-11-2026T22:39:13 - [MESSAGE][PASSED] - PASS: SĐT được điền vào ô input
+
+06-11-2026T22:39:13 - [MESSAGE][PASSED] - Object 'dyn' is clickable
+
+06-11-2026T22:39:13 - [MESSAGE][PASSED] - Object: 'dyn' is clicked on
+
+06-11-2026T22:39:15 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:39:17 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:39:18 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:39:19 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:39:20 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:39:21 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:39:22 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:39:23 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:39:24 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:39:25 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:39:25 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:39:26 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:39:27 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:39:28 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:39:29 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:39:29 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:39:30 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:39:31 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:39:32 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:39:33 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+06-11-2026T22:39:33 - [MESSAGE][FAILED] - FAIL: Popup đăng nhập tự động đóng sau khi đăng nhập thành công
+
+06-11-2026T22:39:33 - [TEST_STEP][PASSED] - Finally: Browser is closed
+
+06-11-2026T22:39:33 - [TEST_STEP][PASSED] - CartKeywords.stopBrowser(): Browser is closed
+
+06-11-2026T22:39:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[06-11-2026T22:38:57 - [TEST_CASE][FAILED] - Test Cases/Cart/Cart-04: Test Cases/Cart/Cart-04 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: FAIL: Popup đăng nhập tự động đóng sau khi đăng nhập thành công
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:31)
+	at com.cellphones.cart.CartKeywords.check(CartKeywords.groovy:78)
+	at com.cellphones.cart.CartKeywords.waitLoginPopupClosed(CartKeywords.groovy:201)
+	at com.cellphones.cart.CartKeywords.loginViaHeader(CartKeywords.groovy:210)
+	at Cart-04.run(Cart-04:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_1.run(S1106_1.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-11-2026T22:38:00 - [TEST_SUITE][ERROR] - TS_Cart: null]]></system-out>
+      <system-err><![CDATA[06-11-2026T22:38:00 - [TEST_SUITE][ERROR] - TS_Cart: null]]></system-err>
+   </testsuite>
+</testsuites>

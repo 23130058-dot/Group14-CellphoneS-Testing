@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SP22: Click vào sản phẩm trong kết quả tìm kiếm</description>
+   <name>TC_Search_SP22</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4f06ebb3-78ae-5cc6-b402-4e7a80ec977e</testCaseGuid>
+</TestCaseEntity>

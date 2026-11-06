@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DSSP_10_Loc_ket_hop_hang_gia (Nguyễn Trần Xuân Đào)</description>
+   <name>TC_DSSP_10_Loc_ket_hop_hang_gia</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>47822c80-25e9-5e02-91bd-5bbd388f64dc</testCaseGuid>
+</TestCaseEntity>

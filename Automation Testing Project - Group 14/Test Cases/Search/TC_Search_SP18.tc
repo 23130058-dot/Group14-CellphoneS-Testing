@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SP18: Tìm kiếm với chuỗi SQL Injection</description>
+   <name>TC_Search_SP18</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>95ba0462-b3b5-5a92-a8ec-176e9aeb922f</testCaseGuid>
+</TestCaseEntity>

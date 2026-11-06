@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SP13: Tìm kiếm với từ khóa không tồn tại</description>
+   <name>TC_Search_SP13</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fb9b58cc-a92c-573f-9405-cbd089a21ae4</testCaseGuid>
+</TestCaseEntity>

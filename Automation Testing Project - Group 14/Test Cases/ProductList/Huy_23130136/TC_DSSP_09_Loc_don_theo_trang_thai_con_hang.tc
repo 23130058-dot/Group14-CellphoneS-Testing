@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DSSP_09_Loc_don_theo_trang_thai_con_hang (Nguyễn Hữu Huy)</description>
+   <name>TC_DSSP_09_Loc_don_theo_trang_thai_con_hang</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a00360a3-f2e1-5cf5-8052-e39ab25f2464</testCaseGuid>
+</TestCaseEntity>

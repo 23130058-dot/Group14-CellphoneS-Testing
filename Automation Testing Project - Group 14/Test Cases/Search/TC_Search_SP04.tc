@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SP04: Tìm kiếm theo loại sản phẩm</description>
+   <name>TC_Search_SP04</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2f6be71f-fb81-5a41-96ea-4409c3a9273a</testCaseGuid>
+</TestCaseEntity>

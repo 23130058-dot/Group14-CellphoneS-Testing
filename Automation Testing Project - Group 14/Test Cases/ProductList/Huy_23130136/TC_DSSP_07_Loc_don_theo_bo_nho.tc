@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DSSP_07_Loc_don_theo_bo_nho (Nguyễn Hữu Huy)</description>
+   <name>TC_DSSP_07_Loc_don_theo_bo_nho</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>147b18f3-0dda-586b-bab8-1285397cebe1</testCaseGuid>
+</TestCaseEntity>

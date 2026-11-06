@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SP19: Tìm kiếm với từ khóa 1 ký tự (biên dưới)</description>
+   <name>TC_Search_SP19</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>90181a27-6e0a-5963-bac8-627c9c0f6136</testCaseGuid>
+</TestCaseEntity>

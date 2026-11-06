@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DSSP_12_Loc_khong_co_ket_qua (Nguyễn Hữu Huy)</description>
+   <name>TC_DSSP_12_Loc_khong_co_ket_qua</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2d8a0400-63a3-5e8b-ae70-ed7ef535a5a2</testCaseGuid>
+</TestCaseEntity>

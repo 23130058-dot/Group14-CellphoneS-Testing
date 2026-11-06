@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DSSP_14_Sap_xep_gia_cao_den_thap (Nguyễn Trần Xuân Đào)</description>
+   <name>TC_DSSP_14_Sap_xep_gia_cao_den_thap</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a07f7707-d311-5a34-a618-2809a28e68c1</testCaseGuid>
+</TestCaseEntity>

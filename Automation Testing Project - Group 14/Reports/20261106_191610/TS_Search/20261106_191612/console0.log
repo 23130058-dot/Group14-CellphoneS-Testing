@@ -1,0 +1,141 @@
+[0.048s][warning][cds] Archived non-system classes are disabled because the java.system.class.loader property is specified (value = "groovy.lang.GroovyClassLoader"). To use archived non-system classes, this property must not be set
+2026-11-06 19:16:19.696 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\10van\.katalon\packages\KS-11.7.0\configuration\org.eclipse.osgi\166\0\.cp\resources\logback\logback-execution.xml
+2026-11-06 19:16:19.701 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: D:\New folder (2)\Automation Testing Project - Group 14\Include\config\log.properties
+2026-11-06 19:16:20.998 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_Search
+2026-11-06 19:16:21.123 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = - Văn Võ Chí Đạt - A
+2026-11-06 19:16:21.127 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Automation Testing Project - Group 14
+2026-11-06 19:16:21.128 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = 10van - Dat.mshome.net
+2026-11-06 19:16:21.130 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-11-06 19:16:21.132 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 172.29.96.1
+2026-11-06 19:16:21.133 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.7.0
+2026-11-06 19:16:21.385 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-11-06 19:16:21.387 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Search/TC_Search_SP01
+2026-11-06 19:16:21.932 DEBUG testcase.TC_Search_SP01                  - 1: SearchRunner.run("SP01", "iPhone 15", "iphone 15", "valid")
+2026-11-06 19:16:22.056 INFO  com.kms.katalon.core.util.KeywordUtil    - === SP01 | mode=valid | keyword='iPhone 15' ===
+2026-11-06 19:16:22.660 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-06 19:16:22.701 WARN  c.k.k.core.webui.driver.DriverFactory    - The "Wait for network requests to finish" option is deprecated and can slow down execution. Smart Wait already waits for the target element to be ready.
+2026-11-06 19:16:22.769 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-06 19:16:26.882 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = bebdbc9302a746f8a4e65a54d471cb89
+2026-11-06 19:16:26.885 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.80
+2026-11-06 19:16:26.888 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-11-06 19:16:26.890 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-06 19:16:26.904 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-06 19:16:48.284 INFO  com.kms.katalon.core.util.KeywordUtil    - OK
+2026-11-06 19:16:48.345 INFO  com.kms.katalon.core.util.KeywordUtil    - OK
+2026-11-06 19:16:48.369 ERROR com.kms.katalon.core.util.KeywordUtil    - ❌ Không có sản phẩm nào trong kết quả
+2026-11-06 19:16:49.357 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Search/TC_Search_SP01 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Không có sản phẩm nào trong kết quả
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:31)
+	at com.cellphones.SearchKeywords.check(SearchKeywords.groovy:39)
+	at com.cellphones.SearchKeywords.verifyResults(SearchKeywords.groovy:162)
+	at com.cellphones.SearchRunner.run(SearchRunner.groovy:41)
+	at TC_Search_SP01.run(TC_Search_SP01:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_0.run(S1106_0.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-11-06 19:16:49.365 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Search/TC_Search_SP01
+2026-11-06 19:16:49.376 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-11-06 19:16:49.377 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Search/TC_Search_SP02
+2026-11-06 19:16:49.437 DEBUG testcase.TC_Search_SP02                  - 1: SearchRunner.run("SP02", "iPhone 15", "iphone 15", "valid_button")
+2026-11-06 19:16:49.440 INFO  com.kms.katalon.core.util.KeywordUtil    - === SP02 | mode=valid_button | keyword='iPhone 15' ===
+2026-11-06 19:16:49.443 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-06 19:16:49.451 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-06 19:16:51.828 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 6bb90bdebb75603f3012f3fbbbd17e8e
+2026-11-06 19:16:51.830 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.80
+2026-11-06 19:16:51.831 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-11-06 19:16:51.832 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-06 19:16:51.833 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-06 19:17:07.309 INFO  com.kms.katalon.core.util.KeywordUtil    - OK
+2026-11-06 19:17:08.663 INFO  com.kms.katalon.core.util.KeywordUtil    - OK
+2026-11-06 19:17:08.740 ERROR com.kms.katalon.core.util.KeywordUtil    - ❌ Chưa chuyển sang trang kết quả
+2026-11-06 19:17:10.371 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Search/TC_Search_SP02 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Chưa chuyển sang trang kết quả
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:31)
+	at com.cellphones.SearchKeywords.check(SearchKeywords.groovy:39)
+	at com.cellphones.SearchKeywords.verifyResults(SearchKeywords.groovy:161)
+	at com.cellphones.SearchRunner.run(SearchRunner.groovy:41)
+	at TC_Search_SP02.run(TC_Search_SP02:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_0.run(S1106_0.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-11-06 19:17:10.375 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Search/TC_Search_SP02
+2026-11-06 19:17:10.382 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-11-06 19:17:10.382 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Search/TC_Search_SP03
+2026-11-06 19:17:10.431 DEBUG testcase.TC_Search_SP03                  - 1: SearchRunner.run("SP03", "Samsung", "samsung", "valid")
+2026-11-06 19:17:10.432 INFO  com.kms.katalon.core.util.KeywordUtil    - === SP03 | mode=valid | keyword='Samsung' ===
+2026-11-06 19:17:10.435 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-06 19:17:10.438 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-06 19:17:12.706 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4e6d2f416c9bd1a05acabd85edb0ac4f
+2026-11-06 19:17:12.708 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.80
+2026-11-06 19:17:12.709 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-11-06 19:17:12.709 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-06 19:17:12.711 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-06 19:17:32.195 INFO  com.kms.katalon.core.util.KeywordUtil    - OK
+2026-11-06 19:17:32.212 INFO  com.kms.katalon.core.util.KeywordUtil    - OK
+2026-11-06 19:17:32.227 INFO  com.kms.katalon.core.util.KeywordUtil    - OK
+2026-11-06 19:17:32.245 INFO  com.kms.katalon.core.util.KeywordUtil    - OK
+2026-11-06 19:17:33.022 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Search/TC_Search_SP03
+2026-11-06 19:17:33.027 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-11-06 19:17:33.027 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Search/TC_Search_SP04
+2026-11-06 19:17:33.072 DEBUG testcase.TC_Search_SP04                  - 1: SearchRunner.run("SP04", "laptop", "laptop", "valid")
+2026-11-06 19:17:33.074 INFO  com.kms.katalon.core.util.KeywordUtil    - === SP04 | mode=valid | keyword='laptop' ===
+2026-11-06 19:17:33.076 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-06 19:17:33.079 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-06 19:17:35.403 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 1d2673382c26f44cc68a0b7efb09cfe3
+2026-11-06 19:17:35.404 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.80
+2026-11-06 19:17:35.405 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-11-06 19:17:35.405 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-06 19:17:35.406 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-06 19:17:56.120 INFO  com.kms.katalon.core.util.KeywordUtil    - OK
+2026-11-06 19:17:56.146 INFO  com.kms.katalon.core.util.KeywordUtil    - OK
+2026-11-06 19:17:56.196 INFO  com.kms.katalon.core.util.KeywordUtil    - OK
+2026-11-06 19:17:56.230 INFO  com.kms.katalon.core.util.KeywordUtil    - OK
+2026-11-06 19:17:57.401 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Search/TC_Search_SP04
+2026-11-06 19:17:57.407 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-11-06 19:17:57.407 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Search/TC_Search_SP05
+2026-11-06 19:17:57.451 DEBUG testcase.TC_Search_SP05                  - 1: SearchRunner.run("SP05", "iPhone 15", "iphone 15", "case_insensitive")
+2026-11-06 19:17:57.453 INFO  com.kms.katalon.core.util.KeywordUtil    - === SP05 | mode=case_insensitive | keyword='iPhone 15' ===
+2026-11-06 19:17:57.463 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-06 19:17:57.465 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-06 19:17:59.535 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = a4fbb2193d6a13ae984a5cb9bbffcb16
+2026-11-06 19:17:59.536 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.80
+2026-11-06 19:17:59.537 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-11-06 19:17:59.537 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-06 19:17:59.538 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-06 19:18:32.292 INFO  com.kms.katalon.core.util.KeywordUtil    - OK
+2026-11-06 19:18:33.225 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Search/TC_Search_SP05
+2026-11-06 19:18:33.231 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-11-06 19:18:33.231 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Search/TC_Search_SP07
+2026-11-06 19:18:33.279 DEBUG testcase.TC_Search_SP07                  - 1: SearchRunner.run("SP07", "iPhone 15", "iphone 15", "valid_pad")
+2026-11-06 19:18:33.280 INFO  com.kms.katalon.core.util.KeywordUtil    - === SP07 | mode=valid_pad | keyword='iPhone 15' ===
+2026-11-06 19:18:33.282 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-06 19:18:33.285 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-06 19:18:35.423 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f6fc3b1df9bc475ba1e948bcefb75ed9
+2026-11-06 19:18:35.424 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.80
+2026-11-06 19:18:35.425 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-11-06 19:18:35.425 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-06 19:18:35.426 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }

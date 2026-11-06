@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SP01: Tìm kiếm với tên sản phẩm đầy đủ, hợp lệ</description>
+   <name>TC_Search_SP01</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c9c0a02c-1bcc-5183-9324-1d41ed3eb383</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DSSP_08_Loc_don_theo_man_hinh (Nguyễn Hữu Huy)</description>
+   <name>TC_DSSP_08_Loc_don_theo_man_hinh</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>db880f6e-4ce8-5063-ac64-fd821985dfbc</testCaseGuid>
+</TestCaseEntity>

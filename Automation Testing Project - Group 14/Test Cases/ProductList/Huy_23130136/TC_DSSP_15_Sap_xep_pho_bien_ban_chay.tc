@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DSSP_15_Sap_xep_pho_bien_ban_chay (Nguyễn Hữu Huy)</description>
+   <name>TC_DSSP_15_Sap_xep_pho_bien_ban_chay</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5a8bc2a8-cc19-581b-8b2d-e57d4bf4838b</testCaseGuid>
+</TestCaseEntity>

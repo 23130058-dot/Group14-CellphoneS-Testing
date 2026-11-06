@@ -18,7 +18,6 @@ public class SearchKeywords {
 
 	static final String BASE_URL = 'https://cellphones.com.vn/'
 	static final String SEARCH_INPUT = "input#inp-search, input[placeholder*='Bạn muốn mua gì'], input[type='search'], input[name='search'], input[name='q']"
-	static final String SEARCH_BUTTON = "button.btn-search, form button[type='submit']"
 	static final String PRODUCT_ITEM = '.product-info-container, .product-item, .product__link, div.product-info'
 	static final String POPUP_CLOSE = "button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']"
 	static final List<String> NO_RESULT = ['không tìm thấy', 'không có kết quả', 'không có sản phẩm', 'rất tiếc']
@@ -98,7 +97,7 @@ public class SearchKeywords {
 		}
 		WebUI.delay(1)
 		if (useButton) {
-			WebUI.click(css(SEARCH_BUTTON))
+			clickSearchButton()
 		} else {
 			WebUI.sendKeys(box, Keys.chord(Keys.ENTER))
 		}
@@ -106,6 +105,27 @@ public class SearchKeywords {
 		closePopups()
 		waitResults()
 		WebUI.delay(1)
+	}
+
+	/** Click nút/biểu tượng kính lúp nằm cạnh ô tìm kiếm (không phụ thuộc class cụ thể của nút). */
+	@Keyword
+	static void clickSearchButton() {
+		String script = 'var i = document.querySelector("' + SEARCH_INPUT + '"); if (!i) { return false; }' +
+				'var scopes = [i.closest("form"), i.parentElement, i.parentElement ? i.parentElement.parentElement : null];' +
+				'var sel = "button, [type=submit], [role=button], .btn-search, .search-btn, svg, i, img";' +
+				'for (var s = 0; s < scopes.length; s++) {' +
+				' if (!scopes[s]) { continue; }' +
+				' var list = scopes[s].querySelectorAll(sel);' +
+				' for (var k = 0; k < list.length; k++) {' +
+				'  var e = list[k];' +
+				'  if (e !== i && e.getClientRects().length > 0 && !e.matches("[type=reset], .btn-clear, .clear")) {' +
+				'   if (typeof e.click === "function") { e.click(); } else { e.dispatchEvent(new MouseEvent("click", {bubbles: true, cancelable: true})); }' +
+				'   return true;' +
+				'  }' +
+				' }' +
+				'}' +
+				'return false;'
+		check(js(script) == 'true', 'Không tìm thấy nút tìm kiếm cạnh ô nhập')
 	}
 
 	@Keyword

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SP02: Tìm kiếm bằng cách click biểu tượng kính lúp</description>
+   <name>TC_Search_SP02</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>21d8a28b-6c82-5708-bd06-f501c10d77f7</testCaseGuid>
+</TestCaseEntity>

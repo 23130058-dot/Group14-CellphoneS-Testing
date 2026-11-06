@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DSSP_12_Loc_khong_co_ket_qua (Nguyễn Trần Xuân Đào)</description>
+   <name>TC_DSSP_12_Loc_khong_co_ket_qua</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5b37ab94-29ac-5812-b997-32733feb7c24</testCaseGuid>
+</TestCaseEntity>

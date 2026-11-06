@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SP25: Tìm kiếm từ trang khác (trang chi tiết sản phẩm)</description>
+   <name>TC_Search_SP25</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eab334ee-0c3a-5d06-885e-6b01d5274b0d</testCaseGuid>
+</TestCaseEntity>

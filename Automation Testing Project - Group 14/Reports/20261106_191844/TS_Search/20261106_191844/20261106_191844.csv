@@ -1,0 +1,71 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Search,Chrome 156.0.8078.80,Tim kiem san pham - Van Vo Chi Dat,,06-11-2026 19:18:53,06-11-2026 19:29:42,10m - 49.482s,FAILED
+,,,,,,,
+Test Cases/Search/TC_Search_SP01,Chrome 156.0.8078.80,"SP01: Tìm kiếm với tên sản phẩm đầy đủ, hợp lệ",,06-11-2026 19:18:53,06-11-2026 19:19:25,32.217s,PASSED
+"SearchRunner.run(""SP01"", ""iPhone 15"", ""iphone 15"", ""valid"")",Chrome 156.0.8078.80,,,06-11-2026 19:18:54,06-11-2026 19:19:25,31.654s,PASSED
+,,,,,,,
+Test Cases/Search/TC_Search_SP02,Chrome 156.0.8078.80,SP02: Tìm kiếm bằng cách click biểu tượng kính lúp,,06-11-2026 19:19:25,06-11-2026 19:19:47,21.594s,FAILED
+"SearchRunner.run(""SP02"", ""iPhone 15"", ""iphone 15"", ""valid_button"")",Chrome 156.0.8078.80,,,06-11-2026 19:19:25,06-11-2026 19:19:47,21.525s,PASSED
+,,,,,,,
+Test Cases/Search/TC_Search_SP03,Chrome 156.0.8078.80,SP03: Tìm kiếm theo tên hãng,,06-11-2026 19:19:47,06-11-2026 19:20:11,24.297s,PASSED
+"SearchRunner.run(""SP03"", ""Samsung"", ""samsung"", ""valid"")",Chrome 156.0.8078.80,,,06-11-2026 19:19:47,06-11-2026 19:20:11,24.248s,PASSED
+,,,,,,,
+Test Cases/Search/TC_Search_SP04,Chrome 156.0.8078.80,SP04: Tìm kiếm theo loại sản phẩm,,06-11-2026 19:20:11,06-11-2026 19:20:37,25.698s,PASSED
+"SearchRunner.run(""SP04"", ""laptop"", ""laptop"", ""valid"")",Chrome 156.0.8078.80,,,06-11-2026 19:20:11,06-11-2026 19:20:37,25.651s,PASSED
+,,,,,,,
+Test Cases/Search/TC_Search_SP05,Chrome 156.0.8078.80,"SP05: Tìm kiếm không phân biệt chữ hoa, chữ thường",,06-11-2026 19:20:37,06-11-2026 19:21:22,44.994s,PASSED
+"SearchRunner.run(""SP05"", ""iPhone 15"", ""iphone 15"", ""case_insensitive"")",Chrome 156.0.8078.80,,,06-11-2026 19:20:37,06-11-2026 19:21:22,44.941s,PASSED
+,,,,,,,
+Test Cases/Search/TC_Search_SP07,Chrome 156.0.8078.80,SP07: Tìm kiếm với khoảng trắng thừa ở đầu và cuối từ khóa,,06-11-2026 19:21:22,06-11-2026 19:21:46,23.985s,PASSED
+"SearchRunner.run(""SP07"", ""iPhone 15"", ""iphone 15"", ""valid_pad"")",Chrome 156.0.8078.80,,,06-11-2026 19:21:22,06-11-2026 19:21:46,23.934s,PASSED
+,,,,,,,
+Test Cases/Search/TC_Search_SP08,Chrome 156.0.8078.80,SP08: Tìm kiếm với nhiều khoảng trắng giữa các từ,,06-11-2026 19:21:46,06-11-2026 19:22:10,23.524s,PASSED
+"SearchRunner.run(""SP08"", ""iPhone 15"", ""iphone"", ""valid_gap"")",Chrome 156.0.8078.80,,,06-11-2026 19:21:46,06-11-2026 19:22:10,23.480s,PASSED
+,,,,,,,
+Test Cases/Search/TC_Search_SP09,Chrome 156.0.8078.80,SP09: Tìm kiếm theo tên model gồm chữ và số,,06-11-2026 19:22:10,06-11-2026 19:22:33,23.602s,PASSED
+"SearchRunner.run(""SP09"", ""MacBook Air M2"", ""macbook"", ""valid"")",Chrome 156.0.8078.80,,,06-11-2026 19:22:10,06-11-2026 19:22:33,23.554s,PASSED
+,,,,,,,
+Test Cases/Search/TC_Search_SP10,Chrome 156.0.8078.80,SP10: Tìm kiếm với từ khóa chưa đầy đủ (một phần của tên),,06-11-2026 19:22:33,06-11-2026 19:22:56,22.912s,PASSED
+"SearchRunner.run(""SP10"", ""ipho"", ""iphone"", ""valid"")",Chrome 156.0.8078.80,,,06-11-2026 19:22:33,06-11-2026 19:22:56,22.862s,PASSED
+,,,,,,,
+Test Cases/Search/TC_Search_SP13,Chrome 156.0.8078.80,SP13: Tìm kiếm với từ khóa không tồn tại,,06-11-2026 19:22:56,06-11-2026 19:23:20,23.645s,PASSED
+"SearchRunner.run(""SP13"", ""asdkjh123xyz"", """", ""notfound"")",Chrome 156.0.8078.80,,,06-11-2026 19:22:56,06-11-2026 19:23:20,23.598s,PASSED
+,,,,,,,
+Test Cases/Search/TC_Search_SP14,Chrome 156.0.8078.80,SP14: Tìm kiếm khi để trống ô tìm kiếm,,06-11-2026 19:23:20,06-11-2026 19:23:40,20.507s,PASSED
+"SearchRunner.run(""SP14"", """", """", ""robust_empty"")",Chrome 156.0.8078.80,,,06-11-2026 19:23:20,06-11-2026 19:23:40,20.459s,PASSED
+,,,,,,,
+Test Cases/Search/TC_Search_SP15,Chrome 156.0.8078.80,SP15: Tìm kiếm khi chỉ nhập khoảng trắng,,06-11-2026 19:23:40,06-11-2026 19:24:03,22.934s,PASSED
+"SearchRunner.run(""SP15"", """", """", ""robust_spaces"")",Chrome 156.0.8078.80,,,06-11-2026 19:23:40,06-11-2026 19:24:03,22.891s,PASSED
+,,,,,,,
+Test Cases/Search/TC_Search_SP16,Chrome 156.0.8078.80,SP16: Tìm kiếm với ký tự đặc biệt,,06-11-2026 19:24:03,06-11-2026 19:24:27,23.649s,PASSED
+"SearchRunner.run(""SP16"", ""@#$%^&*()"", """", ""robust"")",Chrome 156.0.8078.80,,,06-11-2026 19:24:03,06-11-2026 19:24:27,23.605s,PASSED
+,,,,,,,
+Test Cases/Search/TC_Search_SP17,Chrome 156.0.8078.80,SP17: Tìm kiếm với đoạn mã script (kiểm tra XSS),,06-11-2026 19:24:27,06-11-2026 19:25:02,35.315s,PASSED
+"SearchRunner.run(""SP17"", ""<script>alert('XSS')</script>"", """", ""robust"")",Chrome 156.0.8078.80,,,06-11-2026 19:24:27,06-11-2026 19:25:02,35.268s,PASSED
+,,,,,,,
+Test Cases/Search/TC_Search_SP18,Chrome 156.0.8078.80,SP18: Tìm kiếm với chuỗi SQL Injection,,06-11-2026 19:25:02,06-11-2026 19:25:28,26.354s,PASSED
+"SearchRunner.run(""SP18"", ""' OR '1'='1"", """", ""robust"")",Chrome 156.0.8078.80,,,06-11-2026 19:25:02,06-11-2026 19:25:28,26.310s,PASSED
+,,,,,,,
+Test Cases/Search/TC_Search_SP19,Chrome 156.0.8078.80,SP19: Tìm kiếm với từ khóa 1 ký tự (biên dưới),,06-11-2026 19:25:28,06-11-2026 19:25:52,23.727s,PASSED
+"SearchRunner.run(""SP19"", ""a"", """", ""robust"")",Chrome 156.0.8078.80,,,06-11-2026 19:25:29,06-11-2026 19:25:52,23.681s,PASSED
+,,,,,,,
+Test Cases/Search/TC_Search_SP20,Chrome 156.0.8078.80,SP20: Tìm kiếm với từ khóa rất dài (255 ký tự),,06-11-2026 19:25:52,06-11-2026 19:26:27,34.989s,PASSED
+"SearchRunner.run(""SP20"", """", """", ""robust_long"")",Chrome 156.0.8078.80,,,06-11-2026 19:25:52,06-11-2026 19:26:27,34.943s,PASSED
+,,,,,,,
+Test Cases/Search/TC_Search_SP22,Chrome 156.0.8078.80,SP22: Click vào sản phẩm trong kết quả tìm kiếm,,06-11-2026 19:26:27,06-11-2026 19:27:02,35.182s,PASSED
+"SearchRunner.run(""SP22"", ""iPhone 15"", ""iphone"", ""open_detail"")",Chrome 156.0.8078.80,,,06-11-2026 19:26:27,06-11-2026 19:27:02,35.139s,PASSED
+,,,,,,,
+Test Cases/Search/TC_Search_SP23,Chrome 156.0.8078.80,SP23: Xem thêm kết quả (nút [Xem thêm] hoặc phân trang),,06-11-2026 19:27:02,06-11-2026 19:27:29,27.014s,PASSED
+"SearchRunner.run(""SP23"", ""Samsung"", ""samsung"", ""load_more"")",Chrome 156.0.8078.80,,,06-11-2026 19:27:02,06-11-2026 19:27:29,26.971s,PASSED
+,,,,,,,
+Test Cases/Search/TC_Search_SP24,Chrome 156.0.8078.80,SP24: Từ khóa hiển thị lại sau khi tìm kiếm,,06-11-2026 19:27:29,06-11-2026 19:27:54,24.208s,PASSED
+"SearchRunner.run(""SP24"", ""iPhone 15"", ""iphone 15"", ""keyword_shown"")",Chrome 156.0.8078.80,,,06-11-2026 19:27:29,06-11-2026 19:27:54,24.162s,PASSED
+,,,,,,,
+Test Cases/Search/TC_Search_SP25,Chrome 156.0.8078.80,SP25: Tìm kiếm từ trang khác (trang chi tiết sản phẩm),,06-11-2026 19:27:54,06-11-2026 19:28:40,45.954s,PASSED
+"SearchRunner.run(""SP25"", ""iPhone 15"", ""samsung"", ""search_from_detail"")",Chrome 156.0.8078.80,,,06-11-2026 19:27:54,06-11-2026 19:28:40,45.873s,PASSED
+,,,,,,,
+Test Cases/Search/TC_Search_SP27,Chrome 156.0.8078.80,SP27: Quay lại trang trước bằng nút Back của trình duyệt,,06-11-2026 19:28:40,06-11-2026 19:29:04,24.821s,PASSED
+"SearchRunner.run(""SP27"", ""iPhone 15"", """", ""back"")",Chrome 156.0.8078.80,,,06-11-2026 19:28:40,06-11-2026 19:29:04,24.780s,PASSED
+,,,,,,,
+Test Cases/Search/TC_Search_SP28,Chrome 156.0.8078.80,SP28: Tìm kiếm liên tiếp nhiều từ khóa khác nhau,,06-11-2026 19:29:04,06-11-2026 19:29:42,37.833s,PASSED
+"SearchRunner.run(""SP28"", ""iPhone 15|Samsung|laptop"", ""iphone 15|samsung|laptop"", ""consecutive"")",Chrome 156.0.8078.80,,,06-11-2026 19:29:04,06-11-2026 19:29:42,37.792s,PASSED

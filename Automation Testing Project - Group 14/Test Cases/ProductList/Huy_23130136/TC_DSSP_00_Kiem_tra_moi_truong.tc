@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DSSP_00_Kiem_tra_moi_truong (Nguyễn Hữu Huy)</description>
+   <name>TC_DSSP_00_Kiem_tra_moi_truong</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>14f7b1d8-32d1-58bd-9e9b-ec15a5269512</testCaseGuid>
+</TestCaseEntity>

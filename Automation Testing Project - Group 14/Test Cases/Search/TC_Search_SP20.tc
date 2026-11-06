@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SP20: Tìm kiếm với từ khóa rất dài (255 ký tự)</description>
+   <name>TC_Search_SP20</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>850b54eb-e861-5398-afe1-c7177f04bd0f</testCaseGuid>
+</TestCaseEntity>

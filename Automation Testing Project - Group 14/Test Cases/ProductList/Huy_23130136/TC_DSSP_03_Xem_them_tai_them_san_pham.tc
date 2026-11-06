@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DSSP_03_Xem_them_tai_them_san_pham (Nguyễn Hữu Huy)</description>
+   <name>TC_DSSP_03_Xem_them_tai_them_san_pham</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0df33a62-b213-595d-8fc6-c087ee3938e4</testCaseGuid>
+</TestCaseEntity>

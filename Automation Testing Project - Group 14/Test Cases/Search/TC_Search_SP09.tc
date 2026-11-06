@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SP09: Tìm kiếm theo tên model gồm chữ và số</description>
+   <name>TC_Search_SP09</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>82b7f170-383f-523c-8844-9d2d4757dc7a</testCaseGuid>
+</TestCaseEntity>

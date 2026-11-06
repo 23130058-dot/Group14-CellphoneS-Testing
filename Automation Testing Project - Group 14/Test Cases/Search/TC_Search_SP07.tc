@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SP07: Tìm kiếm với khoảng trắng thừa ở đầu và cuối từ khóa</description>
+   <name>TC_Search_SP07</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8b9cceba-cc9b-5529-a2ac-7420484853cc</testCaseGuid>
+</TestCaseEntity>

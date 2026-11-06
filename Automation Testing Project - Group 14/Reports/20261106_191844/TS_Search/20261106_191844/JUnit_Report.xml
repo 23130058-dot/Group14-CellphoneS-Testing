@@ -1,0 +1,2467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Search" time="649.428" tests="23" passed="22" failures="1" errors="0" incompleted="0" skipped="0">
+   <testsuite name="TS_Search" tests="23" passed="22" failures="1" errors="0" incompleted="0" skipped="0" time="649.428" timestamp="2026-11-06T12:18:53.303Z" hostname="10van - Dat.mshome.net" id="Test Suites/TS_Search" status="FAILED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\New folder (2)\\Automation Testing Project - Group 14\\Reports\\20261106_191844\\TS_Search\\20261106_191844"/>
+         <property name="logFiles" value="D:\\New folder (2)\\Automation Testing Project - Group 14\\Reports\\20261106_191844\\TS_Search\\20261106_191844\\console0.log, D:\\New folder (2)\\Automation Testing Project - Group 14\\Reports\\20261106_191844\\TS_Search\\20261106_191844\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="10van - Dat.mshome.net"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.7.0"/>
+         <property name="browser" value="Chrome 156.0.8078.80"/>
+         <property name="userFullName" value="- Văn Võ Chí Đạt - A"/>
+         <property name="hostAddress" value="172.29.96.1"/>
+         <property name="sessionId" value="cf30781eedf16a05740913233d70ba06"/>
+         <property name="projectName" value="Automation Testing Project - Group 14"/>
+         <property name="seleniumVersion" value="4.46.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Search/TC_Search_SP01" time="32.217" classname="Test Cases/Search/TC_Search_SP01" status="PASSED">
+         <system-out><![CDATA[06-11-2026T19:18:53 - [TEST_CASE][PASSED] - Test Cases/Search/TC_Search_SP01: Test Cases/Search/TC_Search_SP01
+
+06-11-2026T19:18:54 - [TEST_STEP][PASSED] - SearchRunner.run("SP01", "iPhone 15", "iphone 15", "valid"): Browser is closed
+
+06-11-2026T19:18:54 - [MESSAGE][INFO] - === SP01 | mode=valid | keyword='iPhone 15' ===
+
+06-11-2026T19:18:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T19:18:54 - [MESSAGE][WARNING] - The "Wait for network requests to finish" option is deprecated and can slow down execution. Smart Wait already waits for the target element to be ready.
+
+06-11-2026T19:18:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T19:18:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T19:18:59 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T19:19:02 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn/' successfully
+
+06-11-2026T19:19:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:19:05 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:19:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:19:11 - [MESSAGE][PASSED] - Object 'css_2113860683' is visible
+
+06-11-2026T19:19:14 - [MESSAGE][PASSED] - Object: 'css_2113860683' is clicked on
+
+06-11-2026T19:19:15 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'css_2113860683'
+
+06-11-2026T19:19:16 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:19:17 - [MESSAGE][PASSED] - Keys 'iPhone 15' sent to object: 'css_2113860683'
+
+06-11-2026T19:19:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:19:19 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:19:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:19:20 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:19:20 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:19:20 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:19:20 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:19:20 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:19:20 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:19:21 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:19:21 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:19:21 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:19:21 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:19:21 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:19:21 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:19:22 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:19:22 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:19:22 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:19:22 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:19:22 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:19:22 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:19:22 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:19:22 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:19:22 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:19:23 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:19:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:19:24 - [MESSAGE][PASSED] - Current window's title is: 'Kết quả tìm kiếm cho: "iPhone 15"'
+
+06-11-2026T19:19:24 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:19:24 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:19:24 - [MESSAGE][PASSED] - Current window's url is: 'https://cellphones.com.vn/catalogsearch/result?q=iPhone%2015'
+
+06-11-2026T19:19:24 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:19:24 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:19:24 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:19:24 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:19:24 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:19:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC_Search_SP02" time="21.594" classname="Test Cases/Search/TC_Search_SP02" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Search/TC_Search_SP02 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Chưa chuyển sang trang kết quả&#xa;	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:31)&#xa;	at com.cellphones.SearchKeywords.check(SearchKeywords.groovy:39)&#xa;	at com.cellphones.SearchKeywords.verifyResults(SearchKeywords.groovy:161)&#xa;	at com.cellphones.SearchRunner.run(SearchRunner.groovy:41)&#xa;	at TC_Search_SP02.run(TC_Search_SP02:7)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)&#xa;	at S1106_1.run(S1106_1.groovy:41)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;"/>
+         <system-out><![CDATA[06-11-2026T19:19:25 - [TEST_CASE][FAILED] - Test Cases/Search/TC_Search_SP02: Test Cases/Search/TC_Search_SP02 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Chưa chuyển sang trang kết quả
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:31)
+	at com.cellphones.SearchKeywords.check(SearchKeywords.groovy:39)
+	at com.cellphones.SearchKeywords.verifyResults(SearchKeywords.groovy:161)
+	at com.cellphones.SearchRunner.run(SearchRunner.groovy:41)
+	at TC_Search_SP02.run(TC_Search_SP02:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_1.run(S1106_1.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+
+06-11-2026T19:19:25 - [TEST_STEP][PASSED] - SearchRunner.run("SP02", "iPhone 15", "iphone 15", "valid_button"): Browser is closed
+
+06-11-2026T19:19:25 - [MESSAGE][INFO] - === SP02 | mode=valid_button | keyword='iPhone 15' ===
+
+06-11-2026T19:19:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T19:19:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T19:19:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T19:19:28 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T19:19:30 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn/' successfully
+
+06-11-2026T19:19:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:19:30 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:19:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:19:38 - [MESSAGE][PASSED] - Object 'css_2113860683' is visible
+
+06-11-2026T19:19:39 - [MESSAGE][PASSED] - Object: 'css_2113860683' is clicked on
+
+06-11-2026T19:19:41 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'css_2113860683'
+
+06-11-2026T19:19:42 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:19:43 - [MESSAGE][PASSED] - Keys 'iPhone 15' sent to object: 'css_2113860683'
+
+06-11-2026T19:19:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:19:44 - [MESSAGE][PASSED] - Execute JavaScript 'var i = document.querySelector("input#inp-search, input[placeholder*='Bạn muốn mua gì'], input[type='search'], input[name='search'], input[name='q']"); if (!i) { return false; }var scopes = [i.closest("form"), i.parentElement, i.parentElement ? i.parentElement.parentElement : null];var sel = "button, [type=submit], [role=button], .btn-search, .search-btn, svg, i, img";for (var s = 0; s < scopes.length; s++) { if (!scopes[s]) { continue; } var list = scopes[s].querySelectorAll(sel); for (var k = 0; k < list.length; k++) {  var e = list[k];  if (e !== i && e.getClientRects().length > 0 && !e.matches("[type=reset], .btn-clear, .clear")) {   if (typeof e.click === "function") { e.click(); } else { e.dispatchEvent(new MouseEvent("click", {bubbles: true, cancelable: true})); }   return true;  } }}return false;' successfully
+
+06-11-2026T19:19:44 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:19:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:19:45 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:19:45 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:19:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:19:46 - [MESSAGE][PASSED] - Current window's title is: 'CellphoneS - Điện thoại, laptop, tablet, phụ kiện chính hãng'
+
+06-11-2026T19:19:46 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:19:46 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:19:46 - [MESSAGE][PASSED] - Current window's url is: 'https://cellphones.com.vn/'
+
+06-11-2026T19:19:46 - [MESSAGE][FAILED] - Chưa chuyển sang trang kết quả
+
+06-11-2026T19:19:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[06-11-2026T19:19:25 - [TEST_CASE][FAILED] - Test Cases/Search/TC_Search_SP02: Test Cases/Search/TC_Search_SP02 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Chưa chuyển sang trang kết quả
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:31)
+	at com.cellphones.SearchKeywords.check(SearchKeywords.groovy:39)
+	at com.cellphones.SearchKeywords.verifyResults(SearchKeywords.groovy:161)
+	at com.cellphones.SearchRunner.run(SearchRunner.groovy:41)
+	at TC_Search_SP02.run(TC_Search_SP02:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_1.run(S1106_1.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC_Search_SP03" time="24.297" classname="Test Cases/Search/TC_Search_SP03" status="PASSED">
+         <system-out><![CDATA[06-11-2026T19:19:47 - [TEST_CASE][PASSED] - Test Cases/Search/TC_Search_SP03: Test Cases/Search/TC_Search_SP03
+
+06-11-2026T19:19:47 - [TEST_STEP][PASSED] - SearchRunner.run("SP03", "Samsung", "samsung", "valid"): Browser is closed
+
+06-11-2026T19:19:47 - [MESSAGE][INFO] - === SP03 | mode=valid | keyword='Samsung' ===
+
+06-11-2026T19:19:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T19:19:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T19:19:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T19:19:49 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T19:19:51 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn/' successfully
+
+06-11-2026T19:19:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:19:52 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:19:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:19:59 - [MESSAGE][PASSED] - Object 'css_2113860683' is visible
+
+06-11-2026T19:20:01 - [MESSAGE][PASSED] - Object: 'css_2113860683' is clicked on
+
+06-11-2026T19:20:02 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'css_2113860683'
+
+06-11-2026T19:20:03 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:20:04 - [MESSAGE][PASSED] - Keys 'Samsung' sent to object: 'css_2113860683'
+
+06-11-2026T19:20:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:20:07 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:20:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:20:07 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:20:08 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:20:08 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:20:08 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:20:08 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:20:08 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:20:09 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:20:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:20:10 - [MESSAGE][PASSED] - Current window's title is: 'Kết quả tìm kiếm cho: "Samsung"'
+
+06-11-2026T19:20:10 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:20:10 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:20:10 - [MESSAGE][PASSED] - Current window's url is: 'https://cellphones.com.vn/catalogsearch/result?q=Samsung'
+
+06-11-2026T19:20:10 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:20:10 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:20:10 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:20:10 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:20:10 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:20:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC_Search_SP04" time="25.698" classname="Test Cases/Search/TC_Search_SP04" status="PASSED">
+         <system-out><![CDATA[06-11-2026T19:20:11 - [TEST_CASE][PASSED] - Test Cases/Search/TC_Search_SP04: Test Cases/Search/TC_Search_SP04
+
+06-11-2026T19:20:11 - [TEST_STEP][PASSED] - SearchRunner.run("SP04", "laptop", "laptop", "valid"): Browser is closed
+
+06-11-2026T19:20:11 - [MESSAGE][INFO] - === SP04 | mode=valid | keyword='laptop' ===
+
+06-11-2026T19:20:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T19:20:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T19:20:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T19:20:14 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T19:20:16 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn/' successfully
+
+06-11-2026T19:20:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:20:16 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:20:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:20:23 - [MESSAGE][PASSED] - Object 'css_2113860683' is visible
+
+06-11-2026T19:20:25 - [MESSAGE][PASSED] - Object: 'css_2113860683' is clicked on
+
+06-11-2026T19:20:26 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'css_2113860683'
+
+06-11-2026T19:20:28 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:20:30 - [MESSAGE][PASSED] - Keys 'laptop' sent to object: 'css_2113860683'
+
+06-11-2026T19:20:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:20:32 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:20:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:20:33 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:20:33 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:20:33 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:20:34 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:20:34 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:20:34 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:20:35 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:20:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:20:36 - [MESSAGE][PASSED] - Current window's title is: 'Kết quả tìm kiếm cho: "laptop"'
+
+06-11-2026T19:20:36 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:20:36 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:20:36 - [MESSAGE][PASSED] - Current window's url is: 'https://cellphones.com.vn/catalogsearch/result?q=laptop'
+
+06-11-2026T19:20:36 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:20:36 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:20:36 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:20:36 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:20:36 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:20:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC_Search_SP05" time="44.994" classname="Test Cases/Search/TC_Search_SP05" status="PASSED">
+         <system-out><![CDATA[06-11-2026T19:20:37 - [TEST_CASE][PASSED] - Test Cases/Search/TC_Search_SP05: Test Cases/Search/TC_Search_SP05
+
+06-11-2026T19:20:37 - [TEST_STEP][PASSED] - SearchRunner.run("SP05", "iPhone 15", "iphone 15", "case_insensitive"): Browser is closed
+
+06-11-2026T19:20:37 - [MESSAGE][INFO] - === SP05 | mode=case_insensitive | keyword='iPhone 15' ===
+
+06-11-2026T19:20:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T19:20:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T19:20:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T19:20:40 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T19:20:42 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn/' successfully
+
+06-11-2026T19:20:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:20:43 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:20:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:20:50 - [MESSAGE][PASSED] - Object 'css_2113860683' is visible
+
+06-11-2026T19:20:51 - [MESSAGE][PASSED] - Object: 'css_2113860683' is clicked on
+
+06-11-2026T19:20:53 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'css_2113860683'
+
+06-11-2026T19:20:55 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:20:56 - [MESSAGE][PASSED] - Keys 'IPHONE 15' sent to object: 'css_2113860683'
+
+06-11-2026T19:20:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:20:58 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:20:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:20:59 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:20:59 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:20:59 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:20:59 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:20:59 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:20:59 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:21:00 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:21:00 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:21:00 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:21:00 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:21:00 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:21:01 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:21:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:21:02 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:21:04 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn/' successfully
+
+06-11-2026T19:21:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:21:04 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:21:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:21:11 - [MESSAGE][PASSED] - Object 'css_2113860683' is visible
+
+06-11-2026T19:21:13 - [MESSAGE][PASSED] - Object: 'css_2113860683' is clicked on
+
+06-11-2026T19:21:14 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'css_2113860683'
+
+06-11-2026T19:21:15 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:21:16 - [MESSAGE][PASSED] - Keys 'iphone 15' sent to object: 'css_2113860683'
+
+06-11-2026T19:21:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:21:19 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:21:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:21:20 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:21:20 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:21:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:21:21 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:21:21 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:21:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC_Search_SP07" time="23.985" classname="Test Cases/Search/TC_Search_SP07" status="PASSED">
+         <system-out><![CDATA[06-11-2026T19:21:22 - [TEST_CASE][PASSED] - Test Cases/Search/TC_Search_SP07: Test Cases/Search/TC_Search_SP07
+
+06-11-2026T19:21:22 - [TEST_STEP][PASSED] - SearchRunner.run("SP07", "iPhone 15", "iphone 15", "valid_pad"): Browser is closed
+
+06-11-2026T19:21:22 - [MESSAGE][INFO] - === SP07 | mode=valid_pad | keyword='iPhone 15' ===
+
+06-11-2026T19:21:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T19:21:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T19:21:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T19:21:24 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T19:21:27 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn/' successfully
+
+06-11-2026T19:21:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:21:27 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:21:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:21:34 - [MESSAGE][PASSED] - Object 'css_2113860683' is visible
+
+06-11-2026T19:21:35 - [MESSAGE][PASSED] - Object: 'css_2113860683' is clicked on
+
+06-11-2026T19:21:37 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'css_2113860683'
+
+06-11-2026T19:21:38 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:21:39 - [MESSAGE][PASSED] - Keys '   iPhone 15   ' sent to object: 'css_2113860683'
+
+06-11-2026T19:21:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:21:42 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:21:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:21:43 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:21:43 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:21:43 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:21:43 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:21:43 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:21:43 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:21:44 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:21:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:21:45 - [MESSAGE][PASSED] - Current window's title is: 'Kết quả tìm kiếm cho: "iPhone 15"'
+
+06-11-2026T19:21:45 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:21:45 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:21:45 - [MESSAGE][PASSED] - Current window's url is: 'https://cellphones.com.vn/catalogsearch/result?q=iPhone%2015'
+
+06-11-2026T19:21:45 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:21:45 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:21:45 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:21:45 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:21:45 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:21:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC_Search_SP08" time="23.524" classname="Test Cases/Search/TC_Search_SP08" status="PASSED">
+         <system-out><![CDATA[06-11-2026T19:21:46 - [TEST_CASE][PASSED] - Test Cases/Search/TC_Search_SP08: Test Cases/Search/TC_Search_SP08
+
+06-11-2026T19:21:46 - [TEST_STEP][PASSED] - SearchRunner.run("SP08", "iPhone 15", "iphone", "valid_gap"): Browser is closed
+
+06-11-2026T19:21:46 - [MESSAGE][INFO] - === SP08 | mode=valid_gap | keyword='iPhone 15' ===
+
+06-11-2026T19:21:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T19:21:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T19:21:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T19:21:48 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T19:21:51 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn/' successfully
+
+06-11-2026T19:21:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:21:51 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:21:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:21:58 - [MESSAGE][PASSED] - Object 'css_2113860683' is visible
+
+06-11-2026T19:22:00 - [MESSAGE][PASSED] - Object: 'css_2113860683' is clicked on
+
+06-11-2026T19:22:01 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'css_2113860683'
+
+06-11-2026T19:22:02 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:22:03 - [MESSAGE][PASSED] - Keys 'iPhone      15' sent to object: 'css_2113860683'
+
+06-11-2026T19:22:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:22:05 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:22:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:22:06 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:22:06 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:22:07 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:22:07 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:22:07 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:22:07 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:22:07 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:22:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:22:08 - [MESSAGE][PASSED] - Current window's title is: 'Kết quả tìm kiếm cho: "iPhone 15"'
+
+06-11-2026T19:22:08 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:22:08 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:22:09 - [MESSAGE][PASSED] - Current window's url is: 'https://cellphones.com.vn/catalogsearch/result?q=iPhone%20%20%20%20%20%2015'
+
+06-11-2026T19:22:09 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:22:09 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:22:09 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:22:09 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:22:09 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:22:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC_Search_SP09" time="23.602" classname="Test Cases/Search/TC_Search_SP09" status="PASSED">
+         <system-out><![CDATA[06-11-2026T19:22:10 - [TEST_CASE][PASSED] - Test Cases/Search/TC_Search_SP09: Test Cases/Search/TC_Search_SP09
+
+06-11-2026T19:22:10 - [TEST_STEP][PASSED] - SearchRunner.run("SP09", "MacBook Air M2", "macbook", "valid"): Browser is closed
+
+06-11-2026T19:22:10 - [MESSAGE][INFO] - === SP09 | mode=valid | keyword='MacBook Air M2' ===
+
+06-11-2026T19:22:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T19:22:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T19:22:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T19:22:12 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T19:22:14 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn/' successfully
+
+06-11-2026T19:22:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:22:14 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:22:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:22:20 - [MESSAGE][PASSED] - Object 'css_2113860683' is visible
+
+06-11-2026T19:22:23 - [MESSAGE][PASSED] - Object: 'css_2113860683' is clicked on
+
+06-11-2026T19:22:24 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'css_2113860683'
+
+06-11-2026T19:22:25 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:22:26 - [MESSAGE][PASSED] - Keys 'MacBook Air M2' sent to object: 'css_2113860683'
+
+06-11-2026T19:22:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:22:29 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:22:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:22:29 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:22:29 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:22:30 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:22:30 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:22:30 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:22:30 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:22:30 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:22:30 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:22:30 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:22:30 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:22:30 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:22:31 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:22:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:22:32 - [MESSAGE][PASSED] - Current window's title is: 'Kết quả tìm kiếm cho: "MacBook Air M2"'
+
+06-11-2026T19:22:32 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:22:32 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:22:32 - [MESSAGE][PASSED] - Current window's url is: 'https://cellphones.com.vn/catalogsearch/result?q=MacBook%20Air%20M2'
+
+06-11-2026T19:22:32 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:22:32 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:22:32 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:22:32 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:22:32 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:22:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC_Search_SP10" time="22.912" classname="Test Cases/Search/TC_Search_SP10" status="PASSED">
+         <system-out><![CDATA[06-11-2026T19:22:33 - [TEST_CASE][PASSED] - Test Cases/Search/TC_Search_SP10: Test Cases/Search/TC_Search_SP10
+
+06-11-2026T19:22:33 - [TEST_STEP][PASSED] - SearchRunner.run("SP10", "ipho", "iphone", "valid"): Browser is closed
+
+06-11-2026T19:22:33 - [MESSAGE][INFO] - === SP10 | mode=valid | keyword='ipho' ===
+
+06-11-2026T19:22:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T19:22:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T19:22:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T19:22:36 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T19:22:38 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn/' successfully
+
+06-11-2026T19:22:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:22:38 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:22:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:22:44 - [MESSAGE][PASSED] - Object 'css_2113860683' is visible
+
+06-11-2026T19:22:46 - [MESSAGE][PASSED] - Object: 'css_2113860683' is clicked on
+
+06-11-2026T19:22:47 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'css_2113860683'
+
+06-11-2026T19:22:49 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:22:50 - [MESSAGE][PASSED] - Keys 'ipho' sent to object: 'css_2113860683'
+
+06-11-2026T19:22:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:22:52 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:22:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:22:53 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:22:53 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:22:53 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:22:53 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:22:53 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:22:53 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:22:53 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:22:53 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:22:53 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:22:53 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:22:53 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:22:54 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:22:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:22:55 - [MESSAGE][PASSED] - Current window's title is: 'Kết quả tìm kiếm cho: "ipho"'
+
+06-11-2026T19:22:55 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:22:55 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:22:55 - [MESSAGE][PASSED] - Current window's url is: 'https://cellphones.com.vn/catalogsearch/result?q=ipho'
+
+06-11-2026T19:22:55 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:22:55 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:22:55 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:22:55 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:22:55 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:22:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC_Search_SP13" time="23.645" classname="Test Cases/Search/TC_Search_SP13" status="PASSED">
+         <system-out><![CDATA[06-11-2026T19:22:56 - [TEST_CASE][PASSED] - Test Cases/Search/TC_Search_SP13: Test Cases/Search/TC_Search_SP13
+
+06-11-2026T19:22:56 - [TEST_STEP][PASSED] - SearchRunner.run("SP13", "asdkjh123xyz", "", "notfound"): Browser is closed
+
+06-11-2026T19:22:56 - [MESSAGE][INFO] - === SP13 | mode=notfound | keyword='asdkjh123xyz' ===
+
+06-11-2026T19:22:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T19:22:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T19:22:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T19:22:58 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T19:23:01 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn/' successfully
+
+06-11-2026T19:23:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:23:01 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:23:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:23:08 - [MESSAGE][PASSED] - Object 'css_2113860683' is visible
+
+06-11-2026T19:23:10 - [MESSAGE][PASSED] - Object: 'css_2113860683' is clicked on
+
+06-11-2026T19:23:12 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'css_2113860683'
+
+06-11-2026T19:23:12 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:23:13 - [MESSAGE][PASSED] - Keys 'asdkjh123xyz' sent to object: 'css_2113860683'
+
+06-11-2026T19:23:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:23:16 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:23:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:23:16 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:23:17 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:23:17 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:23:17 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:23:17 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:23:17 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:23:17 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:23:17 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:23:17 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:23:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:23:18 - [MESSAGE][PASSED] - Current window's title is: 'Kết quả tìm kiếm cho: "asdkjh123xyz"'
+
+06-11-2026T19:23:19 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:23:19 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:23:19 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:23:19 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:23:19 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:23:19 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:23:19 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:23:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC_Search_SP14" time="20.507" classname="Test Cases/Search/TC_Search_SP14" status="PASSED">
+         <system-out><![CDATA[06-11-2026T19:23:20 - [TEST_CASE][PASSED] - Test Cases/Search/TC_Search_SP14: Test Cases/Search/TC_Search_SP14
+
+06-11-2026T19:23:20 - [TEST_STEP][PASSED] - SearchRunner.run("SP14", "", "", "robust_empty"): Browser is closed
+
+06-11-2026T19:23:20 - [MESSAGE][INFO] - === SP14 | mode=robust_empty | keyword='' ===
+
+06-11-2026T19:23:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T19:23:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T19:23:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T19:23:22 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T19:23:24 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn/' successfully
+
+06-11-2026T19:23:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:23:24 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:23:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:23:31 - [MESSAGE][PASSED] - Object 'css_2113860683' is visible
+
+06-11-2026T19:23:33 - [MESSAGE][PASSED] - Object: 'css_2113860683' is clicked on
+
+06-11-2026T19:23:34 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'css_2113860683'
+
+06-11-2026T19:23:35 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:23:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:23:37 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:23:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:23:37 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:23:37 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:23:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:23:39 - [MESSAGE][WARNING] - No alert found after 1 second(s). (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found after 1 second(s).
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.doCall(VerifyAlertPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.call(VerifyAlertPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.verifyAlertPresent(VerifyAlertPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.execute(VerifyAlertPresentKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(WebUiBuiltInKeywords.groovy:1749)
+	at com.cellphones.SearchKeywords.verifyNoAlert(SearchKeywords.groovy:168)
+	at com.cellphones.SearchRunner.run(SearchRunner.groovy:73)
+	at TC_Search_SP14.run(TC_Search_SP14:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_1.run(S1106_1.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+06-11-2026T19:23:39 - [MESSAGE][PASSED] - Current window's title is: 'CellphoneS - Điện thoại, laptop, tablet, phụ kiện chính hãng'
+
+06-11-2026T19:23:39 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:23:39 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:23:39 - [MESSAGE][PASSED] - Current window's url is: 'https://cellphones.com.vn/'
+
+06-11-2026T19:23:39 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:23:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC_Search_SP15" time="22.934" classname="Test Cases/Search/TC_Search_SP15" status="PASSED">
+         <system-out><![CDATA[06-11-2026T19:23:40 - [TEST_CASE][PASSED] - Test Cases/Search/TC_Search_SP15: Test Cases/Search/TC_Search_SP15
+
+06-11-2026T19:23:40 - [TEST_STEP][PASSED] - SearchRunner.run("SP15", "", "", "robust_spaces"): Browser is closed
+
+06-11-2026T19:23:40 - [MESSAGE][INFO] - === SP15 | mode=robust_spaces | keyword='' ===
+
+06-11-2026T19:23:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T19:23:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T19:23:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T19:23:43 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T19:23:45 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn/' successfully
+
+06-11-2026T19:23:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:23:45 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:23:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:23:52 - [MESSAGE][PASSED] - Object 'css_2113860683' is visible
+
+06-11-2026T19:23:54 - [MESSAGE][PASSED] - Object: 'css_2113860683' is clicked on
+
+06-11-2026T19:23:55 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'css_2113860683'
+
+06-11-2026T19:23:56 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:23:57 - [MESSAGE][PASSED] - Keys '     ' sent to object: 'css_2113860683'
+
+06-11-2026T19:23:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:23:59 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:23:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:23:59 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:23:59 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:24:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:24:01 - [MESSAGE][WARNING] - No alert found after 1 second(s). (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found after 1 second(s).
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.doCall(VerifyAlertPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.call(VerifyAlertPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.verifyAlertPresent(VerifyAlertPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.execute(VerifyAlertPresentKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(WebUiBuiltInKeywords.groovy:1749)
+	at com.cellphones.SearchKeywords.verifyNoAlert(SearchKeywords.groovy:168)
+	at com.cellphones.SearchRunner.run(SearchRunner.groovy:73)
+	at TC_Search_SP15.run(TC_Search_SP15:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_1.run(S1106_1.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+06-11-2026T19:24:02 - [MESSAGE][PASSED] - Current window's title is: 'CellphoneS - Điện thoại, laptop, tablet, phụ kiện chính hãng'
+
+06-11-2026T19:24:02 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:02 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:24:02 - [MESSAGE][PASSED] - Current window's url is: 'https://cellphones.com.vn/'
+
+06-11-2026T19:24:02 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:24:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC_Search_SP16" time="23.649" classname="Test Cases/Search/TC_Search_SP16" status="PASSED">
+         <system-out><![CDATA[06-11-2026T19:24:03 - [TEST_CASE][PASSED] - Test Cases/Search/TC_Search_SP16: Test Cases/Search/TC_Search_SP16
+
+06-11-2026T19:24:03 - [TEST_STEP][PASSED] - SearchRunner.run("SP16", "@#$%^&*()", "", "robust"): Browser is closed
+
+06-11-2026T19:24:03 - [MESSAGE][INFO] - === SP16 | mode=robust | keyword='@#$%^&*()' ===
+
+06-11-2026T19:24:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T19:24:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T19:24:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T19:24:06 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T19:24:08 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn/' successfully
+
+06-11-2026T19:24:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:24:08 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:24:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:24:15 - [MESSAGE][PASSED] - Object 'css_2113860683' is visible
+
+06-11-2026T19:24:17 - [MESSAGE][PASSED] - Object: 'css_2113860683' is clicked on
+
+06-11-2026T19:24:19 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'css_2113860683'
+
+06-11-2026T19:24:19 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:24:21 - [MESSAGE][PASSED] - Keys '@#$%^&*()' sent to object: 'css_2113860683'
+
+06-11-2026T19:24:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:24:23 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:24:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:24:24 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:24:24 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:24:24 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:24 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:24:26 - [MESSAGE][WARNING] - No alert found after 1 second(s). (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found after 1 second(s).
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.doCall(VerifyAlertPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.call(VerifyAlertPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.verifyAlertPresent(VerifyAlertPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.execute(VerifyAlertPresentKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(WebUiBuiltInKeywords.groovy:1749)
+	at com.cellphones.SearchKeywords.verifyNoAlert(SearchKeywords.groovy:168)
+	at com.cellphones.SearchRunner.run(SearchRunner.groovy:73)
+	at TC_Search_SP16.run(TC_Search_SP16:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_1.run(S1106_1.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+06-11-2026T19:24:26 - [MESSAGE][PASSED] - Current window's title is: 'Kết quả tìm kiếm cho: "@#$%^&*()"'
+
+06-11-2026T19:24:26 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:26 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:24:26 - [MESSAGE][PASSED] - Current window's url is: 'https://cellphones.com.vn/catalogsearch/result?q=%40%23%24%25%5E%26*()'
+
+06-11-2026T19:24:26 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:24:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC_Search_SP17" time="35.315" classname="Test Cases/Search/TC_Search_SP17" status="PASSED">
+         <system-out><![CDATA[06-11-2026T19:24:27 - [TEST_CASE][PASSED] - Test Cases/Search/TC_Search_SP17: Test Cases/Search/TC_Search_SP17
+
+06-11-2026T19:24:27 - [TEST_STEP][PASSED] - SearchRunner.run("SP17", "<script>alert('XSS')</script>", "", "robust"): Browser is closed
+
+06-11-2026T19:24:27 - [MESSAGE][INFO] - === SP17 | mode=robust | keyword='<script>alert('XSS')</script>' ===
+
+06-11-2026T19:24:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T19:24:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T19:24:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T19:24:29 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T19:24:31 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn/' successfully
+
+06-11-2026T19:24:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:24:31 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:24:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:24:39 - [MESSAGE][PASSED] - Object 'css_2113860683' is visible
+
+06-11-2026T19:24:41 - [MESSAGE][PASSED] - Object: 'css_2113860683' is clicked on
+
+06-11-2026T19:24:43 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'css_2113860683'
+
+06-11-2026T19:24:44 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:24:45 - [MESSAGE][PASSED] - Keys '<script>alert('XSS')</script>' sent to object: 'css_2113860683'
+
+06-11-2026T19:24:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:24:47 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:24:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:24:48 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:24:48 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:24:48 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:48 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:48 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:48 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:48 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:24:48 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:48 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:48 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:48 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:49 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:24:49 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:49 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:49 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:49 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:49 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:24:49 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:49 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:49 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:49 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:50 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:24:50 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:50 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:50 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:50 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:51 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:24:51 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:51 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:51 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:51 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:51 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:24:51 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:51 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:51 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:51 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:52 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:24:52 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:52 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:52 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:52 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:52 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:24:52 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:52 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:52 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:52 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:53 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:24:53 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:53 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:53 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:53 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:53 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:24:53 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:53 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:53 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:53 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:54 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:24:54 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:54 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:54 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:54 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:55 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:24:55 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:55 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:55 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:55 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:55 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:24:55 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:55 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:55 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:55 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:56 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:24:56 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:56 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:56 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:56 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:56 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:24:56 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:56 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:56 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:56 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:57 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:24:57 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:57 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:57 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:57 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:57 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:24:57 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:57 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:57 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:57 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:58 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:24:58 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:58 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:58 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:58 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:59 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:24:59 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:59 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:59 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:24:59 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:25:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:25:01 - [MESSAGE][WARNING] - No alert found after 1 second(s). (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found after 1 second(s).
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.doCall(VerifyAlertPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.call(VerifyAlertPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.verifyAlertPresent(VerifyAlertPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.execute(VerifyAlertPresentKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(WebUiBuiltInKeywords.groovy:1749)
+	at com.cellphones.SearchKeywords.verifyNoAlert(SearchKeywords.groovy:168)
+	at com.cellphones.SearchRunner.run(SearchRunner.groovy:73)
+	at TC_Search_SP17.run(TC_Search_SP17:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_1.run(S1106_1.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+06-11-2026T19:25:01 - [MESSAGE][PASSED] - Current window's title is: 'cellphones.com.vn'
+
+06-11-2026T19:25:01 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:25:01 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:25:01 - [MESSAGE][PASSED] - Current window's url is: 'https://cellphones.com.vn/catalogsearch/result?q=%3Cscript%3Ealert%28%27XSS%27%29%3C%2Fscript%3E'
+
+06-11-2026T19:25:01 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:25:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC_Search_SP18" time="26.354" classname="Test Cases/Search/TC_Search_SP18" status="PASSED">
+         <system-out><![CDATA[06-11-2026T19:25:02 - [TEST_CASE][PASSED] - Test Cases/Search/TC_Search_SP18: Test Cases/Search/TC_Search_SP18
+
+06-11-2026T19:25:02 - [TEST_STEP][PASSED] - SearchRunner.run("SP18", "' OR '1'='1", "", "robust"): Browser is closed
+
+06-11-2026T19:25:02 - [MESSAGE][INFO] - === SP18 | mode=robust | keyword='' OR '1'='1' ===
+
+06-11-2026T19:25:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T19:25:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T19:25:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T19:25:04 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T19:25:07 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn/' successfully
+
+06-11-2026T19:25:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:25:07 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:25:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:25:14 - [MESSAGE][PASSED] - Object 'css_2113860683' is visible
+
+06-11-2026T19:25:16 - [MESSAGE][PASSED] - Object: 'css_2113860683' is clicked on
+
+06-11-2026T19:25:18 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'css_2113860683'
+
+06-11-2026T19:25:19 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:25:20 - [MESSAGE][PASSED] - Keys '' OR '1'='1' sent to object: 'css_2113860683'
+
+06-11-2026T19:25:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:25:22 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:25:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:25:23 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:25:23 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:25:23 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:25:23 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:25:23 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:25:23 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:25:24 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:25:24 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:25:24 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:25:24 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:25:24 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:25:24 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:25:24 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:25:24 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:25:24 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:25:24 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:25:25 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:25:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:25:27 - [MESSAGE][WARNING] - No alert found after 1 second(s). (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found after 1 second(s).
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.doCall(VerifyAlertPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.call(VerifyAlertPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.verifyAlertPresent(VerifyAlertPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.execute(VerifyAlertPresentKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(WebUiBuiltInKeywords.groovy:1749)
+	at com.cellphones.SearchKeywords.verifyNoAlert(SearchKeywords.groovy:168)
+	at com.cellphones.SearchRunner.run(SearchRunner.groovy:73)
+	at TC_Search_SP18.run(TC_Search_SP18:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_1.run(S1106_1.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+06-11-2026T19:25:27 - [MESSAGE][PASSED] - Current window's title is: 'Kết quả tìm kiếm cho: "' OR '1'='1"'
+
+06-11-2026T19:25:27 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:25:27 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:25:27 - [MESSAGE][PASSED] - Current window's url is: 'https://cellphones.com.vn/catalogsearch/result?q=%27%20OR%20%271%27%3D%271'
+
+06-11-2026T19:25:27 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:25:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC_Search_SP19" time="23.727" classname="Test Cases/Search/TC_Search_SP19" status="PASSED">
+         <system-out><![CDATA[06-11-2026T19:25:28 - [TEST_CASE][PASSED] - Test Cases/Search/TC_Search_SP19: Test Cases/Search/TC_Search_SP19
+
+06-11-2026T19:25:29 - [TEST_STEP][PASSED] - SearchRunner.run("SP19", "a", "", "robust"): Browser is closed
+
+06-11-2026T19:25:29 - [MESSAGE][INFO] - === SP19 | mode=robust | keyword='a' ===
+
+06-11-2026T19:25:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T19:25:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T19:25:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T19:25:31 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T19:25:33 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn/' successfully
+
+06-11-2026T19:25:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:25:33 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:25:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:25:39 - [MESSAGE][PASSED] - Object 'css_2113860683' is visible
+
+06-11-2026T19:25:41 - [MESSAGE][PASSED] - Object: 'css_2113860683' is clicked on
+
+06-11-2026T19:25:43 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'css_2113860683'
+
+06-11-2026T19:25:43 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:25:45 - [MESSAGE][PASSED] - Keys 'a' sent to object: 'css_2113860683'
+
+06-11-2026T19:25:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:25:47 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:25:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:25:48 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:25:48 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:25:48 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:25:48 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:25:48 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:25:48 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:25:49 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:25:49 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:25:49 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:25:49 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:25:49 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:25:49 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:25:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:25:51 - [MESSAGE][WARNING] - No alert found after 1 second(s). (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found after 1 second(s).
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.doCall(VerifyAlertPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.call(VerifyAlertPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.verifyAlertPresent(VerifyAlertPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.execute(VerifyAlertPresentKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(WebUiBuiltInKeywords.groovy:1749)
+	at com.cellphones.SearchKeywords.verifyNoAlert(SearchKeywords.groovy:168)
+	at com.cellphones.SearchRunner.run(SearchRunner.groovy:73)
+	at TC_Search_SP19.run(TC_Search_SP19:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_1.run(S1106_1.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+06-11-2026T19:25:51 - [MESSAGE][PASSED] - Current window's title is: 'Kết quả tìm kiếm cho: "a"'
+
+06-11-2026T19:25:51 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:25:51 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:25:51 - [MESSAGE][PASSED] - Current window's url is: 'https://cellphones.com.vn/catalogsearch/result?q=a'
+
+06-11-2026T19:25:51 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:25:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC_Search_SP20" time="34.989" classname="Test Cases/Search/TC_Search_SP20" status="PASSED">
+         <system-out><![CDATA[06-11-2026T19:25:52 - [TEST_CASE][PASSED] - Test Cases/Search/TC_Search_SP20: Test Cases/Search/TC_Search_SP20
+
+06-11-2026T19:25:52 - [TEST_STEP][PASSED] - SearchRunner.run("SP20", "", "", "robust_long"): Browser is closed
+
+06-11-2026T19:25:52 - [MESSAGE][INFO] - === SP20 | mode=robust_long | keyword='' ===
+
+06-11-2026T19:25:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T19:25:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T19:25:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T19:25:54 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T19:25:56 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn/' successfully
+
+06-11-2026T19:25:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:25:57 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:25:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:26:04 - [MESSAGE][PASSED] - Object 'css_2113860683' is visible
+
+06-11-2026T19:26:06 - [MESSAGE][PASSED] - Object: 'css_2113860683' is clicked on
+
+06-11-2026T19:26:08 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'css_2113860683'
+
+06-11-2026T19:26:08 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:26:10 - [MESSAGE][PASSED] - Keys 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa' sent to object: 'css_2113860683'
+
+06-11-2026T19:26:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:26:12 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:26:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:26:12 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:26:12 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:26:12 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:12 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:13 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:13 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:13 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:26:13 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:13 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:13 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:13 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:14 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:26:14 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:14 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:14 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:14 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:14 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:26:14 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:14 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:14 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:14 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:15 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:26:15 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:15 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:15 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:15 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:15 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:26:15 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:15 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:15 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:15 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:16 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:26:16 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:16 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:16 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:16 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:17 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:26:17 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:17 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:17 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:17 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:17 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:26:17 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:17 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:17 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:17 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:18 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:26:18 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:18 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:18 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:18 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:18 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:26:18 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:18 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:18 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:18 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:19 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:26:19 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:19 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:19 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:19 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:20 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:26:20 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:20 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:20 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:20 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:20 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:26:20 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:20 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:20 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:20 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:21 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:26:21 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:21 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:21 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:21 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:21 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:26:21 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:21 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:21 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:21 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:22 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:26:22 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:22 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:22 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:22 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:22 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:26:22 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:22 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:22 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:23 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:23 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:26:23 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:23 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:23 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:23 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:24 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:26:24 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:24 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:24 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:24 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:26:26 - [MESSAGE][WARNING] - No alert found after 1 second(s). (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found after 1 second(s).
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.doCall(VerifyAlertPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword$_verifyAlertPresent_closure1.call(VerifyAlertPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.verifyAlertPresent(VerifyAlertPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyAlertPresentKeyword.execute(VerifyAlertPresentKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(WebUiBuiltInKeywords.groovy:1749)
+	at com.cellphones.SearchKeywords.verifyNoAlert(SearchKeywords.groovy:168)
+	at com.cellphones.SearchRunner.run(SearchRunner.groovy:73)
+	at TC_Search_SP20.run(TC_Search_SP20:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1106_1.run(S1106_1.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+06-11-2026T19:26:26 - [MESSAGE][PASSED] - Current window's title is: 'CellphoneS - Điện thoại, laptop, tablet, phụ kiện chính hãng'
+
+06-11-2026T19:26:26 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:26:26 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:26:26 - [MESSAGE][PASSED] - Current window's url is: 'https://cellphones.com.vn/catalogsearch/result?q=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+
+06-11-2026T19:26:26 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:26:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC_Search_SP22" time="35.182" classname="Test Cases/Search/TC_Search_SP22" status="PASSED">
+         <system-out><![CDATA[06-11-2026T19:26:27 - [TEST_CASE][PASSED] - Test Cases/Search/TC_Search_SP22: Test Cases/Search/TC_Search_SP22
+
+06-11-2026T19:26:27 - [TEST_STEP][PASSED] - SearchRunner.run("SP22", "iPhone 15", "iphone", "open_detail"): Browser is closed
+
+06-11-2026T19:26:27 - [MESSAGE][INFO] - === SP22 | mode=open_detail | keyword='iPhone 15' ===
+
+06-11-2026T19:26:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T19:26:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T19:26:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T19:26:29 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T19:26:32 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn/' successfully
+
+06-11-2026T19:26:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:26:32 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:26:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:26:39 - [MESSAGE][PASSED] - Object 'css_2113860683' is visible
+
+06-11-2026T19:26:41 - [MESSAGE][PASSED] - Object: 'css_2113860683' is clicked on
+
+06-11-2026T19:26:42 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'css_2113860683'
+
+06-11-2026T19:26:43 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:26:44 - [MESSAGE][PASSED] - Keys 'iPhone 15' sent to object: 'css_2113860683'
+
+06-11-2026T19:26:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:26:46 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:26:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:26:47 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:26:47 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:26:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:26:48 - [MESSAGE][PASSED] - Current window's url is: 'https://cellphones.com.vn/catalogsearch/result?q=iPhone%2015'
+
+06-11-2026T19:26:48 - [MESSAGE][PASSED] - Execute JavaScript 'var items = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info"); var a = null;if (items.length > 0) { a = items[0].tagName === "A" ? items[0] : items[0].querySelector("a[href]"); }if (!a) { var c = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (x) { return x.querySelector("img") && !x.closest("header,footer,nav"); }); a = c[0]; }if (a) { a.scrollIntoView({block: "center"}); a.click(); return true; } return false;' successfully
+
+06-11-2026T19:26:48 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:26:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:26:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-11-2026T19:27:00 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:27:01 - [MESSAGE][PASSED] - Current window's url is: 'https://cellphones.com.vn/iphone-15.html'
+
+06-11-2026T19:27:01 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:27:01 - [MESSAGE][PASSED] - Current window's title is: 'iPhone 15 thường 128GB chính hãng VN/A, giá tốt T11/2026'
+
+06-11-2026T19:27:01 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:27:01 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:27:01 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:27:01 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:27:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC_Search_SP23" time="27.014" classname="Test Cases/Search/TC_Search_SP23" status="PASSED">
+         <system-out><![CDATA[06-11-2026T19:27:02 - [TEST_CASE][PASSED] - Test Cases/Search/TC_Search_SP23: Test Cases/Search/TC_Search_SP23
+
+06-11-2026T19:27:02 - [TEST_STEP][PASSED] - SearchRunner.run("SP23", "Samsung", "samsung", "load_more"): Browser is closed
+
+06-11-2026T19:27:02 - [MESSAGE][INFO] - === SP23 | mode=load_more | keyword='Samsung' ===
+
+06-11-2026T19:27:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T19:27:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T19:27:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T19:27:05 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T19:27:07 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn/' successfully
+
+06-11-2026T19:27:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:27:07 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:27:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:27:15 - [MESSAGE][PASSED] - Object 'css_2113860683' is visible
+
+06-11-2026T19:27:16 - [MESSAGE][PASSED] - Object: 'css_2113860683' is clicked on
+
+06-11-2026T19:27:18 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'css_2113860683'
+
+06-11-2026T19:27:19 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:27:20 - [MESSAGE][PASSED] - Keys 'Samsung' sent to object: 'css_2113860683'
+
+06-11-2026T19:27:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:27:23 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:27:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:27:24 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:27:24 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:27:24 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:27:24 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:27:24 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:27:24 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:27:25 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:27:25 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:27:25 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:27:25 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:27:25 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:27:25 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:27:25 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:27:25 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:27:25 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:27:25 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:27:26 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:27:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:27:27 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:27:27 - [MESSAGE][PASSED] - Execute JavaScript 'var b = Array.from(document.querySelectorAll("button,a")).filter(function (e) { return e.innerText && e.innerText.indexOf("Xem thêm") >= 0 && e.offsetParent !== null; })[0];if (b) { b.scrollIntoView({block: "center"}); b.click(); return true; } return false;' successfully
+
+06-11-2026T19:27:28 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:27:28 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:27:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC_Search_SP24" time="24.208" classname="Test Cases/Search/TC_Search_SP24" status="PASSED">
+         <system-out><![CDATA[06-11-2026T19:27:29 - [TEST_CASE][PASSED] - Test Cases/Search/TC_Search_SP24: Test Cases/Search/TC_Search_SP24
+
+06-11-2026T19:27:29 - [TEST_STEP][PASSED] - SearchRunner.run("SP24", "iPhone 15", "iphone 15", "keyword_shown"): Browser is closed
+
+06-11-2026T19:27:29 - [MESSAGE][INFO] - === SP24 | mode=keyword_shown | keyword='iPhone 15' ===
+
+06-11-2026T19:27:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T19:27:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T19:27:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T19:27:32 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T19:27:34 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn/' successfully
+
+06-11-2026T19:27:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:27:34 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:27:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:27:41 - [MESSAGE][PASSED] - Object 'css_2113860683' is visible
+
+06-11-2026T19:27:43 - [MESSAGE][PASSED] - Object: 'css_2113860683' is clicked on
+
+06-11-2026T19:27:45 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'css_2113860683'
+
+06-11-2026T19:27:46 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:27:47 - [MESSAGE][PASSED] - Keys 'iPhone 15' sent to object: 'css_2113860683'
+
+06-11-2026T19:27:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:27:49 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:27:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:27:50 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:27:50 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:27:50 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:27:51 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:27:51 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:27:51 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:27:51 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:27:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:27:52 - [MESSAGE][PASSED] - Execute JavaScript 'var i = document.querySelector("input#inp-search, input[placeholder*='Bạn muốn mua gì'], input[type='search'], input[name='search'], input[name='q']"); return i ? i.value : "";' successfully
+
+06-11-2026T19:27:52 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:27:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC_Search_SP25" time="45.954" classname="Test Cases/Search/TC_Search_SP25" status="PASSED">
+         <system-out><![CDATA[06-11-2026T19:27:54 - [TEST_CASE][PASSED] - Test Cases/Search/TC_Search_SP25: Test Cases/Search/TC_Search_SP25
+
+06-11-2026T19:27:54 - [TEST_STEP][PASSED] - SearchRunner.run("SP25", "iPhone 15", "samsung", "search_from_detail"): Browser is closed
+
+06-11-2026T19:27:54 - [MESSAGE][INFO] - === SP25 | mode=search_from_detail | keyword='iPhone 15' ===
+
+06-11-2026T19:27:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T19:27:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T19:27:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T19:27:56 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T19:27:58 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn/' successfully
+
+06-11-2026T19:27:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:27:58 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:27:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:28:06 - [MESSAGE][PASSED] - Object 'css_2113860683' is visible
+
+06-11-2026T19:28:08 - [MESSAGE][PASSED] - Object: 'css_2113860683' is clicked on
+
+06-11-2026T19:28:09 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'css_2113860683'
+
+06-11-2026T19:28:10 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:28:11 - [MESSAGE][PASSED] - Keys 'iPhone 15' sent to object: 'css_2113860683'
+
+06-11-2026T19:28:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:28:14 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:28:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:28:14 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:28:14 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:28:15 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:28:15 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:28:15 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:28:15 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:28:16 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:28:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:28:17 - [MESSAGE][PASSED] - Execute JavaScript 'var items = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info"); var a = null;if (items.length > 0) { a = items[0].tagName === "A" ? items[0] : items[0].querySelector("a[href]"); }if (!a) { var c = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (x) { return x.querySelector("img") && !x.closest("header,footer,nav"); }); a = c[0]; }if (a) { a.scrollIntoView({block: "center"}); a.click(); return true; } return false;' successfully
+
+06-11-2026T19:28:17 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:28:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:28:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-11-2026T19:28:30 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:28:31 - [MESSAGE][PASSED] - Object 'css_2113860683' is visible
+
+06-11-2026T19:28:32 - [MESSAGE][PASSED] - Object: 'css_2113860683' is clicked on
+
+06-11-2026T19:28:33 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'css_2113860683'
+
+06-11-2026T19:28:33 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:28:34 - [MESSAGE][PASSED] - Keys 'Samsung' sent to object: 'css_2113860683'
+
+06-11-2026T19:28:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:28:36 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:28:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:28:37 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:28:37 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:28:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:28:38 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:28:38 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:28:38 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:28:38 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:28:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC_Search_SP27" time="24.821" classname="Test Cases/Search/TC_Search_SP27" status="PASSED">
+         <system-out><![CDATA[06-11-2026T19:28:40 - [TEST_CASE][PASSED] - Test Cases/Search/TC_Search_SP27: Test Cases/Search/TC_Search_SP27
+
+06-11-2026T19:28:40 - [TEST_STEP][PASSED] - SearchRunner.run("SP27", "iPhone 15", "", "back"): Browser is closed
+
+06-11-2026T19:28:40 - [MESSAGE][INFO] - === SP27 | mode=back | keyword='iPhone 15' ===
+
+06-11-2026T19:28:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T19:28:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T19:28:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T19:28:42 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T19:28:44 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn/' successfully
+
+06-11-2026T19:28:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:28:44 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:28:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:28:49 - [MESSAGE][PASSED] - Object 'css_2113860683' is visible
+
+06-11-2026T19:28:53 - [MESSAGE][PASSED] - Object: 'css_2113860683' is clicked on
+
+06-11-2026T19:28:54 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'css_2113860683'
+
+06-11-2026T19:28:56 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:28:57 - [MESSAGE][PASSED] - Keys 'iPhone 15' sent to object: 'css_2113860683'
+
+06-11-2026T19:28:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:28:59 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:29:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:29:00 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:29:00 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:29:00 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:29:00 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:29:01 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:29:01 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:29:01 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:29:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:29:03 - [MESSAGE][PASSED] - Navigate back successfully
+
+06-11-2026T19:29:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:29:03 - [MESSAGE][PASSED] - Current window's title is: 'CellphoneS - Điện thoại, laptop, tablet, phụ kiện chính hãng'
+
+06-11-2026T19:29:03 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:29:03 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:29:03 - [MESSAGE][PASSED] - Current window's url is: 'https://cellphones.com.vn/'
+
+06-11-2026T19:29:04 - [MESSAGE][PASSED] - Current window's url is: 'https://cellphones.com.vn/'
+
+06-11-2026T19:29:04 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:29:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC_Search_SP28" time="37.833" classname="Test Cases/Search/TC_Search_SP28" status="PASSED">
+         <system-out><![CDATA[06-11-2026T19:29:04 - [TEST_CASE][PASSED] - Test Cases/Search/TC_Search_SP28: Test Cases/Search/TC_Search_SP28
+
+06-11-2026T19:29:04 - [TEST_STEP][PASSED] - SearchRunner.run("SP28", "iPhone 15|Samsung|laptop", "iphone 15|samsung|laptop", "consecutive"): Browser is closed
+
+06-11-2026T19:29:04 - [MESSAGE][INFO] - === SP28 | mode=consecutive | keyword='iPhone 15|Samsung|laptop' ===
+
+06-11-2026T19:29:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-11-2026T19:29:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-11-2026T19:29:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-11-2026T19:29:07 - [MESSAGE][PASSED] - Current window maximized
+
+06-11-2026T19:29:09 - [MESSAGE][PASSED] - Navigate to 'https://cellphones.com.vn/' successfully
+
+06-11-2026T19:29:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:29:09 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:29:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:29:16 - [MESSAGE][PASSED] - Object 'css_2113860683' is visible
+
+06-11-2026T19:29:18 - [MESSAGE][PASSED] - Object: 'css_2113860683' is clicked on
+
+06-11-2026T19:29:19 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'css_2113860683'
+
+06-11-2026T19:29:21 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:29:21 - [MESSAGE][PASSED] - Keys 'iPhone 15' sent to object: 'css_2113860683'
+
+06-11-2026T19:29:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:29:24 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:29:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:29:24 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:29:25 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:29:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:29:26 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:29:26 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:29:26 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:29:26 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:29:26 - [MESSAGE][PASSED] - Object 'css_2113860683' is visible
+
+06-11-2026T19:29:27 - [MESSAGE][PASSED] - Object: 'css_2113860683' is clicked on
+
+06-11-2026T19:29:28 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'css_2113860683'
+
+06-11-2026T19:29:29 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:29:29 - [MESSAGE][PASSED] - Keys 'Samsung' sent to object: 'css_2113860683'
+
+06-11-2026T19:29:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:29:31 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:29:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:29:32 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:29:32 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:29:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:29:33 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:29:33 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:29:33 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:29:33 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:29:34 - [MESSAGE][PASSED] - Object 'css_2113860683' is visible
+
+06-11-2026T19:29:34 - [MESSAGE][PASSED] - Object: 'css_2113860683' is clicked on
+
+06-11-2026T19:29:35 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'css_2113860683'
+
+06-11-2026T19:29:35 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:29:36 - [MESSAGE][PASSED] - Keys 'laptop' sent to object: 'css_2113860683'
+
+06-11-2026T19:29:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:29:38 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'css_2113860683'
+
+06-11-2026T19:29:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-11-2026T19:29:39 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("button.cancel-button-top, #popup-close, .modal button.close, .btn-close, [aria-label='Close']").forEach(function (e) { if (e.offsetParent !== null) { e.click(); } });' successfully
+
+06-11-2026T19:29:39 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:29:39 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:29:39 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:29:39 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:29:39 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:29:39 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:29:39 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:29:39 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:29:39 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:29:39 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:29:40 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:29:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-11-2026T19:29:41 - [MESSAGE][PASSED] - Execute JavaScript 'var n = document.querySelectorAll(".product-info-container, .product-item, .product__link, div.product-info").length;if (n === 0) { n = Array.from(document.querySelectorAll("a[href$='.html']")).filter(function (a) { return a.querySelector("img") && !a.closest("header,footer,nav"); }).length; } return n;' successfully
+
+06-11-2026T19:29:41 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:29:41 - [MESSAGE][PASSED] - Execute JavaScript 'return document.body.innerText' successfully
+
+06-11-2026T19:29:41 - [MESSAGE][INFO] - OK
+
+06-11-2026T19:29:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-11-2026T19:18:53 - [TEST_SUITE][FAILED] - TS_Search: null]]></system-out>
+      <system-err><![CDATA[06-11-2026T19:18:53 - [TEST_SUITE][FAILED] - TS_Search: null]]></system-err>
+   </testsuite>
+</testsuites>

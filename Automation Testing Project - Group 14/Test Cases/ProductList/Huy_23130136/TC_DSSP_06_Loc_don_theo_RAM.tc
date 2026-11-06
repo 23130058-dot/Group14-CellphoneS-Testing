@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DSSP_06_Loc_don_theo_RAM (Nguyễn Hữu Huy)</description>
+   <name>TC_DSSP_06_Loc_don_theo_RAM</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>024fa71b-e1f8-588d-b9b1-217bef1f9883</testCaseGuid>
+</TestCaseEntity>

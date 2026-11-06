@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DSSP_17_Giu_bo_loc_khi_doi_cach_sap_xep (Nguyễn Hữu Huy)</description>
+   <name>TC_DSSP_17_Giu_bo_loc_khi_doi_cach_sap_xep</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e851ed69-c0b1-584a-a781-380064b05cf1</testCaseGuid>
+</TestCaseEntity>

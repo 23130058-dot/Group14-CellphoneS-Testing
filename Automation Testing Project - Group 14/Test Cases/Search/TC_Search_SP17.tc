@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SP17: Tìm kiếm với đoạn mã script (kiểm tra XSS)</description>
+   <name>TC_Search_SP17</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>39ba1ce7-7be7-5e1e-b3ad-56e5fadd2514</testCaseGuid>
+</TestCaseEntity>

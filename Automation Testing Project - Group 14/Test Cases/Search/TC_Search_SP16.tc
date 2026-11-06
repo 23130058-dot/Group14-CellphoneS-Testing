@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SP16: Tìm kiếm với ký tự đặc biệt</description>
+   <name>TC_Search_SP16</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>341a5550-d5a5-50ae-9634-e6ca96f3c163</testCaseGuid>
+</TestCaseEntity>

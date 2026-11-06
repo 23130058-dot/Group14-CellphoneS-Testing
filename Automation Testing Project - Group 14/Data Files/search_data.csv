@@ -1,0 +1,24 @@
+tcId,keyword,token,mode
+SP01,iPhone 15,iphone 15,valid
+SP02,iPhone 15,iphone 15,valid_button
+SP03,Samsung,samsung,valid
+SP04,laptop,laptop,valid
+SP05,iPhone 15,iphone 15,case_insensitive
+SP07,iPhone 15,iphone 15,valid_pad
+SP08,iPhone 15,iphone,valid_gap
+SP09,MacBook Air M2,macbook,valid
+SP10,ipho,iphone,valid
+SP13,asdkjh123xyz,,notfound
+SP14,,,robust_empty
+SP15,,,robust_spaces
+SP16,@#$%^&*(),,robust
+SP17,"<script>alert('XSS')</script>",,robust
+SP18,' OR '1'='1,,robust
+SP19,a,,robust
+SP20,,,robust_long
+SP22,iPhone 15,iphone,open_detail
+SP23,Samsung,samsung,load_more
+SP24,iPhone 15,iphone 15,keyword_shown
+SP25,iPhone 15,samsung,search_from_detail
+SP27,iPhone 15,,back
+SP28,iPhone 15|Samsung|laptop,iphone 15|samsung|laptop,consecutive

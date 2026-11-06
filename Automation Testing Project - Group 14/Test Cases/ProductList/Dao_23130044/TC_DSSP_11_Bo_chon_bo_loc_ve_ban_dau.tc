@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DSSP_11_Bo_chon_bo_loc_ve_ban_dau (Nguyễn Trần Xuân Đào)</description>
+   <name>TC_DSSP_11_Bo_chon_bo_loc_ve_ban_dau</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b43c9cba-be96-5f77-bd77-eae1fcc013f0</testCaseGuid>
+</TestCaseEntity>

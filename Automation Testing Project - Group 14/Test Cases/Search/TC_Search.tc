@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Tim kiem san pham (data-driven, doc Data Files/search_data.csv)</description>
+   <name>TC_Search</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7166835c-9c72-5f6e-8406-a8348f8828c6</testCaseGuid>
+</TestCaseEntity>

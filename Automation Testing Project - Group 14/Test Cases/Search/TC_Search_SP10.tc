@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SP10: Tìm kiếm với từ khóa chưa đầy đủ (một phần của tên)</description>
+   <name>TC_Search_SP10</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f11fa104-f829-52a3-bd29-adf00a597db3</testCaseGuid>
+</TestCaseEntity>

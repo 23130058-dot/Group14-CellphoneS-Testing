@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SP24: Từ khóa hiển thị lại sau khi tìm kiếm</description>
+   <name>TC_Search_SP24</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4bac3493-cb50-55b2-bf0d-59e95d33a2fb</testCaseGuid>
+</TestCaseEntity>
